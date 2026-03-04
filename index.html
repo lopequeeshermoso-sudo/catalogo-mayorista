@@ -663,10 +663,16 @@ document.addEventListener("DOMContentLoaded", cargarMenuCategorias);
   setInterval(updatePedidoButtonCount, 500);
 })();
 
+function volverArriba(){
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  });
+}
+
 function quitarAcentos(texto){
   return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
-
 function filtrarProductos(){
   const input = quitarAcentos(
     document.getElementById("buscarProducto").value.toLowerCase()
