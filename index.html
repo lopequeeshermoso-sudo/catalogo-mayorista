@@ -249,7 +249,6 @@ placeholder="Buscar producto..."
 onkeyup="filtrarProductosDebounce()">
 
 </div>
-</div>
 <header class="catalog-header">
 <strong>Catálogo LPH</strong> — versión estable
 </header>
@@ -604,7 +603,41 @@ if(cart.has(name)){
 </script>
 
 
+function cargarMenuCategorias(){
 
+const select = document.getElementById("menuCategorias");
+if(!select) return;
+
+document.querySelectorAll(".category-section").forEach(sec=>{
+
+const titulo = sec.querySelector(".category-title")?.textContent;
+if(!titulo) return;
+
+const op = document.createElement("option");
+op.value = titulo;
+op.textContent = titulo;
+
+select.appendChild(op);
+
+});
+
+select.addEventListener("change",function(){
+
+document.querySelectorAll(".category-section").forEach(sec=>{
+
+const titulo = sec.querySelector(".category-title")?.textContent;
+
+if(titulo === this.value){
+sec.scrollIntoView({behavior:"smooth"});
+}
+
+});
+
+});
+
+}
+
+document.addEventListener("DOMContentLoaded", cargarMenuCategorias);
 <script>
 (function(){
   function updatePedidoButtonCount(){
