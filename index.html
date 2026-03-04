@@ -5,7 +5,20 @@
 <style>
 /* BUSCADOR PROFESIONAL */
 
-.buscador{
+.buscador
+.barraBusqueda{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:14px;
+margin:20px auto 30px auto;
+flex-wrap:wrap;
+}
+
+.logoCatalogo{
+height:38px;
+mix-blend-mode:multiply;
+}{
   display:flex;
   justify-content:center;
   margin:20px auto 30px auto;
@@ -172,6 +185,10 @@ body{padding-bottom:70px}
   </div>
 </div>
 
+<div class="barraBusqueda">
+
+<img src="logo_lph.png" class="logoCatalogo">
+
 <div class="buscador">
   <input 
     type="text" 
@@ -180,6 +197,7 @@ body{padding-bottom:70px}
     onkeyup="filtrarProductosDebounce()">
 </div>
 
+</div>
 <header class="catalog-header">
 <strong>Catálogo LPH</strong> — versión estable
 </header>
@@ -220,7 +238,7 @@ function render(){
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
      const src=p.image||'';
-     c.innerHTML=`<img src="${src}" onerror="this.style.display='none'">
+     c.innerHTML=`<img loading="lazy" src="${src}" onerror="this.style.display='none'">
      <div class='card-title'><strong>${p.name}</strong></div>
      <small>${p.category||''}</small>
      <div class="row"><span>Precio</span><strong class="price">$${precio(p).toLocaleString('es-AR')}</strong></div>`;
@@ -569,5 +587,43 @@ function filtrarProductosDebounce(){
   clearTimeout(buscarTimeout);
   buscarTimeout = setTimeout(filtrarProductos, 180);
 }
+</script>
+<div id="visorImagen" style="
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.85);
+display:none;
+align-items:center;
+justify-content:center;
+z-index:2000;
+">
+<img id="imgGrande" style="
+max-width:90%;
+max-height:90%;
+border-radius:10px;
+box-shadow:0 10px 40px rgba(0,0,0,0.5);
+">
+</div>
+<script>
+document.addEventListener("click",function(e){
+
+  if(e.target.tagName==="IMG" && e.target.src){
+
+    const visor=document.getElementById("visorImagen");
+    const grande=document.getElementById("imgGrande");
+
+    grande.src=e.target.src;
+    visor.style.display="flex";
+
+  }
+
+  if(e.target.id==="visorImagen"){
+    e.target.style.display="none";
+  }
+
+});
 </script>
 </body></html>
