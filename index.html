@@ -211,6 +211,14 @@ outline:none;
 transition:all .25s ease;
 box-shadow:0 2px 6px rgba(0,0,0,0.08);
 }
+.menuCategorias{
+padding:10px 14px;
+border-radius:20px;
+border:2px solid #e6dccb;
+background:white;
+font-size:14px;
+cursor:pointer;
+}
 </style>
 
 </head>
@@ -227,14 +235,18 @@ box-shadow:0 2px 6px rgba(0,0,0,0.08);
 
 <div class="barraSuperior">
 
-  <img src="logo_lph.png" class="logoCatalogo" onclick="volverArriba()">
+<img src="logo_lph.png" class="logoCatalogo" onclick="volverArriba()">
 
-  <input 
-    type="text" 
-    id="buscarProducto"
-    class="buscadorInput"
-    placeholder="Buscar producto..."
-    onkeyup="filtrarProductosDebounce()">
+<select id="menuCategorias" class="menuCategorias">
+<option value="">Categorías</option>
+</select>
+
+<input 
+type="text"
+id="buscarProducto"
+class="buscadorInput"
+placeholder="Buscar producto..."
+onkeyup="filtrarProductosDebounce()">
 
 </div>
 </div>
@@ -302,8 +314,27 @@ function construirMenuCategorias(){
   const menu=document.getElementById('catMenu');
   if(!menu) return;
   const secciones=[...document.querySelectorAll('.category-section')];
+const ordenCategorias = [
+"MUÑECAS DE TRAPO",
+"VALIJAS DIDÁCTICAS DE ARTE",
+"VALIJAS DIDÁCTICAS DE OFICIO",
+"JUGUETES PARA BEBÉS",
+"MINITEATROS CON TÍTERES DE DEDO",
+"TÍTERES DE MANO",
+"TEATROS CON TÍTERES",
+"DISFRACES PARA NENAS",
+"DISFRACES PARA NENES",
+"DISFRACES DE ANIMALITOS",
+"DISFRACES DE HALLOWEEN"
+];
   menu.innerHTML='';
-  secciones.forEach((sec,idx)=>{
+  secciones
+.sort((a,b)=>{
+const ta=a.querySelector('.category-title')?.textContent||'';
+const tb=b.querySelector('.category-title')?.textContent||'';
+return ordenCategorias.indexOf(ta) - ordenCategorias.indexOf(tb);
+})
+.forEach((sec,idx)=>{
     const titulo=sec.querySelector('.category-title')?.textContent||'Otros';
     const b=document.createElement('button');
     b.textContent=titulo;
