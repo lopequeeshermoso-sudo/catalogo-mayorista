@@ -315,19 +315,18 @@ function construirMenuCategorias(){
   if(!menu) return;
   const secciones=[...document.querySelectorAll('.category-section')];
 const ordenCategorias = [
-"MUÑECAS DE TRAPO",
-"VALIJAS DIDÁCTICAS DE ARTE",
-"VALIJAS DIDÁCTICAS DE OFICIO",
-"JUGUETES PARA BEBÉS",
-"MINITEATROS CON TÍTERES DE DEDO",
 "TÍTERES DE MANO",
 "TEATROS CON TÍTERES",
+"MINITEATROS CON TÍTERES DE DEDO",
+"VALIJAS DIDÁCTICAS DE ARTE",
+"VALIJAS DIDÁCTICAS DE OFICIO",
 "DISFRACES PARA NENAS",
 "DISFRACES PARA NENES",
 "DISFRACES DE ANIMALITOS",
-"DISFRACES DE HALLOWEEN"
-];
-  menu.innerHTML='';
+"DISFRACES DE HALLOWEEN",
+"JUGUETES PARA BEBÉS",
+"MUÑECAS DE TRAPO"
+];  menu.innerHTML='';
   secciones
 .sort((a,b)=>{
 const ta=a.querySelector('.category-title')?.textContent||'';
