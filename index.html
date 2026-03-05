@@ -644,34 +644,31 @@ const cont = document.getElementById("iconCategorias");
 if(!cont) return;
 
 cont.innerHTML="";
-
+const imagenCategoria = {
+"TÍTERES DE MANO": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975031/GRANJA_20MANOPLA.jpg",
+"TEATROS CON TÍTERES": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184181/10.jpg",
+"MINITEATROS CON TÍTERES DE DEDO": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32547488/Caperucita.jpg",
+"VALIJAS DIDÁCTICAS DE ARTE": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063199/2.jpg",
+"VALIJAS DIDÁCTICAS DE OFICIO": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972225/6.jpg",
+"DISFRACES PARA NENAS": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972602/1.jpg",
+"DISFRACES PARA NENES": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
+"DISFRACES DE ANIMALITOS": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
+"DISFRACES DE HALLOWEEN": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972605/1.jpg",
+"JUGUETES PARA BEBÉS": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg",
+"MUÑECAS DE TRAPO": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg"
+};
 document.querySelectorAll(".category-section").forEach(sec=>{
 
 const titulo = sec.querySelector(".category-title")?.textContent;
 if(!titulo) return;
 
-/* buscar la primera imagen de producto dentro de la categoría */
-let primeraImg = "";
-
-let el = sec.nextElementSibling;
-
-while(el && !el.classList.contains("category-section")){
-
-const img = el.querySelector("img");
-
-if(img && img.src){
-primeraImg = img.src;
-break;
-}
-
-el = el.nextElementSibling;
-}
+const img = imagenCategoria[titulo] || "";
 
 const card = document.createElement("div");
 card.className="catIcon";
 
 card.innerHTML = `
-<img src="${primeraImg}" loading="lazy">
+<img src="${img}" loading="lazy">
 <div class="catLabel">${titulo}</div>
 `;
 
