@@ -374,6 +374,28 @@ background:#f2e8d8;
 #iconCategorias::-webkit-scrollbar{
 display:none;
 }
+.btnAgregar{
+width:100%;
+margin-top:10px;
+padding:10px;
+
+border:none;
+border-radius:8px;
+
+background:#6b4a2f;
+color:white;
+
+font-weight:bold;
+font-size:14px;
+cursor:pointer;
+
+transition:all .2s ease;
+}
+
+.btnAgregar:hover{
+transform:scale(1.03);
+background:#7a5637;
+}
 </style>
 
 </head>
@@ -473,9 +495,16 @@ Object.keys(grupos)
      idx++;
      const src=p.image||'';
      c.innerHTML=`<img loading="lazy" src="${src}" onerror="this.style.display='none'">
-     <div class='card-title'><strong>${p.name}</strong></div>
-     <small>${p.category||''}</small>
-     <div class="row"><span>Precio</span><strong class="price">$${precio(p).toLocaleString('es-AR')}</strong></div>`;
+<div class='card-title'><strong>${p.name}</strong></div>
+<small>${p.category||''}</small>
+
+<div class="row">
+<span>Precio</span>
+<strong class="price">$${precio(p).toLocaleString('es-AR')}</strong>
+</div>
+
+<button class="btnAgregar">Agregar al pedido</button>
+`;
      g.appendChild(c);
    });
  });
@@ -682,6 +711,31 @@ localStorage.setItem('lph_cart', JSON.stringify([...cart]));
         <button class="qty-btn" data-act="plus">+</button>
       `;
       card.appendChild(wrap);// ===== selector inteligente de títeres =====
+const btnAgregar = card.querySelector('.btnAgregar');
+
+if(btnAgregar){
+btnAgregar.addEventListener('click', ()=>{
+
+const nameEl = card.querySelector('.card-title strong');
+const name = nameEl.textContent.trim();
+const price = getPriceFromCard(card);
+
+let qty = 1;
+
+if(cart.has(name)){
+qty = cart.get(name).qty + 1;
+}
+
+cart.set(name,{qty,price});
+
+const input = card.querySelector('.qty-input');
+if(input) input.value = qty;
+
+updateBar();
+actualizarContadorPedido();
+
+});
+}
 const nombre = name;
 const row = PRECIOS.find(x => (x["Nombre del producto"]||x.name||"").trim()===nombre);
 
