@@ -441,6 +441,39 @@ color:#6b4a2f;
 margin-top:6px;
 text-align:center;
 }
+/* DESCRIPCION DESPLEGABLE DE PRODUCTO */
+
+.descripcionProducto{
+max-height:0;
+overflow:hidden;
+
+font-size:13px;
+color:#444;
+line-height:1.4;
+
+margin-top:0;
+
+transition:max-height .35s ease, margin-top .35s ease;
+}
+
+.descripcionProducto.abierta{
+max-height:220px;
+margin-top:8px;
+}
+
+.btnDescripcion{
+margin-top:8px;
+background:#eee;
+border:none;
+border-radius:6px;
+padding:6px 10px;
+font-size:12px;
+cursor:pointer;
+}
+
+.btnDescripcion:hover{
+background:#e0e0e0;
+}
 </style>
 
 </head>
@@ -1104,6 +1137,17 @@ if(e.target.classList.contains("btnDescripcion")){
 const card = e.target.closest(".card");
 const desc = card.querySelector(".descripcionProducto");
 
+/* cerrar todas las otras descripciones */
+document.querySelectorAll(".descripcionProducto.abierta").forEach(d=>{
+if(d!==desc){
+d.classList.remove("abierta");
+
+const btn = d.closest(".card").querySelector(".btnDescripcion");
+if(btn) btn.textContent = "▼ Descripción";
+}
+});
+
+/* abrir o cerrar la actual */
 desc.classList.toggle("abierta");
 
 if(desc.classList.contains("abierta")){
@@ -1113,6 +1157,7 @@ e.target.textContent = "▼ Descripción";
 }
 
 }
+
 });
 </script>
 </body></html>
