@@ -302,7 +302,7 @@ function render(){
  g.innerHTML='';
  const grupos = {};
  PRODUCTOS.forEach(p=>{
-   const cat = (p.category||'Otros').trim() || 'Otros';
+   const cat = (p.category||'Otros').split(",")[0].trim() || 'Otros';
    if(!grupos[cat]) grupos[cat]=[];
    grupos[cat].push(p);
  });
@@ -319,12 +319,15 @@ function render(){
 "DISFRACES DE ANIMALITOS",
 "DISFRACES DE HALLOWEEN",
 "JUGUETES PARA BEBÉS",
-"MUÑECAS DE TRAPO"
+"MUÑECAS DE TRAPO" ,
+"TRAJES PARA BALLET, GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO"
 ];
 
 Object.keys(grupos)
 .sort((a,b)=>{
-  return ordenCategorias.indexOf(a) - ordenCategorias.indexOf(b);
+  const ia = ordenCategorias.indexOf(a);
+  const ib = ordenCategorias.indexOf(b);
+  return (ia===-1?999:ia) - (ib===-1?999:ib);
 })
 .forEach(cat=>{
    const sec=document.createElement('div');
@@ -345,6 +348,7 @@ Object.keys(grupos)
      g.appendChild(c);
    });
  });
+cargarMenuCategorias();
 }
 </script>
 <script>
@@ -686,8 +690,6 @@ sec.scrollIntoView({behavior:"smooth"});
 });
 
 }
-
-document.addEventListener("DOMContentLoaded", cargarMenuCategorias);
 
 </script>
 
