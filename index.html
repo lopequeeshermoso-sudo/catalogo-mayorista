@@ -332,6 +332,50 @@ margin-bottom:4px;
 color:#6b4a2f;
 font-weight:600;
 }
+.catCarousel{
+position:relative;
+display:flex;
+align-items:center;
+}
+
+.catArrow{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+z-index:20;
+
+background:white;
+border:none;
+border-radius:50%;
+
+width:36px;
+height:36px;
+
+box-shadow:0 3px 8px rgba(0,0,0,0.2);
+cursor:pointer;
+font-size:18px;
+}
+
+.catArrow.left{
+left:4px;
+}
+
+.catArrow.right{
+right:4px;
+}
+
+#iconCategorias{
+display:flex;
+gap:12px;
+padding:14px 40px;
+overflow-x:auto;
+scroll-behavior:smooth;
+background:#f2e8d8;
+}
+
+#iconCategorias::-webkit-scrollbar{
+display:none;
+}
 </style>
 
 </head>
@@ -364,7 +408,15 @@ onkeyup="filtrarProductosDebounce()">
 <strong>Catálogo LPH</strong> — versión estable
 </header>
 
+<div class="catCarousel">
+
+<button class="catArrow left" onclick="moverCategorias(-1)">◀</button>
+
 <div id="iconCategorias"></div>
+
+<button class="catArrow right" onclick="moverCategorias(1)">▶</button>
+
+</div>
 
 <div class="grid" id="grid"></div>
 <script>
@@ -443,6 +495,20 @@ window.addEventListener('load', ()=>{
 
 
 <script>
+function moverCategorias(dir){
+
+const cont = document.getElementById("iconCategorias");
+
+if(!cont) return;
+
+const ancho = cont.clientWidth * 0.8;
+
+cont.scrollBy({
+left: dir * ancho,
+behavior:"smooth"
+});
+
+}
 function construirMenuCategorias(){
   const menu=document.getElementById('catMenu');
   if(!menu) return;
