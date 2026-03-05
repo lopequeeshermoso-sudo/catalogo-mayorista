@@ -951,7 +951,8 @@ box-shadow:0 10px 40px rgba(0,0,0,0.5);
 <script>
 document.addEventListener("click",function(e){
 
-  if(e.target.tagName==="IMG" && e.target.src){
+  // NO abrir visor si la imagen está dentro de categorías
+  if(e.target.tagName==="IMG" && e.target.src && !e.target.closest("#iconCategorias")){
 
     const visor=document.getElementById("visorImagen");
     const grande=document.getElementById("imgGrande");
