@@ -848,7 +848,7 @@ actualizarContadorPedido();
 }
 const nombre = name;
 const row = PRECIOS.find(x => (x["Nombre del producto"]||x.name||"").trim()===nombre);
-const descripcion = "DESCRIPCION DE PRUEBA";
+const descripcion = row ? (row["Descripción"] || "") : "";
 if(descripcion && !card.querySelector(".btnDescripcion")){
 
 const btnDesc = document.createElement("button");
@@ -857,7 +857,8 @@ btnDesc.textContent = "▼ Descripción";
 
 const divDesc = document.createElement("div");
 divDesc.className = "descripcionProducto";
-divDesc.textContent = descripcion || "DESCRIPCION DE PRUEBA";
+divDesc.textContent = descripcion;
+
 card.appendChild(btnDesc);
 card.appendChild(divDesc);
 
