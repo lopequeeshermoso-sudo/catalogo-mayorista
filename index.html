@@ -237,13 +237,50 @@ font-size:14px;
 cursor:pointer;
 }
 #iconCategorias{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+display:flex;
 gap:12px;
 padding:14px;
+overflow-x:auto;
+scroll-behavior:smooth;
 background:#f2e8d8;
 }
 
+#iconCategorias::-webkit-scrollbar{
+display:none;
+}
+
+.catIcon{
+min-width:140px;
+max-width:140px;
+flex-shrink:0;
+
+background:white;
+border-radius:12px;
+overflow:hidden;
+cursor:pointer;
+
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:transform .15s ease;
+text-align:center;
+}
+
+.catIcon:hover{
+transform:scale(1.05);
+}
+
+.catIcon img{
+width:100%;
+height:80px;
+object-fit:cover;
+}
+
+.catIcon small{
+display:block;
+padding:6px;
+color:#6b4a2f;
+font-weight:700;
+font-size:13px;
+}
 .catIcon{
 background:white;
 border-radius:12px;
