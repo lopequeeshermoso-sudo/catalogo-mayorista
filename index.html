@@ -857,8 +857,7 @@ btnDesc.textContent = "▼ Descripción";
 
 const divDesc = document.createElement("div");
 divDesc.className = "descripcionProducto";
-divDesc.textContent = descripcion;
-
+divDesc.textContent = descripcion || "DESCRIPCION DE PRUEBA";
 card.appendChild(btnDesc);
 card.appendChild(divDesc);
 
