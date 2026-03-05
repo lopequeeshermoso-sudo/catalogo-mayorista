@@ -456,52 +456,13 @@ const cont = document.getElementById("iconCategorias");
 if(!cont) return;
 
 cont.innerHTML="";
-const imagenes = {
-
-"TÍTERES DE MANO":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975031/GRANJA_20MANOPLA.jpg",
-
-"TEATROS CON TÍTERES":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184181/10.jpg",
-
-"MINITEATROS CON TÍTERES DE DEDO":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32547488/Caperucita.jpg",
-
-"VALIJAS DIDÁCTICAS DE ARTE":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063327/7.jpg",
-
-"VALIJAS DIDÁCTICAS DE OFICIO":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg",
-
-"DISFRACES PARA NENAS":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972604/BELLA_20_285_29.jpg",
-
-"DISFRACES PARA NENES":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
-
-"DISFRACES DE ANIMALITOS":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
-
-"DISFRACES DE HALLOWEEN":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
-
-"JUGUETES PARA BEBÉS":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975035/2.jpg",
-
-"MUÑECAS DE TRAPO":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972225/6.jpg",
-
-"TRAJES PARA BALLET, GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO":
-"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg"
-
-};
 
 document.querySelectorAll(".category-section").forEach(sec=>{
 
 const titulo = sec.querySelector(".category-title")?.textContent;
 if(!titulo) return;
 
-const img = imagenes[titulo] || "";
+const img = sec.nextElementSibling?.querySelector("img")?.src || "";
 
 const card = document.createElement("div");
 card.className="catIcon";
