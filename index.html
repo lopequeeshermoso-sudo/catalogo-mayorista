@@ -238,12 +238,39 @@ cursor:pointer;
 }
 #iconCategorias{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-gap:10px;
-padding:10px 14px;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+gap:12px;
+padding:14px;
 background:#f2e8d8;
 }
 
+.catIcon{
+background:white;
+border-radius:12px;
+overflow:hidden;
+cursor:pointer;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:transform .15s ease;
+text-align:center;
+}
+
+.catIcon:hover{
+transform:scale(1.05);
+}
+
+.catIcon img{
+width:100%;
+height:80px;
+object-fit:cover;
+}
+
+.catIcon small{
+display:block;
+padding:6px;
+color:#6b4a2f;
+font-weight:700;
+font-size:13px;
+}
 .catIcon{
 background:white;
 border-radius:12px;
@@ -431,20 +458,44 @@ const cont = document.getElementById("iconCategorias");
 if(!cont) return;
 
 cont.innerHTML="";
+const imagenes = {
 
-const iconos = {
-"TÍTERES DE MANO":"🧸",
-"TEATROS CON TÍTERES":"🎪",
-"MINITEATROS CON TÍTERES DE DEDO":"🎭",
-"VALIJAS DIDÁCTICAS DE ARTE":"🎨",
-"VALIJAS DIDÁCTICAS DE OFICIO":"🧳",
-"DISFRACES PARA NENAS":"👗",
-"DISFRACES PARA NENES":"🦸",
-"DISFRACES DE ANIMALITOS":"🐯",
-"DISFRACES DE HALLOWEEN":"🎃",
-"JUGUETES PARA BEBÉS":"🍼",
-"MUÑECAS DE TRAPO":"🪆",
-"TRAJES PARA BALLET, GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO":"🩰"
+"TÍTERES DE MANO":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975031/GRANJA_20MANOPLA.jpg",
+
+"TEATROS CON TÍTERES":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184181/10.jpg",
+
+"MINITEATROS CON TÍTERES DE DEDO":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32547488/Caperucita.jpg",
+
+"VALIJAS DIDÁCTICAS DE ARTE":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063327/7.jpg",
+
+"VALIJAS DIDÁCTICAS DE OFICIO":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg",
+
+"DISFRACES PARA NENAS":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972604/BELLA_20_285_29.jpg",
+
+"DISFRACES PARA NENES":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
+
+"DISFRACES DE ANIMALITOS":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
+
+"DISFRACES DE HALLOWEEN":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg",
+
+"JUGUETES PARA BEBÉS":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975035/2.jpg",
+
+"MUÑECAS DE TRAPO":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972225/6.jpg",
+
+"TRAJES PARA BALLET, GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO":
+"https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg"
+
 };
 
 document.querySelectorAll(".category-section").forEach(sec=>{
@@ -452,16 +503,15 @@ document.querySelectorAll(".category-section").forEach(sec=>{
 const titulo = sec.querySelector(".category-title")?.textContent;
 if(!titulo) return;
 
-const icon = iconos[titulo] || "📦";
+const img = imagenes[titulo] || "";
 
 const card = document.createElement("div");
 card.className="catIcon";
 
 card.innerHTML = `
-<span>${icon}</span>
+<img src="${img}">
 <small>${titulo}</small>
 `;
-
 card.onclick = ()=>{
 sec.scrollIntoView({behavior:"smooth"});
 };
