@@ -848,7 +848,7 @@ actualizarContadorPedido();
 }
 const nombre = name;
 const row = PRECIOS.find(x => (x["Nombre del producto"]||x.name||"").trim()===nombre);
-const descripcion = row ? (row["Descripción"] || "") : "";
+const descripcion = "DESCRIPCION DE PRUEBA";
 if(descripcion && !card.querySelector(".btnDescripcion")){
 
 const btnDesc = document.createElement("button");
