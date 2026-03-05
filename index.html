@@ -126,15 +126,51 @@ small{color:#666}
   font-weight:700;
 }
 
-
 #catMenu{
-  position:sticky; top:0; z-index:50;
-  background:#e8d8c0;
-  padding:8px 12px;
-  display:flex; gap:8px;
-  overflow:auto;
-  border-bottom:1px solid rgba(0,0,0,.08);
+position:sticky;
+top:90px;
+z-index:900;
+
+background:#e8d8c0;
+padding:10px 12px;
+
+display:flex;
+gap:10px;
+
+overflow-x:auto;
+white-space:nowrap;
+
+border-bottom:1px solid rgba(0,0,0,.08);
+scrollbar-width:none;
 }
+
+#catMenu::-webkit-scrollbar{
+display:none;
+}
+
+#catMenu button{
+border:none;
+border-radius:999px;
+padding:8px 14px;
+
+background:white;
+color:#6b4a2f;
+
+font-weight:600;
+cursor:pointer;
+
+transition:all .2s ease;
+}
+
+#catMenu button:hover{
+transform:scale(1.05);
+}
+
+#catMenu button.active{
+background:#6b4a2f;
+color:white;
+}
+
 #catMenu button{
   border:none; border-radius:999px;
   padding:6px 10px;
