@@ -418,6 +418,12 @@ transition:all .2s ease;
 transform:scale(1.03);
 background:#7a5637;
 }
+.catLabel{
+font-size:12px;
+font-weight:600;
+color:#6b4a2f;
+padding:8px;
+}
 </style>
 
 </head>
@@ -627,15 +633,24 @@ document.querySelectorAll(".category-section").forEach(sec=>{
 const titulo = sec.querySelector(".category-title")?.textContent;
 if(!titulo) return;
 
-const img = sec.nextElementSibling?.querySelector("img")?.src || "";
+/* buscar la primera imagen de producto dentro de la categoría */
+const primeraImg = sec.nextElementSibling?.querySelector("img")?.src || "";
 
 const card = document.createElement("div");
 card.className="catIcon";
 
 card.innerHTML = `
-<img src="${img}">
-<small>${titulo}</small>
+<img src="${primeraImg}" loading="lazy">
+<div class="catLabel">${titulo}</div>
 `;
+
+card.onclick = ()=>{
+sec.scrollIntoView({behavior:"smooth"});
+};
+
+cont.appendChild(card);
+
+});
 card.onclick = ()=>{
 sec.scrollIntoView({behavior:"smooth"});
 };
