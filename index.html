@@ -1367,8 +1367,9 @@ document.getElementById("btnVerPedido").addEventListener("click",function(e){
 e.preventDefault();
 abrirPanelPedido();
 });
-document.getElementById("btnEnviarPedido").onclick=sendWhats;
-<button id="btnVaciarPedido">🧹 Vaciar pedido</button>
+document.getElementById("btnEnviarPedido").onclick = sendWhats;
+
+document.getElementById("btnVaciarPedido").onclick = function(){
 
 if(!confirm("¿Vaciar todo el pedido?")) return;
 
@@ -1385,6 +1386,5 @@ updateBar();
 actualizarContadorPedido();
 
 };
-
 </script>
 </body></html>
