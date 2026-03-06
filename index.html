@@ -861,9 +861,10 @@ function actualizarContadorPedido(){
 
 
 <script>
+const WHATSAPP_NUMBER='5493571313112';
+const cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
+
 (function(){
-  const WHATSAPP_NUMBER='5493571313112';
-  const cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 
   function formatARS(n){ return Number(n||0).toLocaleString('es-AR'); }
 
@@ -1255,7 +1256,6 @@ e.target.textContent = "▼ Descripción";
 }
 
 });
-document.getElementById("btnVerPedido").onclick = abrirPanelPedido;
 
 document.getElementById("btnEnviarPedido").onclick = sendWhats;
 </script>
@@ -1274,6 +1274,8 @@ document.getElementById("btnEnviarPedido").onclick = sendWhats;
 </div>
 
 </div>
+
+<script>
 function abrirPanelPedido(){
 document.getElementById("panelPedido").classList.add("abierto");
 actualizarPanelPedido();
@@ -1318,4 +1320,5 @@ e.preventDefault();
 abrirPanelPedido();
 });
 document.getElementById("btnEnviarPedido").onclick=sendWhats;
+</script>
 </body></html>
