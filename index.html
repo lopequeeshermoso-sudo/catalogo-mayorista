@@ -548,6 +548,31 @@ width:90%;
 object-fit:contain;
 mix-blend-mode:multiply;
 }
+.headerMarca{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:14px;
+flex-wrap:wrap;
+}
+
+.logoHeader{
+height:42px;
+object-fit:contain;
+mix-blend-mode:multiply;
+}
+
+.fraseHeader{
+height:26px;
+object-fit:contain;
+mix-blend-mode:multiply;
+}
+
+.tituloCatalogo{
+font-size:20px;
+font-weight:700;
+color:#6b4a2f;
+}
 </style>
 
 </head>
@@ -577,13 +602,17 @@ onkeyup="filtrarProductosDebounce()">
 </div>
 <header class="catalog-header">
 
+<div class="headerMarca">
+
+<img class="logoHeader" src="logo_lph.png" alt="LPH">
+
 <div class="tituloCatalogo">
 Catálogo Mayorista
 </div>
 
-<img class="marcaLPH"
-src="lo_pequeno_es_hermoso.png"
-alt="Lo pequeño es hermoso">
+<img class="fraseHeader" src="lo_pequeno_es_hermoso.png" alt="Lo pequeño es hermoso">
+
+</div>
 
 </header>
 <div class="catCarousel">
