@@ -538,9 +538,13 @@ padding:10px;
 }
 
 .itemPedido{
-padding:6px 0;
+padding:8px;
 border-bottom:1px solid #eee;
 font-size:13px;
+
+display:flex;
+align-items:center;
+gap:10px;
 }
 
 .panelFooter{
@@ -1307,23 +1311,24 @@ div.className="itemPedido";
 const sub=v.qty*v.price;
 total+=sub;
 
+const producto = PRODUCTOS.find(p => p.name === k);
+const img = producto ? producto.image : "";
+
 div.innerHTML=`
-<strong>${k}</strong>
+<div style="display:flex; gap:8px; align-items:center">
 
-<div style="display:flex;align-items:center;gap:6px;margin-top:4px;">
+<img src="${img}" style="
+width:40px;
+height:40px;
+object-fit:cover;
+border-radius:6px;
+">
 
-<button class="menosItem">−</button>
-
-<span>${v.qty}</span>
-
-<button class="masItem">+</button>
-
-<button class="eliminarItem" style="margin-left:auto;">🗑</button>
-
+<div>
+<strong>${k}</strong><br>
+${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 
-<div style="font-size:12px;color:#666;margin-top:3px;">
-${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 `;
 div.querySelector(".masItem").onclick=()=>{
@@ -1363,7 +1368,7 @@ e.preventDefault();
 abrirPanelPedido();
 });
 document.getElementById("btnEnviarPedido").onclick=sendWhats;
-document.getElementById("btnVaciarPedido").onclick=function(){
+<button id="btnVaciarPedido">🧹 Vaciar pedido</button>
 
 if(!confirm("¿Vaciar todo el pedido?")) return;
 
