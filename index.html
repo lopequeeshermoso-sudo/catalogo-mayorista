@@ -824,7 +824,7 @@ function actualizarContadorPedido(){
 
   <button id="btnVaciar">Vaciar pedido</button>
 
-  <button id="btnWhats">Revisar y enviar pedido</button>
+  <button id="btnVerPedido">Ver pedido</button>
 </div>
 
 
@@ -1060,6 +1060,19 @@ if(cart.has(name)){
     msg += `TOTAL FINAL: $${formatARS(total)}%0A`;
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
+window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
+
+/* vaciar carrito después de enviar */
+cart.clear();
+
+document.querySelectorAll('.qty-input').forEach(i=>{
+i.value = 0;
+});
+
+updateBar();
+actualizarContadorPedido();
+
+localStorage.removeItem('lph_cart');
   }
 
   const mo = new MutationObserver(()=>ensureQtyControls());
@@ -1249,5 +1262,68 @@ e.target.textContent = "▼ Descripción";
 }
 
 });
+function abrirPanelPedido(){
+
+const panel = document.getElementById("panelPedido");
+const lista = document.getElementById("listaPedido");
+
+lista.innerHTML="";
+
+let total=0;
+
+cart.forEach((v,k)=>{
+
+const div=document.createElement("div");
+
+div.innerHTML=`
+${v.qty} x ${k} — $${(v.qty*v.price).toLocaleString('es-AR')}
+`;
+
+lista.appendChild(div);
+
+total += v.qty*v.price;
+
+});
+
+document.getElementById("totalPedidoPanel").textContent =
+total.toLocaleString('es-AR');
+
+panel.style.display="block";
+
+}
+
+function cerrarPanelPedido(){
+document.getElementById("panelPedido").style.display="none";
+}
+
+document.getElementById("btnVerPedido").onclick = abrirPanelPedido;
+
+document.getElementById("btnEnviarPedido").onclick = sendWhats;
 </script>
+<div id="panelPedido" style="
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+max-height:80%;
+background:white;
+box-shadow:0 -6px 20px rgba(0,0,0,.25);
+padding:20px;
+display:none;
+z-index:2000;
+overflow:auto;
+">
+
+<h3>Tu pedido</h3>
+
+<div id="listaPedido"></div>
+
+<div style="margin-top:15px;font-weight:bold">
+Total: $<span id="totalPedidoPanel">0</span>
+</div>
+
+<button id="btnEnviarPedido">Enviar por WhatsApp</button>
+<button onclick="cerrarPanelPedido()">Cerrar</button>
+
+</div>
 </body></html>
