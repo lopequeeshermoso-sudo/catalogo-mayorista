@@ -1331,35 +1331,6 @@ e.target.textContent = "▼ Descripción";
 }
 
 });
-function abrirPanelPedido(){
-
-const panel = document.getElementById("panelPedido");
-const lista = document.getElementById("listaPedido");
-
-lista.innerHTML="";
-
-let total=0;
-
-cart.forEach((v,k)=>{
-
-const div=document.createElement("div");
-
-div.innerHTML=`
-${v.qty} x ${k} — $${(v.qty*v.price).toLocaleString('es-AR')}
-`;
-
-lista.appendChild(div);
-
-total += v.qty*v.price;
-
-});
-
-document.getElementById("totalPedidoPanel").textContent =
-total.toLocaleString('es-AR');
-
-panel.style.display="block";
-
-}
 
 function cerrarPanelPedido(){
 document.getElementById("panelPedido").style.display="none";
