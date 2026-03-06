@@ -855,7 +855,8 @@ function actualizarContadorPedido(){
 
 <div id="cartBar">
   <div class="total">Pedido: <span id="cartCount">0</span> items — $<span id="cartTotal">0</span></div>
-  <button id="btnWhats">Enviar pedido</button>
+
+  <button id="btnVerPedido">Revisar pedido</button>
 </div>
 
 
@@ -1254,6 +1255,9 @@ e.target.textContent = "▼ Descripción";
 }
 
 });
+document.getElementById("btnVerPedido").onclick = abrirPanelPedido;
+
+document.getElementById("btnEnviarPedido").onclick = sendWhats;
 </script>
 <div id="panelPedido">
 
@@ -1309,6 +1313,9 @@ document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
 
 }
 
-document.getElementById("btnVerPedido").onclick=abrirPanelPedido;
+document.getElementById("btnVerPedido").addEventListener("click",function(e){
+e.preventDefault();
+abrirPanelPedido();
+});
 document.getElementById("btnEnviarPedido").onclick=sendWhats;
 </body></html>
