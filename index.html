@@ -1084,7 +1084,7 @@ if(cart.has(name)){
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
   }
-
+window.sendWhats = sendWhats;
   const mo = new MutationObserver(()=>ensureQtyControls());
   mo.observe(document.body,{childList:true,subtree:true});
   document.addEventListener('DOMContentLoaded', ()=>{ensureQtyControls(); updateBar();});
