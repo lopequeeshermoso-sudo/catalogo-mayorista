@@ -1370,6 +1370,11 @@ if(!confirm("¿Vaciar todo el pedido?")) return;
 cart.clear();
 localStorage.removeItem("lph_cart");
 
+/* reiniciar cantidades en el catálogo */
+document.querySelectorAll(".qty-input").forEach(input=>{
+input.value = 0;
+});
+
 actualizarPanelPedido();
 updateBar();
 actualizarContadorPedido();
