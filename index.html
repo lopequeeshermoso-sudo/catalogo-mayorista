@@ -1269,8 +1269,13 @@ document.getElementById("btnEnviarPedido").onclick = sendWhats;
 <div id="listaPedido"></div>
 
 <div class="panelFooter">
+
 <div>Total: $<span id="panelTotal">0</span></div>
+
+<button id="btnVaciarPedido">Vaciar pedido</button>
+
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
+
 </div>
 
 </div>
@@ -1303,9 +1308,47 @@ const sub=v.qty*v.price;
 total+=sub;
 
 div.innerHTML=`
-<strong>${k}</strong><br>
+<strong>${k}</strong>
+
+<div style="display:flex;align-items:center;gap:6px;margin-top:4px;">
+
+<button class="menosItem">−</button>
+
+<span>${v.qty}</span>
+
+<button class="masItem">+</button>
+
+<button class="eliminarItem" style="margin-left:auto;">🗑</button>
+
+</div>
+
+<div style="font-size:12px;color:#666;margin-top:3px;">
 ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
+</div>
 `;
+div.querySelector(".masItem").onclick=()=>{
+v.qty++;
+cart.set(k,v);
+actualizarPanelPedido();
+updateBar();
+};
+
+div.querySelector(".menosItem").onclick=()=>{
+v.qty--;
+if(v.qty<=0){
+cart.delete(k);
+}else{
+cart.set(k,v);
+}
+actualizarPanelPedido();
+updateBar();
+};
+
+div.querySelector(".eliminarItem").onclick=()=>{
+cart.delete(k);
+actualizarPanelPedido();
+updateBar();
+};
 
 lista.appendChild(div);
 
@@ -1320,5 +1363,18 @@ e.preventDefault();
 abrirPanelPedido();
 });
 document.getElementById("btnEnviarPedido").onclick=sendWhats;
+document.getElementById("btnVaciarPedido").onclick=function(){
+
+if(!confirm("¿Vaciar todo el pedido?")) return;
+
+cart.clear();
+localStorage.removeItem("lph_cart");
+
+actualizarPanelPedido();
+updateBar();
+actualizarContadorPedido();
+
+};
+
 </script>
 </body></html>
