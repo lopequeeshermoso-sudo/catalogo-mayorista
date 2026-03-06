@@ -79,6 +79,16 @@ margin:0 auto 10px auto;
   from{opacity:0; transform:translateY(8px)}
   to{opacity:1; transform:translateY(0)}
 }
+@keyframes taglineAppear{
+from{
+opacity:0;
+transform:translateY(12px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
 /* BOTON FLOTANTE PEDIDO */
 
 #pedidoFloat{
@@ -106,7 +116,6 @@ margin:0 auto 10px auto;
 .card-title strong{color:#6b4a2f;}
 .price{color:#6b4a2f;}
 
-
 .lph-tagline-img{
 width:min(600px,85vw);
 max-height:70px;
@@ -114,6 +123,11 @@ object-fit:contain;
 display:block;
 margin:10px auto 0 auto;
 mix-blend-mode:multiply;
+
+opacity:0;
+transform:translateY(8px);
+animation:taglineAppear .8s ease forwards;
+animation-delay:.6s;
 }
 
 
