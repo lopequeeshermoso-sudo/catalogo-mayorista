@@ -847,7 +847,11 @@ actualizarContadorPedido();
 });
 }
 const nombre = name;
-const row = PRECIOS.find(x => (x["Nombre del producto"]||x.name||"").trim()===nombre);
+const row = PRECIOS.find(x =>
+quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
+===
+quitarAcentos(nombre.toLowerCase().trim())
+);
 const descripcion = row ? (row["Descripción"] || "") : "";
 if(descripcion && !card.querySelector(".btnDescripcion")){
 
