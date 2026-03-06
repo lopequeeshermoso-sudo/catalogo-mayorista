@@ -568,6 +568,13 @@ Object.keys(grupos)
    g.appendChild(sec);
 
    grupos[cat].forEach(p=>{
+const row = PRECIOS.find(x =>
+quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
+===
+quitarAcentos(p.name.toLowerCase().trim())
+);
+
+const descripcion = row ? (row["Descripción"] || "") : "";
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
@@ -586,7 +593,7 @@ Object.keys(grupos)
 
 <button class="btnDescripcion">▼ Descripción</button>
 <div class="descripcionProducto">
-${p.descripcion || "Descripción no disponible."}
+${descripcion || "Descripción no disponible."}
 </div>
 `;
      g.appendChild(c);
@@ -853,20 +860,6 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 quitarAcentos(nombre.toLowerCase().trim())
 );
 const descripcion = row ? (row["Descripción"] || "") : "";
-if(descripcion && !card.querySelector(".btnDescripcion")){
-
-const btnDesc = document.createElement("button");
-btnDesc.className = "btnDescripcion";
-btnDesc.textContent = "▼ Descripción";
-
-const divDesc = document.createElement("div");
-divDesc.className = "descripcionProducto";
-divDesc.textContent = descripcion;
-
-card.appendChild(btnDesc);
-card.appendChild(divDesc);
-
-}
 if(row){// ===== selector de talle =====
 if(row["Talle"]){
 
