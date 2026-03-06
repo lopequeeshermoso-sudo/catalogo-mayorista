@@ -501,7 +501,63 @@ margin-top:8px;
 }
 
 }
+#panelPedido{
+position:fixed;
+right:-420px;
+top:0;
+width:340px;
+height:100%;
 
+background:white;
+box-shadow:-4px 0 20px rgba(0,0,0,.2);
+
+transition:right .35s ease;
+z-index:2000;
+
+display:flex;
+flex-direction:column;
+}
+
+#panelPedido.abierto{
+right:0;
+}
+
+.panelHeader{
+padding:14px;
+background:#6b4a2f;
+color:white;
+font-weight:bold;
+display:flex;
+justify-content:space-between;
+}
+
+#listaPedido{
+flex:1;
+overflow:auto;
+padding:10px;
+}
+
+.itemPedido{
+padding:6px 0;
+border-bottom:1px solid #eee;
+font-size:13px;
+}
+
+.panelFooter{
+padding:12px;
+border-top:1px solid #ddd;
+}
+
+#btnEnviarPedido{
+width:100%;
+background:#25D366;
+border:none;
+padding:10px;
+border-radius:8px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
 </style>
 
 </head>
@@ -1199,4 +1255,60 @@ e.target.textContent = "▼ Descripción";
 
 });
 </script>
+<div id="panelPedido">
+
+<div class="panelHeader">
+🧾 Tu pedido
+<span id="cerrarPanel">✕</span>
+</div>
+
+<div id="listaPedido"></div>
+
+<div class="panelFooter">
+<div>Total: $<span id="panelTotal">0</span></div>
+<button id="btnEnviarPedido">Revisar y enviar pedido</button>
+</div>
+
+</div>
+function abrirPanelPedido(){
+document.getElementById("panelPedido").classList.add("abierto");
+actualizarPanelPedido();
+}
+
+function cerrarPanelPedido(){
+document.getElementById("panelPedido").classList.remove("abierto");
+}
+
+document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
+
+function actualizarPanelPedido(){
+
+const lista=document.getElementById("listaPedido");
+lista.innerHTML="";
+
+let total=0;
+
+cart.forEach((v,k)=>{
+
+const div=document.createElement("div");
+div.className="itemPedido";
+
+const sub=v.qty*v.price;
+total+=sub;
+
+div.innerHTML=`
+<strong>${k}</strong><br>
+${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
+`;
+
+lista.appendChild(div);
+
+});
+
+document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
+
+}
+
+document.getElementById("btnVerPedido").onclick=abrirPanelPedido;
+document.getElementById("btnEnviarPedido").onclick=sendWhats;
 </body></html>
