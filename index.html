@@ -209,6 +209,16 @@ body{
 padding-bottom:70px;
 padding-top:120px;
 }
+#btnVaciar{
+background:#bbb;
+color:#333;
+border:none;
+border-radius:999px;
+padding:8px 14px;
+font-weight:700;
+cursor:pointer;
+margin-right:8px;
+}
 .barraSuperior{
 position:fixed;
 top:0;
@@ -811,6 +821,9 @@ function actualizarContadorPedido(){
 
 <div id="cartBar">
   <div class="total">Pedido: <span id="cartCount">0</span> items — $<span id="cartTotal">0</span></div>
+
+  <button id="btnVaciar">Vaciar pedido</button>
+
   <button id="btnWhats">Revisar y enviar pedido</button>
 </div>
 
@@ -1053,6 +1066,22 @@ if(cart.has(name)){
   mo.observe(document.body,{childList:true,subtree:true});
   document.addEventListener('DOMContentLoaded', ()=>{ensureQtyControls(); updateBar();});
 document.getElementById('btnWhats').addEventListener('click', sendWhats);
+document.getElementById('btnVaciar').addEventListener('click', ()=>{
+
+if(!confirm("¿Vaciar todo el pedido?")) return;
+
+cart.clear();
+
+document.querySelectorAll('.qty-input').forEach(i=>{
+i.value=0;
+});
+
+updateBar();
+actualizarContadorPedido();
+
+localStorage.removeItem('lph_cart');
+
+});
 })();
 </script>
 
