@@ -72,8 +72,14 @@ margin:0 auto 10px auto;
   letter-spacing:.3px;
 }
 @keyframes lphLogo{
-  from{opacity:0; transform:translateY(12px) scale(.98)}
-  to{opacity:1; transform:translateY(0) scale(1)}
+from{
+opacity:0;
+transform:translateY(12px) scale(.92);
+}
+to{
+opacity:1;
+transform:translateY(0) scale(1);
+}
 }
 @keyframes lphFadeUp{
   from{opacity:0; transform:translateY(8px)}
@@ -668,8 +674,8 @@ carrusel.classList.remove("fijo");
 window.addEventListener('load', ()=>{
   const s = document.getElementById('lph-splash');
   if(!s) return;
-  setTimeout(()=>{ s.classList.add('hidden'); }, 1500);
-  setTimeout(()=>{ s.remove(); }, 2600);
+  setTimeout(()=>{ s.classList.add('hidden'); }, 1900);
+  setTimeout(()=>{ s.remove(); }, 3000);
 });
 </script>
 
