@@ -60,11 +60,12 @@ small{color:#666}
   animation: lphFadeUp 900ms ease both;
 }
 .lph-logo{
-width:min(300px,65vw);
-max-height:200px;
-object-fit:contain;
-display:block;
-margin:0 auto 10px auto;
+  width:min(260px,60vw);
+  max-height:180px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto 16px auto;
+  animation:lphLogo 1.2s ease both;
 }
 .lph-tagline{
   font-size:clamp(20px,3vw,32px);
@@ -72,28 +73,12 @@ margin:0 auto 10px auto;
   letter-spacing:.3px;
 }
 @keyframes lphLogo{
-from{
-opacity:0;
-transform:translateY(12px) scale(.92);
-}
-to{
-opacity:1;
-transform:translateY(0) scale(1);
-}
+  from{opacity:0; transform:translateY(12px) scale(.98)}
+  to{opacity:1; transform:translateY(0) scale(1)}
 }
 @keyframes lphFadeUp{
   from{opacity:0; transform:translateY(8px)}
   to{opacity:1; transform:translateY(0)}
-}
-@keyframes taglineAppear{
-from{
-opacity:0;
-transform:translateY(12px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
 }
 /* BOTON FLOTANTE PEDIDO */
 
@@ -122,19 +107,8 @@ transform:translateY(0);
 .card-title strong{color:#6b4a2f;}
 .price{color:#6b4a2f;}
 
-.lph-tagline-img{
-width:min(600px,85vw);
-max-height:70px;
-object-fit:contain;
-display:block;
-margin:10px auto 0 auto;
-mix-blend-mode:multiply;
 
-opacity:0;
-transform:translateY(8px);
-animation:taglineAppear .8s ease forwards;
-animation-delay:.6s;
-}
+.lph-tagline-img{width:min(520px,85vw);display:block;margin:8px auto 0 auto;mix-blend-mode:multiply;}
 
 
 .card{
@@ -198,6 +172,20 @@ background:#6b4a2f;
 color:white;
 }
 
+#btnPedidoFlotante{
+  position:fixed;
+  right:16px;
+  bottom:90px;
+  z-index:999;
+  background:#6b4a2f;
+  color:#fff;
+  border:none;
+  border-radius:999px;
+  padding:12px 16px;
+  font-weight:700;
+  box-shadow:0 6px 18px rgba(0,0,0,.25);
+  cursor:pointer;
+}
 #btnPedidoFlotante:hover{filter:brightness(1.05);}
 .qty-wrap{display:flex;align-items:center;gap:6px;margin-top:8px}
 .qty-btn{border:none;background:#6b4a2f;color:#fff;border-radius:6px;padding:4px 8px;cursor:pointer}
@@ -209,16 +197,6 @@ body{
 padding-bottom:70px;
 padding-top:120px;
 }
-#btnVaciar{
-background:#bbb;
-color:#333;
-border:none;
-border-radius:999px;
-padding:8px 14px;
-font-weight:700;
-cursor:pointer;
-margin-right:8px;
-}
 .barraSuperior{
 position:fixed;
 top:0;
@@ -227,16 +205,18 @@ width:100%;
 z-index:1000;
 
 display:flex;
+flex-wrap:wrap;
 align-items:center;
-gap:12px;
+justify-content:center;
+gap:14px;
 
 background:#f2e8d8;
-padding:10px 16px;
+padding:10px 12px;
 
 box-shadow:0 2px 10px rgba(0,0,0,0.12);
 }
 .buscadorInput{
-flex:2;
+flex:1;
 width:100%;
 margin-top:6px;
 
@@ -282,10 +262,115 @@ padding:8px 40px;
 
 box-shadow:0 4px 10px rgba(0,0,0,0.12);
 }
+.catIcon{
+min-width:140px;
+max-width:140px;
+flex-shrink:0;
+
+background:white;
+border-radius:12px;
+
+padding:10px;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+cursor:pointer;
+
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:transform .15s ease;
+
+text-align:center;
+}
+.catIcon img{
+width:52px;
+height:52px;
+object-fit:cover;
+border-radius:50%;
+transition:all .25s ease;
+}
 
 #iconCategorias.fijo .catIcon img{
 width:42px;
 height:42px;
+}
+.catIcon:hover{
+transform:scale(1.05);
+}
+.catIcon img{
+width:100%;
+height:90px;
+object-fit:contain;
+background:white;
+padding:6px;
+}
+.catIcon small{
+display:block;
+padding:6px;
+color:#6b4a2f;
+font-weight:700;
+font-size:13px;
+}
+.catIcon{
+background:white;
+border-radius:12px;
+overflow:hidden;
+cursor:pointer;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:transform .15s ease;
+text-align:center;
+}
+
+.catIcon:hover{
+transform:scale(1.05);
+}
+
+.catIcon img{
+width:90px;
+height:90px;
+object-fit:contain;
+display:block;
+margin:auto;
+}
+.catIcon small{
+display:block;
+padding:6px;
+color:#6b4a2f;
+font-weight:700;
+font-size:13px;
+}
+.catIcon{
+background:white;
+border-radius:12px;
+padding:10px;
+text-align:center;
+cursor:pointer;
+box-shadow:0 2px 6px rgba(0,0,0,0.08);
+transition:transform .15s ease;
+}
+
+.catIcon:hover{
+transform:scale(1.05);
+}
+
+.catIcon span{
+display:block;
+font-size:26px;
+margin-bottom:4px;
+}
+
+.catIcon small{
+color:#6b4a2f;
+font-weight:600;
+}
+
+.catIcon.activa{
+transform:scale(1.08);
+box-shadow:0 6px 18px rgba(0,0,0,0.18);
+border:2px solid #6b4a2f;
+box-sizing:border-box;
 }
 .catCarousel{
 position:relative;
@@ -416,182 +501,7 @@ margin-top:8px;
 }
 
 }
-.catalog-header{
-text-align:center;
-padding:12px 10px;
-background:#e8d8c0;
-}
 
-.tituloCatalogo{
-font-size:22px;
-font-weight:700;
-color:#6b4a2f;
-}
-
-.subtituloCatalogo{
-font-size:14px;
-color:#5b4636;
-margin-top:2px;
-}
-.marcaLPH{
-display:block;
-margin:4px auto 0 auto;
-max-width:420px;
-width:90%;
-object-fit:contain;
-mix-blend-mode:multiply;
-}
-.headerMarca{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:14px;
-flex-wrap:wrap;
-}
-
-.logoHeader{
-height:42px;
-object-fit:contain;
-mix-blend-mode:multiply;
-}
-
-.fraseHeader{
-height:26px;
-object-fit:contain;
-mix-blend-mode:multiply;
-}
-
-.tituloCatalogo{
-font-size:20px;
-font-weight:700;
-color:#6b4a2f;
-}
-.catalog-header{
-text-align:center;
-padding:2px 10px;
-line-height:1;
-}
-.tituloCatalogoGrande{
-font-size:22px;
-font-weight:700;
-color:#6b4a2f;
-margin-bottom:6px;
-}
-.fraseMarcaGrande{
-display:block;
-margin:0 auto;
-max-width:320px;
-width:75%;
-height:auto;
-object-fit:contain;
-mix-blend-mode:multiply;
-}
-#panelPedido{
-position:fixed;
-right:-420px;
-top:0;
-width:340px;
-height:100%;
-
-background:white;
-box-shadow:-4px 0 20px rgba(0,0,0,.2);
-
-transition:right .35s ease;
-z-index:2000;
-
-display:flex;
-flex-direction:column;
-}
-
-#panelPedido.abierto{
-right:0;
-}
-
-.panelHeader{
-padding:14px;
-background:#6b4a2f;
-color:white;
-font-weight:bold;
-display:flex;
-justify-content:space-between;
-}
-
-#listaPedido{
-flex:1;
-overflow:auto;
-padding:10px;
-}
-
-.itemPedido{
-padding:6px 0;
-border-bottom:1px solid #eee;
-font-size:13px;
-}
-
-.panelFooter{
-padding:12px;
-border-top:1px solid #ddd;
-}
-
-#btnEnviarPedido{
-width:100%;
-background:#25D366;
-border:none;
-padding:10px;
-border-radius:8px;
-color:white;
-font-weight:bold;
-cursor:pointer;
-}
-.catIcon{
-min-width:140px;
-max-width:140px;
-flex-shrink:0;
-
-background:white;
-border-radius:12px;
-padding:10px;
-
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-
-cursor:pointer;
-
-box-shadow:0 3px 10px rgba(0,0,0,0.08);
-transition:transform .15s ease;
-
-text-align:center;
-}
-
-.catIcon:hover{
-transform:scale(1.05);
-}
-
-.catIcon img{
-width:90px;
-height:90px;
-object-fit:contain;
-display:block;
-margin:auto;
-}
-
-.catIcon small,
-.catLabel{
-display:block;
-padding:6px;
-color:#6b4a2f;
-font-weight:700;
-font-size:13px;
-}
-
-.catIcon.activa{
-transform:scale(1.08);
-box-shadow:0 6px 18px rgba(0,0,0,0.18);
-border:2px solid #6b4a2f;
-box-sizing:border-box;
-}
 </style>
 
 </head>
@@ -599,11 +509,14 @@ box-sizing:border-box;
 
 <div id="lph-splash" aria-hidden="true">
   <div class="lph-splash-card">
-    <img class="lph-logo" src="logo_lph.png" alt="Logo LPH">
-    <img class="lph-tagline-img" src="tagline_lph.png" alt="Lo pequeño es hermoso">
+    <img class="lph-logo" src="logo_lph.png" style="mix-blend-mode:multiply;" alt="Logo Lo pequeño es hermoso" onerror="this.style.display='none'">
+    <div class="lph-tagline"><strong>Lo pequeño es hermoso ✨</strong></div>
   </div>
 </div>
+
 <div class="barraSuperior">
+
+<img src="logo_lph.png" class="logoCatalogo" onclick="volverArriba()">
 
 <select id="menuCategorias" class="menuCategorias">
 <option value="">Categorías</option>
@@ -613,21 +526,14 @@ box-sizing:border-box;
 type="text"
 id="buscarProducto"
 class="buscadorInput"
-placeholder="🔎 Buscar producto..."
+placeholder="Buscar producto..."
 onkeyup="filtrarProductosDebounce()">
 
 </div>
 <header class="catalog-header">
-
-<div class="tituloCatalogoGrande">
-Catálogo Mayorista
-</div>
-
-<img class="fraseMarcaGrande"
-src="lo_pequeno_es_hermoso.png"
-alt="Lo pequeño es hermoso">
-
+<strong>Catálogo LPH</strong> — versión estable
 </header>
+
 <div class="catCarousel">
 
 <button class="catArrow left" onclick="moverCategorias(-1)">◀</button>
@@ -741,8 +647,8 @@ carrusel.classList.remove("fijo");
 window.addEventListener('load', ()=>{
   const s = document.getElementById('lph-splash');
   if(!s) return;
-  setTimeout(()=>{ s.classList.add('hidden'); }, 1900);
-  setTimeout(()=>{ s.remove(); }, 3000);
+  setTimeout(()=>{ s.classList.add('hidden'); }, 1500);
+  setTimeout(()=>{ s.remove(); }, 2600);
 });
 </script>
 
@@ -859,8 +765,23 @@ render = function(){
 
 </script>
 
-<script>
+<button id="btnPedidoFlotante">
+🧺 Pedido (<span id="contadorPedido">0</span>)
+</button>
 
+<script>
+(function(){
+  const b=document.getElementById('btnPedidoFlotante');
+
+  if(b){
+    b.addEventListener('click', function(){
+      const btnWhats = document.getElementById('btnWhats');
+      if(btnWhats){
+        btnWhats.click();
+      }
+    });
+  }
+})();
 
 function actualizarContadorPedido(){
   let total = 0;
@@ -878,18 +799,14 @@ function actualizarContadorPedido(){
 
 <div id="cartBar">
   <div class="total">Pedido: <span id="cartCount">0</span> items — $<span id="cartTotal">0</span></div>
-
-  <button id="btnVaciar">Vaciar pedido</button>
-
-  <button id="btnVerPedido">Ver pedido</button>
+  <button id="btnWhats">Enviar pedido</button>
 </div>
 
 
 <script>
-const WHATSAPP_NUMBER='5493571313112';
-window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
-
 (function(){
+  const WHATSAPP_NUMBER='5493571313112';
+  const cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 
   function formatARS(n){ return Number(n||0).toLocaleString('es-AR'); }
 
@@ -913,25 +830,15 @@ window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 
   return 0;
 }
-function updateBar(){
-  let count=0,total=0;
 
-  cart.forEach(v=>{
-    count += v.qty;
-    total += v.qty*v.price;
-  });
+  function updateBar(){
+    let count=0,total=0;
+    cart.forEach(v=>{count += v.qty; total += v.qty*v.price;});
+    document.getElementById('cartCount').textContent = count;
+    document.getElementById('cartTotal').textContent = formatARS(total);
 
-  document.getElementById('cartCount').textContent = count;
-  document.getElementById('cartTotal').textContent = formatARS(total);
-
-  const btnWhats = document.getElementById('btnWhats');
-  if(btnWhats){
-    btnWhats.textContent = `Revisar y enviar pedido ($${formatARS(total)})`;
+localStorage.setItem('lph_cart', JSON.stringify([...cart]));
   }
-
-  localStorage.setItem('lph_cart', JSON.stringify([...cart]));
-}
-  
 
   function ensureQtyControls(){
     document.querySelectorAll('.card').forEach(card=>{
@@ -1118,41 +1025,12 @@ if(cart.has(name)){
     msg += `TOTAL FINAL: $${formatARS(total)}%0A`;
 
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
-window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`,'_blank');
-
-/* vaciar carrito después de enviar */
-cart.clear();
-
-document.querySelectorAll('.qty-input').forEach(i=>{
-i.value = 0;
-});
-
-updateBar();
-actualizarContadorPedido();
-
-localStorage.removeItem('lph_cart');
   }
 
   const mo = new MutationObserver(()=>ensureQtyControls());
   mo.observe(document.body,{childList:true,subtree:true});
   document.addEventListener('DOMContentLoaded', ()=>{ensureQtyControls(); updateBar();});
 document.getElementById('btnWhats').addEventListener('click', sendWhats);
-document.getElementById('btnVaciar').addEventListener('click', ()=>{
-
-if(!confirm("¿Vaciar todo el pedido?")) return;
-
-cart.clear();
-
-document.querySelectorAll('.qty-input').forEach(i=>{
-i.value=0;
-});
-
-updateBar();
-actualizarContadorPedido();
-
-localStorage.removeItem('lph_cart');
-
-});
 })();
 </script>
 
@@ -1231,33 +1109,22 @@ function quitarAcentos(texto){
   return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 function filtrarProductos(){
+  const input = quitarAcentos(
+    document.getElementById("buscarProducto").value.toLowerCase()
+  );
 
-const input = quitarAcentos(
-document.getElementById("buscarProducto").value.toLowerCase()
-);
+  const productos = document.querySelectorAll(".card");
 
-const productos = document.querySelectorAll(".card");
+  productos.forEach(card=>{
+    const nombre = quitarAcentos(card.textContent.toLowerCase());
 
-productos.forEach(card=>{
-
-const nombre = quitarAcentos(
-card.querySelector(".card-title")?.textContent.toLowerCase() || ""
-);
-
-const categoria = quitarAcentos(
-card.querySelector("small")?.textContent.toLowerCase() || ""
-);
-
-if(nombre.includes(input) || categoria.includes(input)){
-card.style.display = "block";
-}else{
-card.style.display = "none";
+    if(nombre.includes(input)){
+      card.style.display = "block";
+    }else{
+      card.style.display = "none";
+    }
+  });
 }
-
-});
-
-}
-
 let buscarTimeout;
 
 function filtrarProductosDebounce(){
@@ -1331,95 +1198,5 @@ e.target.textContent = "▼ Descripción";
 }
 
 });
-
-function cerrarPanelPedido(){
-document.getElementById("panelPedido").style.display="none";
-}
-
-document.getElementById("btnVerPedido").onclick = abrirPanelPedido;
-
-document.getElementById("btnEnviarPedido").onclick = sendWhats;
-</script>
-
-<div id="panelPedido">
-
-<div class="panelHeader">
-🧾 Tu pedido
-<span id="cerrarPanel">✕</span>
-</div>
-
-<div id="listaPedido"></div>
-
-<div class="panelFooter">
-<div>Total: $<span id="panelTotal">0</span></div>
-<button id="btnEnviarPedido">Enviar por WhatsApp</button>
-</div>
-
-</div>
-<script>
-
-function abrirPanelPedido(){
-document.getElementById("panelPedido").classList.add("abierto");
-actualizarPanelPedido();
-}
-
-function cerrarPanelPedido(){
-document.getElementById("panelPedido").classList.remove("abierto");
-}
-
-document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
-
-function actualizarPanelPedido(){
-
-const lista=document.getElementById("listaPedido");
-lista.innerHTML="";
-
-let total=0;
-
-cart.forEach((v,k)=>{
-
-const div=document.createElement("div");
-div.className="itemPedido";
-
-const sub=v.qty*v.price;
-total+=sub;
-
-div.innerHTML=`
-<strong>${k}</strong><br>
-${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
-`;
-
-lista.appendChild(div);
-
-});
-
-document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
-
-}
-
-</script>
-<script>
-
-document.addEventListener("DOMContentLoaded",function(){
-
-const btn=document.getElementById("btnWhats");
-
-if(btn){
-btn.addEventListener("click",function(e){
-
-e.preventDefault();
-
-const panel=document.getElementById("panelPedido");
-
-if(panel){
-panel.classList.add("abierto");
-}
-
-});
-
-}
-
-});
-
 </script>
 </body></html>
