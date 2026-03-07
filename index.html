@@ -64,7 +64,7 @@ small{color:#666}
   max-height:180px;
   object-fit:contain;
   display:block;
-  margin:0 auto 16px auto;
+  margin:0 auto 8px auto;
   animation:lphLogo 1.2s ease both;
 }
 .lph-tagline{
@@ -108,7 +108,18 @@ small{color:#666}
 .price{color:#6b4a2f;}
 
 
-.lph-tagline-img{width:min(520px,85vw);display:block;margin:8px auto 0 auto;mix-blend-mode:multiply;}
+.lph-tagline-img{
+display:block;
+margin:6px auto 0 auto;
+
+width:260px;
+max-width:70vw;
+
+height:auto;
+object-fit:contain;
+
+mix-blend-mode:multiply;
+}
 
 
 .card{
@@ -590,7 +601,19 @@ onkeyup="filtrarProductosDebounce()">
 
 </div>
 <header class="catalog-header">
-<strong>Catálogo LPH</strong> — versión estable
+
+<div style="text-align:center;font-size:22px;font-weight:bold;color:#6b4a2f">
+Catálogo Mayorista
+</div>
+
+<img src="tagline_lph.png" style="
+display:block;
+margin:6px auto 0 auto;
+max-width:280px;
+width:70%;
+mix-blend-mode:multiply;
+">
+
 </header>
 
 <div class="catCarousel">
