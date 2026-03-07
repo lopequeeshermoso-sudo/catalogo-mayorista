@@ -55,8 +55,10 @@ font-weight:700;
 color:#6b4a2f;
 letter-spacing:1px;
 
-padding-top:12px;
+padding-top:18px;
 padding-bottom:6px;
+
+line-height:1.2;
 }
 
 .lineaDecorativa{
@@ -497,29 +499,6 @@ cursor:pointer;
 .btnDescripcion:hover{
 background:#e0e0e0;
 }
-@media (max-width:600px){
-
-.barraSuperior{
-flex-wrap:wrap;
-justify-content:space-between;
-}
-
-.logoCatalogo{
-height:60px;
-}
-
-.menuCategorias{
-order:2;
-width:48%;
-}
-
-.buscadorInput{
-order:3;
-width:100%;
-margin-top:8px;
-}
-
-}
 #panelPedido{
 position:fixed;
 right:-420px;
@@ -536,7 +515,33 @@ z-index:2000;
 display:flex;
 flex-direction:column;
 }
+@media (max-width:600px){
 
+.barraSuperior{
+flex-wrap:wrap;
+justify-content:center;
+gap:8px;
+}
+
+.logoCatalogo{
+height:50px;
+}
+
+.menuCategorias{
+order:2;
+width:46%;
+font-size:13px;
+padding:8px 10px;
+}
+
+.buscadorInput{
+order:3;
+width:46%;
+font-size:13px;
+padding:8px 10px 8px 34px;
+}
+
+}
 #panelPedido.abierto{
 right:0;
 }
