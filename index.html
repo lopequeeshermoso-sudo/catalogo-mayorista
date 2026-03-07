@@ -1373,6 +1373,12 @@ actualizarPanelPedido();
 updateBar();
 actualizarContadorPedido();
 
+/* actualizar botón flotante */
+const contador = document.getElementById("contadorPedido");
+if(contador){
+contador.textContent = 0;
+}
+
 };
 </script>
 <script>
