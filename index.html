@@ -866,7 +866,7 @@ function actualizarContadorPedido(){
 
 <script>
 const WHATSAPP_NUMBER='5493571313112';
-const cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
+window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 
 (function(){
 
