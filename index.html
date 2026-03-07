@@ -561,6 +561,21 @@ padding:12px;
 border-top:1px solid #ddd;
 }
 
+#btnSeguirComprando{
+width:100%;
+margin-top:6px;
+background:#eee;
+border:none;
+padding:10px;
+border-radius:8px;
+font-weight:bold;
+cursor:pointer;
+}
+
+#btnSeguirComprando:hover{
+background:#e0e0e0;
+}
+
 #btnEnviarPedido{
 width:100%;
 background:#25D366;
@@ -898,7 +913,12 @@ window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
     cart.forEach(v=>{count += v.qty; total += v.qty*v.price;});
     document.getElementById('cartCount').textContent = count;
     document.getElementById('cartTotal').textContent = formatARS(total);
-
+const btnPedido = document.getElementById("btnVerPedido");
+if(btnPedido){
+btnPedido.textContent = count>0 
+? `Revisar pedido ($${formatARS(total)})`
+: "Revisar pedido";
+}
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
   }
 
@@ -1055,7 +1075,9 @@ if(cart.has(name)){
     });
 
     const grouped={};
-    cart.forEach((v,k)=>{
+    [...cart.entries()]
+.sort((a,b)=>a[0].localeCompare(b[0],'es'))
+.forEach(([k,v])=>{
       const cat=nameToCategory[k]||'Otros';
       if(!grouped[cat]) grouped[cat]=[];
       grouped[cat].push({name:k, qty:v.qty, price:v.price, sub:v.qty*v.price});
@@ -1286,6 +1308,8 @@ btnEnviar.addEventListener("click", sendWhats);
 
 <button id="btnVaciarPedido">Vaciar pedido</button>
 
+<button id="btnSeguirComprando">Seguir comprando</button>
+
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
 
 </div>
@@ -1303,7 +1327,10 @@ document.getElementById("panelPedido").classList.remove("abierto");
 }
 
 document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
-
+const btnSeguir = document.getElementById("btnSeguirComprando");
+if(btnSeguir){
+btnSeguir.onclick = cerrarPanelPedido;
+}
 
 function actualizarPanelPedido(){
 
