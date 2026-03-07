@@ -56,8 +56,13 @@ small{color:#666}
 }
 #lph-splash.hidden{opacity:0; visibility:hidden;}
 .lph-splash-card{
-  text-align:center;
-  animation: lphFadeUp 900ms ease both;
+text-align:center;
+animation:lphFadeUp 900ms ease both;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:6px;
 }
 .lph-logo{
   width:min(260px,60vw);
@@ -107,19 +112,19 @@ small{color:#666}
 .card-title strong{color:#6b4a2f;}
 .price{color:#6b4a2f;}
 
-
 .lph-tagline-img{
 display:block;
-margin:6px auto 0 auto;
+margin:4px auto 0 auto;
 
-width:260px;
-max-width:70vw;
+width:420px;
+max-width:85vw;
 
-height:auto;
+height:40px;
 object-fit:contain;
 
 mix-blend-mode:multiply;
 }
+
 
 
 .card{
