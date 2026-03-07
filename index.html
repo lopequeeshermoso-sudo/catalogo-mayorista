@@ -1218,7 +1218,15 @@ e.target.textContent = "▼ Descripción";
 
 });
 
-document.getElementById("btnEnviarPedido").onclick = sendWhats;
+window.addEventListener("DOMContentLoaded", function(){
+
+const btnEnviar = document.getElementById("btnEnviarPedido");
+
+if(btnEnviar){
+btnEnviar.addEventListener("click", sendWhats);
+}
+
+});
 </script>
 <div id="panelPedido">
 
