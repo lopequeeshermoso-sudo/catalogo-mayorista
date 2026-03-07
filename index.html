@@ -47,6 +47,18 @@ background:#e8d8c0;
 text-align:center;
 line-height:1.1;
 }
+.catalog-header{
+background:#e8d8c0;
+padding:14px 10px;
+text-align:center;
+}
+
+.tituloCatalogo{
+font-size:28px;
+font-weight:700;
+color:#6b4a2f;
+letter-spacing:1px;
+}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;background:#fafafa}
@@ -555,35 +567,6 @@ font-weight:bold;
 cursor:pointer;
 }
 
-.franjaSlogan{
-display:flex;
-justify-content:center;
-align-items:center;
-
-height:auto;
-
-margin:0;
-padding:0;
-}
-
-.imgSlogan{
-height:90px;
-width:auto;
-display:block;
-object-fit:contain;
-}
-@media (max-width:600px){
-
-.franjaSlogan{
-height:auto;
-padding:6px 0;
-}
-
-.imgSlogan{
-height:45px;
-}
-
-}
 </style>
 
 </head>
@@ -613,15 +596,12 @@ onkeyup="filtrarProductosDebounce()">
 </div>
 <header class="catalog-header">
 
-<div style="text-align:center;font-size:22px;font-weight:bold;color:#6b4a2f">
+<div class="tituloCatalogo">
 Catálogo Mayorista
 </div>
 
 </header>
 
-<div class="franjaSlogan">
-<img src="lo_pequeno_es_hermoso.png" class="imgSlogan">
-</div>
 
 <div class="catCarousel">
 
