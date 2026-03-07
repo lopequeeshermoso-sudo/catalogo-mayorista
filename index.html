@@ -1297,7 +1297,7 @@ document.getElementById("panelPedido").classList.remove("abierto");
 document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
 
 
-dfunction actualizarPanelPedido(){
+function actualizarPanelPedido(){
 
 const lista=document.getElementById("listaPedido");
 lista.innerHTML="";
@@ -1378,7 +1378,7 @@ lista.appendChild(div);
 
 document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
 
-}ocument.getElementById("btnVerPedido").addEventListener("click",function(e){
+}document.getElementById("btnVerPedido").addEventListener("click",function(e){
 e.preventDefault();
 abrirPanelPedido();
 });
