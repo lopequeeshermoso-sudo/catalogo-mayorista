@@ -1296,7 +1296,8 @@ document.getElementById("panelPedido").classList.remove("abierto");
 
 document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
 
-function actualizarPanelPedido(){
+
+dfunction actualizarPanelPedido(){
 
 const lista=document.getElementById("listaPedido");
 lista.innerHTML="";
@@ -1315,7 +1316,7 @@ const producto = PRODUCTOS.find(p => p.name === k);
 const img = producto ? producto.image : "";
 
 div.innerHTML=`
-<div style="display:flex; gap:8px; align-items:center; width:100%">
+<div style="display:flex;gap:8px;align-items:center;width:100%">
 
 <img src="${img}" style="
 width:40px;
@@ -1329,7 +1330,7 @@ border-radius:6px;
 ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 
-<div style="display:flex; gap:4px">
+<div style="display:flex;gap:4px">
 
 <button class="menosItem">−</button>
 <button class="masItem">+</button>
@@ -1340,6 +1341,36 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 `;
 
+const btnMas = div.querySelector(".masItem");
+const btnMenos = div.querySelector(".menosItem");
+const btnEliminar = div.querySelector(".eliminarItem");
+
+btnMas.onclick=()=>{
+v.qty++;
+cart.set(k,v);
+actualizarPanelPedido();
+updateBar();
+actualizarContadorPedido();
+};
+
+btnMenos.onclick=()=>{
+v.qty--;
+if(v.qty<=0){
+cart.delete(k);
+}else{
+cart.set(k,v);
+}
+actualizarPanelPedido();
+updateBar();
+actualizarContadorPedido();
+};
+
+btnEliminar.onclick=()=>{
+cart.delete(k);
+actualizarPanelPedido();
+updateBar();
+actualizarContadorPedido();
+};
 
 lista.appendChild(div);
 
@@ -1347,9 +1378,7 @@ lista.appendChild(div);
 
 document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
 
-}
-
-document.getElementById("btnVerPedido").addEventListener("click",function(e){
+}ocument.getElementById("btnVerPedido").addEventListener("click",function(e){
 e.preventDefault();
 abrirPanelPedido();
 });
