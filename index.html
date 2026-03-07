@@ -368,18 +368,6 @@ left:4px;
 right:4px;
 }
 
-#iconCategorias{
-display:flex;
-gap:12px;
-padding:14px 40px;
-overflow-x:auto;
-scroll-behavior:smooth;
-background:#f2e8d8;
-}
-
-#iconCategorias::-webkit-scrollbar{
-display:none;
-}
 .btnAgregar{
 width:100%;
 margin-top:10px;
@@ -402,13 +390,7 @@ transition:all .2s ease;
 transform:scale(1.03);
 background:#7a5637;
 }
-.catLabel{
-font-size:12px;
-font-weight:600;
-color:#6b4a2f;
-margin-top:6px;
-text-align:center;
-}
+
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
 .descripcionProducto{
@@ -641,7 +623,7 @@ const descripcion = row ? (row["Descripción"] || "") : "";
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
-     const src=p.image||'';
+     const src=p.image || "https://via.placeholder.com/400x400?text=LPH";
      c.innerHTML=`<img loading="lazy" src="${src}" onerror="this.style.display='none'">
 
 <div class='card-title'><strong>${p.name}</strong></div>
@@ -1357,7 +1339,6 @@ document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
 e.preventDefault();
 abrirPanelPedido();
 });
-document.getElementById("btnEnviarPedido").onclick = sendWhats;
 
 document.getElementById("btnVaciarPedido").onclick = function(){
 
