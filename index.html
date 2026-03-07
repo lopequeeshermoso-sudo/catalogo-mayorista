@@ -1158,29 +1158,6 @@ sec.scrollIntoView({behavior:"smooth"});
 </script>
 
 <script>
-(function(){
-  function updatePedidoButtonCount(){
-    const btn = document.getElementById('btnPedidoFlotante');
-    const countEl = document.getElementById('cartCount');
-    if(!btn || !countEl) return;
-
-    const n = parseInt(countEl.textContent || '0', 10) || 0;
-
-    btn.innerHTML = n > 0 ? `🧾 Pedido (${n})` : '🧾 IR AL PEDIDO';
-  }
-
-  const target = document.getElementById('cartCount');
-  if(target){
-    const obs = new MutationObserver(updatePedidoButtonCount);
-    obs.observe(target, {childList:true, characterData:true, subtree:true});
-  }
-
-  document.addEventListener('DOMContentLoaded', updatePedidoButtonCount);
-  window.addEventListener('load', updatePedidoButtonCount);
-
-  // fallback periodic sync
-  setInterval(updatePedidoButtonCount, 500);
-})();
 
 function volverArriba(){
   window.scrollTo({
@@ -1442,15 +1419,5 @@ contador.textContent = 0;
 
 };
 </script>
-<script>
-
-const btnVerPedido = document.getElementById("btnVerPedido");
-
-if(btnVerPedido){
-btnVerPedido.onclick = function(){
-abrirPanelPedido();
-};
-}
-
-</script>
-</body></html>
+</body>
+</html>
