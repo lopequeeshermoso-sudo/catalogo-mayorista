@@ -1331,29 +1331,7 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 
 </div>
 `;
-div.querySelector(".masItem").onclick=()=>{
-v.qty++;
-cart.set(k,v);
-actualizarPanelPedido();
-updateBar();
-};
 
-div.querySelector(".menosItem").onclick=()=>{
-v.qty--;
-if(v.qty<=0){
-cart.delete(k);
-}else{
-cart.set(k,v);
-}
-actualizarPanelPedido();
-updateBar();
-};
-
-div.querySelector(".eliminarItem").onclick=()=>{
-cart.delete(k);
-actualizarPanelPedido();
-updateBar();
-};
 
 lista.appendChild(div);
 
