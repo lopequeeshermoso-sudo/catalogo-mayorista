@@ -1315,7 +1315,7 @@ const producto = PRODUCTOS.find(p => p.name === k);
 const img = producto ? producto.image : "";
 
 div.innerHTML=`
-<div style="display:flex; gap:8px; align-items:center">
+<div style="display:flex; gap:8px; align-items:center; width:100%">
 
 <img src="${img}" style="
 width:40px;
@@ -1324,9 +1324,17 @@ object-fit:cover;
 border-radius:6px;
 ">
 
-<div>
+<div style="flex:1">
 <strong>${k}</strong><br>
 ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
+</div>
+
+<div style="display:flex; gap:4px">
+
+<button class="menosItem">−</button>
+<button class="masItem">+</button>
+<button class="eliminarItem">🗑</button>
+
 </div>
 
 </div>
