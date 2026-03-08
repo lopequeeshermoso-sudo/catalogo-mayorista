@@ -938,7 +938,11 @@ if(cart.has(name)){
 qty = cart.get(name).qty + 1;
 }
 
-cart.set(name,{qty,price});
+cart.set(name,{
+qty,
+price,
+detalle: opcionTexto || ""
+});
 
 const input = card.querySelector('.qty-input');
 if(input) input.value = qty;
@@ -1040,8 +1044,11 @@ if(cart.has(name)){
       input.addEventListener('change', ()=>{
         const qty=Math.max(0,parseInt(input.value||'0'));
         if(qty===0) cart.delete(name);
-        else cart.set(name,{qty,price});
-        updateBar();
+        else cart.set(name,{
+qty,
+price,
+detalle: opcionTexto || ""
+});
       });
     });
   }
