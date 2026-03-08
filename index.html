@@ -587,6 +587,23 @@ color:white;
 font-weight:bold;
 cursor:pointer;
 }
+#btnSeguirComprando{
+
+width:100%;
+
+background:#f4b400;
+border:none;
+
+padding:10px;
+margin-top:6px;
+
+border-radius:8px;
+
+color:#333;
+font-weight:bold;
+cursor:pointer;
+
+}
 
 </style>
 
@@ -1372,6 +1389,8 @@ btnEnviar.addEventListener("click", sendWhats);
 
 <button id="btnVaciarPedido">Vaciar pedido</button>
 
+<button id="btnSeguirComprando">Seguir comprando</button>
+
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
 
 </div>
@@ -1441,6 +1460,10 @@ lista.appendChild(div);
 
 document.getElementById("panelTotal").textContent =
 total.toLocaleString("es-AR");
+const btnEnviar = document.getElementById("btnEnviarPedido");
+if(btnEnviar){
+btnEnviar.textContent = "Revisar y enviar pedido ($" + total.toLocaleString("es-AR") + ")";
+}
 
 }
 
@@ -1477,6 +1500,12 @@ if(btnVerPedido){
 btnVerPedido.onclick = function(){
 abrirPanelPedido();
 };
+}
+
+const btnSeguir = document.getElementById("btnSeguirComprando");
+
+if(btnSeguir){
+btnSeguir.onclick = cerrarPanelPedido;
 }
 
 </script>
