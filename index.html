@@ -950,10 +950,12 @@ const nameEl = card.querySelector('.card-title strong');
 const name = nameEl.textContent.trim();
 const price = getPriceFromCard(card);
 
-let qty = 1;
+const input = card.querySelector('.qty-input');
+const qty = Math.max(0, parseInt(input.value || 0));
 
-if(cart.has(name)){
-qty = cart.get(name).qty + 1;
+if(qty === 0){
+alert("Elegí cuántos sets querés pedir");
+return;
 }
 
 let detalle="";
@@ -968,9 +970,6 @@ qty,
 price,
 detalle
 });
-
-const input = card.querySelector('.qty-input');
-if(input) input.value = qty;
 
 updateBar();
 actualizarContadorPedido();
