@@ -941,6 +941,8 @@ localStorage.setItem('lph_cart', JSON.stringify([...cart]));
       if(!nameEl) return;
       const name = nameEl.textContent.trim();
       const price = getPriceFromCard(card);
+const variante = card.dataset.titeres || "";
+const key = variante ? name + " - " + variante : name;
 
       const wrap=document.createElement('div');
       wrap.className='qty-wrap';
@@ -961,11 +963,11 @@ const price = getPriceFromCard(card);
 
 let qty = 1;
 
-if(cart.has(name)){
-qty = cart.get(name).qty + 1;
+if(cart.has(key)){
+qty = cart.get(key).qty + 1;
 }
 
-cart.set(name,{qty,price});
+cart.set(key,{qty,price});
 
 const input = card.querySelector('.qty-input');
 if(input) input.value = qty;
@@ -1069,7 +1071,8 @@ if(cart.has(name)){
       input.addEventListener('change', ()=>{
         const qty=Math.max(0,parseInt(input.value||'0'));
         if(qty===0) cart.delete(name);
-        else cart.set(name,{qty,price});
+        else const titeres = card.dataset.titeres || "";
+cart.set(name,{qty,price,titeres});
         updateBar();
       });
     });
