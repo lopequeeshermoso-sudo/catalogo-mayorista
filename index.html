@@ -965,10 +965,13 @@ if(selTiteres){
 detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
 }
 
-cart.set(name + detalle,{
-qty,
-price,
-detalle
+const key = name + (detalle ? " - " + detalle : "");
+
+cart.set(key,{
+name:name,
+detalle:detalle,
+qty:qty,
+price:price
 });
 
 updateBar();
@@ -1389,7 +1392,7 @@ div.className="itemPedido";
 const sub=v.qty*v.price;
 total+=sub;
 
-const producto = PRODUCTOS.find(p => p.name === k);
+const producto = PRODUCTOS.find(p => p.name === v.name);
 const img = producto ? producto.image : "";
 
 div.innerHTML=`
@@ -1403,7 +1406,7 @@ border-radius:6px;
 ">
 
 <div style="flex:1">
-<strong>${k}</strong><br>
+<strong>${v.name}</strong><br>
 ${v.detalle ? v.detalle+"<br>" : ""}
 ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
