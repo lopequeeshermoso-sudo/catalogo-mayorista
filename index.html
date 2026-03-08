@@ -1048,9 +1048,9 @@ card.dataset.titeres = opciones[0].q;
     sel.onchange=()=>{
   card.dataset.price = sel.value;
   card.dataset.titeres = sel.options[sel.selectedIndex].text;
-      if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
-      updateSummary();
-    };
+  if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
+  updateBar();
+};
 
     card.appendChild(sel);
   }
