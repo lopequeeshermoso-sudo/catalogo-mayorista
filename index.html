@@ -1358,6 +1358,21 @@ document.querySelectorAll('.card').forEach(card=>{
 
 const grouped = {};
 
+cart.forEach((v,k)=>{
+
+  const cat = nameToCategory[k] || "Otros";
+
+  if(!grouped[cat]){
+    grouped[cat] = [];
+  }
+
+  grouped[cat].push({
+    name:k,
+    data:v
+  });
+
+});
+
 Object.keys(grouped).forEach(cat=>{
 
 const titulo=document.createElement("div");
