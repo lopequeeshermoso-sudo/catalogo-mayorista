@@ -450,6 +450,13 @@ transition:all .2s ease;
 transform:scale(1.03);
 background:#7a5637;
 }
+.subtotalProducto{
+font-size:13px;
+margin-top:6px;
+color:#6b4a2f;
+font-weight:bold;
+}
+
 
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
@@ -705,6 +712,10 @@ descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
 </div>
 
 <button class="btnAgregar">Agregar al pedido</button>
+
+<div class="subtotalProducto">
+Subtotal: $<span class="subtotalValor">0</span>
+</div>
 
 <button class="btnDescripcion">▼ Descripción</button>
 <div class="descripcionProducto">
@@ -1059,14 +1070,30 @@ if(cart.has(name)){
       });
 
       input.addEventListener('change', ()=>{
-        const qty=Math.max(0,parseInt(input.value||'0'));
-        if(qty===0) cart.delete(name);
-        else cart.set(name,{
-qty,
-price,
-detalle:""
+
+  const qty=Math.max(0,parseInt(input.value||'0'));
+
+  const subtotal = qty * price;
+
+  const subEl = card.querySelector(".subtotalValor");
+  if(subEl){
+    subEl.textContent = subtotal.toLocaleString("es-AR");
+  }
+
+  if(qty===0){
+    cart.delete(name);
+  }else{
+    cart.set(name,{
+      qty,
+      price,
+      detalle:""
+    });
+  }
+
+  updateBar();
+  actualizarContadorPedido();
+
 });
-      });
     });
   }
 
