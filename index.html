@@ -1424,7 +1424,35 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 `;
 
 lista.appendChild(div);
+const btnMas = div.querySelector(".masItem");
+const btnMenos = div.querySelector(".menosItem");
+const btnEliminar = div.querySelector(".eliminarItem");
 
+btnMas.addEventListener("click",()=>{
+  v.qty++;
+  cart.set(k,v);
+  actualizarPanelPedido();
+  updateBar();
+  actualizarContadorPedido();
+});
+
+btnMenos.addEventListener("click",()=>{
+  v.qty--;
+  if(v.qty<=0){
+    cart.delete(k);
+  }else{
+    cart.set(k,v);
+  }
+  actualizarPanelPedido();
+  updateBar();
+  actualizarContadorPedido();
+});
+
+btnEliminar.addEventListener("click",()=>{
+  cart.delete(k);
+  actualizarPanelPedido();
+  updateBar();
+  actualizarContadorPedido();
 });
 
 });
