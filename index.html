@@ -477,7 +477,7 @@ transition:max-height .35s ease, margin-top .35s ease;
 }
 
 .descripcionProducto.abierta{
-max-height:220px;
+max-height:500px;
 margin-top:8px;
 }
 
@@ -703,6 +703,8 @@ quitarAcentos(p.name.toLowerCase().trim())
 );
 
 const descripcion = row ? (row["Descripción"] || "") : "";
+const descripcionHTML = descripcion
+.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
@@ -721,7 +723,7 @@ const descripcion = row ? (row["Descripción"] || "") : "";
 
 <button class="btnDescripcion">▼ Descripción</button>
 <div class="descripcionProducto">
-${descripcion || "Descripción no disponible."}
+${descripcionHTML || "Descripción no disponible."}
 </div>
 `;
      g.appendChild(c);
