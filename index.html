@@ -2,14 +2,6 @@
 <html lang="es"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>CATALOGO MASTER LPH</title>
-<!-- Vista previa del catálogo -->
-<meta property="og:title" content="Catálogo Mayorista | Lo pequeño es Hermoso">
-<meta property="og:description" content="Juguetes didácticos, títeres, disfraces y propuestas pedagógicas para niños. Pedidos mayoristas por WhatsApp.">
-<meta property="og:image" content="https://lopequeeshermoso-sudo.github.io/catalogo-mayorista/preview_catalogo_lph.jpg">
-<meta property="og:url" content="https://lopequeeshermoso-sudo.github.io/catalogo-mayorista/">
-<meta property="og:type" content="website">
-
-<meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -471,13 +463,11 @@ line-height:1.4;
 
 margin-top:0;
 
-white-space: pre-line;
-
 transition:max-height .35s ease, margin-top .35s ease;
 }
 
 .descripcionProducto.abierta{
-max-height:500px;
+max-height:220px;
 margin-top:8px;
 }
 
@@ -569,21 +559,6 @@ gap:10px;
 .panelFooter{
 padding:12px;
 border-top:1px solid #ddd;
-}
-
-#btnSeguirComprando{
-width:100%;
-margin-top:6px;
-background:#eee;
-border:none;
-padding:10px;
-border-radius:8px;
-font-weight:bold;
-cursor:pointer;
-}
-
-#btnSeguirComprando:hover{
-background:#e0e0e0;
 }
 
 #btnEnviarPedido{
@@ -703,8 +678,6 @@ quitarAcentos(p.name.toLowerCase().trim())
 );
 
 const descripcion = row ? (row["Descripción"] || "") : "";
-const descripcionHTML = descripcion
-.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
@@ -723,7 +696,7 @@ const descripcionHTML = descripcion
 
 <button class="btnDescripcion">▼ Descripción</button>
 <div class="descripcionProducto">
-${descripcionHTML || "Descripción no disponible."}
+${descripcion || "Descripción no disponible."}
 </div>
 `;
      g.appendChild(c);
@@ -925,12 +898,7 @@ window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
     cart.forEach(v=>{count += v.qty; total += v.qty*v.price;});
     document.getElementById('cartCount').textContent = count;
     document.getElementById('cartTotal').textContent = formatARS(total);
-const btnPedido = document.getElementById("btnVerPedido");
-if(btnPedido){
-btnPedido.textContent = count>0 
-? `Revisar pedido ($${formatARS(total)})`
-: "Revisar pedido";
-}
+
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
   }
 
@@ -941,8 +909,6 @@ localStorage.setItem('lph_cart', JSON.stringify([...cart]));
       if(!nameEl) return;
       const name = nameEl.textContent.trim();
       const price = getPriceFromCard(card);
-const variante = card.dataset.titeres || "";
-const key = variante ? name + " - " + variante : name;
 
       const wrap=document.createElement('div');
       wrap.className='qty-wrap';
@@ -963,11 +929,11 @@ const price = getPriceFromCard(card);
 
 let qty = 1;
 
-if(cart.has(key)){
-qty = cart.get(key).qty + 1;
+if(cart.has(name)){
+qty = cart.get(name).qty + 1;
 }
 
-cart.set(key,{qty,price});
+cart.set(name,{qty,price});
 
 const input = card.querySelector('.qty-input');
 if(input) input.value = qty;
@@ -1031,7 +997,6 @@ labelTi.style.marginTop="6px";
 labelTi.style.color="#6b4a2f";
 card.appendChild(labelTi);const sel=document.createElement("select");
     sel.className="selector-titeres";
-card.dataset.titeres = opciones[0].q;
 
     opciones.forEach(o=>{
       const op=document.createElement("option");
@@ -1046,19 +1011,18 @@ card.dataset.titeres = opciones[0].q;
    if(priceEl) priceEl.textContent = "$"+formatARS(opciones[0].p);
 
     sel.onchange=()=>{
-  card.dataset.price = sel.value;
-  card.dataset.titeres = sel.options[sel.selectedIndex].text;
-  if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
-  updateBar();
-};
+      card.dataset.price = sel.value;
+      if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
+      updateSummary();
+    };
 
     card.appendChild(sel);
   }
 }
 
       const input = wrap.querySelector('.qty-input');
-if(cart.has(key)){
-  input.value = cart.get(key).qty;
+if(cart.has(name)){
+  input.value = cart.get(name).qty;
 }
       wrap.addEventListener('click',(e)=>{
         const act=e.target?.dataset?.act;
@@ -1069,26 +1033,12 @@ if(cart.has(key)){
       });
 
       input.addEventListener('change', ()=>{
-
-  const qty = Math.max(0, parseInt(input.value || '0'));
-
-  if(qty === 0){
-    cart.delete(key);
-  }else{
-
-    const titeres = card.dataset.titeres || "";
-
-    cart.set(key,{
-      qty,
-      price,
-      titeres
+        const qty=Math.max(0,parseInt(input.value||'0'));
+        if(qty===0) cart.delete(name);
+        else cart.set(name,{qty,price});
+        updateBar();
+      });
     });
-
-  }
-
-  updateBar();
-
-});
   }
 
   function sendWhats(){
@@ -1105,9 +1055,7 @@ if(cart.has(key)){
     });
 
     const grouped={};
-    [...cart.entries()]
-.sort((a,b)=>a[0].localeCompare(b[0],'es'))
-.forEach(([k,v])=>{
+    cart.forEach((v,k)=>{
       const cat=nameToCategory[k]||'Otros';
       if(!grouped[cat]) grouped[cat]=[];
       grouped[cat].push({name:k, qty:v.qty, price:v.price, sub:v.qty*v.price});
@@ -1129,7 +1077,7 @@ if(cart.has(key)){
       msg += `${iconFor(cat)} ${cat}%0A`;
       grouped[cat].forEach(it=>{
         total += it.sub;
-        msg += `• ${it.name}${it.titeres ? " ("+it.titeres+")" : ""}%0A`;
+        msg += `• ${it.name}%0A`;
         msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
       });
       msg += `%0A`;
@@ -1188,6 +1136,29 @@ sec.scrollIntoView({behavior:"smooth"});
 </script>
 
 <script>
+(function(){
+  function updatePedidoButtonCount(){
+    const btn = document.getElementById('btnPedidoFlotante');
+    const countEl = document.getElementById('cartCount');
+    if(!btn || !countEl) return;
+
+    const n = parseInt(countEl.textContent || '0', 10) || 0;
+
+    btn.innerHTML = n > 0 ? `🧾 Pedido (${n})` : '🧾 IR AL PEDIDO';
+  }
+
+  const target = document.getElementById('cartCount');
+  if(target){
+    const obs = new MutationObserver(updatePedidoButtonCount);
+    obs.observe(target, {childList:true, characterData:true, subtree:true});
+  }
+
+  document.addEventListener('DOMContentLoaded', updatePedidoButtonCount);
+  window.addEventListener('load', updatePedidoButtonCount);
+
+  // fallback periodic sync
+  setInterval(updatePedidoButtonCount, 500);
+})();
 
 function volverArriba(){
   window.scrollTo({
@@ -1315,8 +1286,6 @@ btnEnviar.addEventListener("click", sendWhats);
 
 <button id="btnVaciarPedido">Vaciar pedido</button>
 
-<button id="btnSeguirComprando">Seguir comprando</button>
-
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
 
 </div>
@@ -1334,10 +1303,7 @@ document.getElementById("panelPedido").classList.remove("abierto");
 }
 
 document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
-const btnSeguir = document.getElementById("btnSeguirComprando");
-if(btnSeguir){
-btnSeguir.onclick = cerrarPanelPedido;
-}
+
 
 function actualizarPanelPedido(){
 
@@ -1449,5 +1415,15 @@ contador.textContent = 0;
 
 };
 </script>
-</body>
-</html>
+<script>
+
+const btnVerPedido = document.getElementById("btnVerPedido");
+
+if(btnVerPedido){
+btnVerPedido.onclick = function(){
+abrirPanelPedido();
+};
+}
+
+</script>
+</body></html>
