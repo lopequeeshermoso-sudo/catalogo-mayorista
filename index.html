@@ -1122,6 +1122,10 @@ window.sendWhats = sendWhats;
   const mo = new MutationObserver(()=>ensureQtyControls());
   mo.observe(document.body,{childList:true,subtree:true});
   document.addEventListener('DOMContentLoaded', ()=>{ensureQtyControls(); updateBar();});
+const btn = document.getElementById('btnWhats');
+if(btn){
+btn.addEventListener('click', sendWhats);
+}
 })();
 </script>
 
