@@ -454,8 +454,10 @@ background:#7a5637;
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
 .descripcionProducto{
-max-height:0;
+max-height:500px;
 overflow:hidden;
+white-space:pre-line;
+}
 
 font-size:13px;
 color:#444;
@@ -677,7 +679,10 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 quitarAcentos(p.name.toLowerCase().trim())
 );
 
-const descripcion = row ? (row["Descripción"] || "") : "";
+let descripcion = row ? (row["Descripción"] || "") : "";
+
+/* convertir **texto** en negrita */
+descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
@@ -933,7 +938,11 @@ if(cart.has(name)){
 qty = cart.get(name).qty + 1;
 }
 
-cart.set(name,{qty,price});
+cart.set(name,{
+qty,
+price,
+detalle:""
+});
 
 const input = card.querySelector('.qty-input');
 if(input) input.value = qty;
@@ -949,7 +958,10 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 ===
 quitarAcentos(nombre.toLowerCase().trim())
 );
-const descripcion = row ? (row["Descripción"] || "") : "";
+let descripcion = row ? (row["Descripción"] || "") : "";
+
+/* convertir **texto** en negrita */
+descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
 if(row){// ===== selector de talle =====
 if(row["Talle"]){
 
@@ -1035,8 +1047,11 @@ if(cart.has(name)){
       input.addEventListener('change', ()=>{
         const qty=Math.max(0,parseInt(input.value||'0'));
         if(qty===0) cart.delete(name);
-        else cart.set(name,{qty,price});
-        updateBar();
+        else cart.set(name,{
+qty,
+price,
+detalle:""
+});
       });
     });
   }
@@ -1058,7 +1073,13 @@ if(cart.has(name)){
     cart.forEach((v,k)=>{
       const cat=nameToCategory[k]||'Otros';
       if(!grouped[cat]) grouped[cat]=[];
-      grouped[cat].push({name:k, qty:v.qty, price:v.price, sub:v.qty*v.price});
+      grouped[cat].push({
+name:k,
+detalle:v.detalle || "",
+qty:v.qty,
+price:v.price,
+sub:v.qty*v.price
+});
     });
 
     const iconFor=(cat)=>{
@@ -1077,7 +1098,9 @@ if(cart.has(name)){
       msg += `${iconFor(cat)} ${cat}%0A`;
       grouped[cat].forEach(it=>{
         total += it.sub;
-        msg += `• ${it.name}%0A`;
+        msg += `• ${it.name}`;
+if(it.detalle){ msg += ` (${it.detalle})`; }
+msg += `%0A`;
         msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
       });
       msg += `%0A`;
