@@ -454,10 +454,8 @@ background:#7a5637;
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
 .descripcionProducto{
-max-height:500px;
+max-height:0;
 overflow:hidden;
-white-space:pre-line;
-}
 
 font-size:13px;
 color:#444;
@@ -679,10 +677,7 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 quitarAcentos(p.name.toLowerCase().trim())
 );
 
-let descripcion = row ? (row["Descripción"] || "") : "";
-
-/* convertir **texto** en negrita */
-descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
+const descripcion = row ? (row["Descripción"] || "") : "";
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
@@ -938,11 +933,7 @@ if(cart.has(name)){
 qty = cart.get(name).qty + 1;
 }
 
-cart.set(name,{
-qty,
-price,
-detalle: opcionTexto || ""
-});
+cart.set(name,{qty,price});
 
 const input = card.querySelector('.qty-input');
 if(input) input.value = qty;
@@ -1044,11 +1035,8 @@ if(cart.has(name)){
       input.addEventListener('change', ()=>{
         const qty=Math.max(0,parseInt(input.value||'0'));
         if(qty===0) cart.delete(name);
-        else cart.set(name,{
-qty,
-price,
-detalle: opcionTexto || ""
-});
+        else cart.set(name,{qty,price});
+        updateBar();
       });
     });
   }
