@@ -1372,7 +1372,6 @@ cart.forEach((v,k)=>{
   });
 
 });
-
 Object.keys(grouped).forEach(cat=>{
 
 const titulo=document.createElement("div");
@@ -1413,17 +1412,16 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 
 <div style="display:flex;gap:4px">
-
 <button class="menosItem">−</button>
 <button class="masItem">+</button>
 <button class="eliminarItem">🗑</button>
-
 </div>
 
 </div>
 `;
 
 lista.appendChild(div);
+
 const btnMas = div.querySelector(".masItem");
 const btnMenos = div.querySelector(".menosItem");
 const btnEliminar = div.querySelector(".eliminarItem");
@@ -1457,9 +1455,13 @@ btnEliminar.addEventListener("click",()=>{
 
 });
 
+});  // ← ESTA LLAVE FALTABA
+
 document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
 
-}document.getElementById("btnVerPedido").addEventListener("click",function(e){
+}
+
+document.getElementById("btnVerPedido").addEventListener("click",function(e){
 e.preventDefault();
 abrirPanelPedido();
 });
