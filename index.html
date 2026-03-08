@@ -1029,6 +1029,7 @@ labelTi.style.marginTop="6px";
 labelTi.style.color="#6b4a2f";
 card.appendChild(labelTi);const sel=document.createElement("select");
     sel.className="selector-titeres";
+card.dataset.titeres = opciones[0].q;
 
     opciones.forEach(o=>{
       const op=document.createElement("option");
@@ -1043,7 +1044,8 @@ card.appendChild(labelTi);const sel=document.createElement("select");
    if(priceEl) priceEl.textContent = "$"+formatARS(opciones[0].p);
 
     sel.onchange=()=>{
-      card.dataset.price = sel.value;
+  card.dataset.price = sel.value;
+  card.dataset.titeres = sel.options[sel.selectedIndex].text;
       if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
       updateSummary();
     };
@@ -1111,7 +1113,7 @@ if(cart.has(name)){
       msg += `${iconFor(cat)} ${cat}%0A`;
       grouped[cat].forEach(it=>{
         total += it.sub;
-        msg += `• ${it.name}%0A`;
+        msg += `• ${it.name}${it.titeres ? " ("+it.titeres+")" : ""}%0A`;
         msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
       });
       msg += `%0A`;
