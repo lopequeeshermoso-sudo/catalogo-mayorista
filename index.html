@@ -945,10 +945,17 @@ if(cart.has(name)){
 qty = cart.get(name).qty + 1;
 }
 
-cart.set(name,{
+let detalle="";
+
+const selTiteres = card.querySelector(".selector-titeres");
+if(selTiteres){
+detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
+}
+
+cart.set(name + detalle,{
 qty,
 price,
-detalle:""
+detalle
 });
 
 const input = card.querySelector('.qty-input');
@@ -1103,13 +1110,17 @@ sub:v.qty*v.price
 
     Object.keys(grouped).sort((a,b)=>a.localeCompare(b,'es')).forEach(cat=>{
       msg += `${iconFor(cat)} ${cat}%0A`;
+
       grouped[cat].forEach(it=>{
         total += it.sub;
+
         msg += `• ${it.name}`;
 if(it.detalle){ msg += ` (${it.detalle})`; }
 msg += `%0A`;
+
         msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
       });
+
       msg += `%0A`;
     });
 
@@ -1408,7 +1419,8 @@ border-radius:6px;
 
 <div style="flex:1">
 <strong>${k}</strong><br>
-${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
+${v.detalle ? v.detalle + "<br>" : ""}
+${v.qty} x $${v.price.toLocaleString("es-AR")}
 </div>
 
 <div style="display:flex;gap:4px">
