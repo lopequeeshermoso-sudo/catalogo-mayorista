@@ -1032,7 +1032,7 @@ card.appendChild(labelTi);const sel=document.createElement("select");
     sel.onchange=()=>{
       card.dataset.price = sel.value;
       if(priceEl) priceEl.textContent = "$"+formatARS(sel.value);
-      updateSummary();
+      
     };
 
     card.appendChild(sel);
