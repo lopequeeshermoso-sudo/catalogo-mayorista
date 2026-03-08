@@ -1374,7 +1374,6 @@ document.getElementById("panelPedido").classList.remove("abierto");
 
 document.getElementById("cerrarPanel").onclick=cerrarPanelPedido;
 
-
 function actualizarPanelPedido(){
 
 const lista=document.getElementById("listaPedido");
@@ -1422,15 +1421,13 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 
 lista.appendChild(div);
 
+});
 
-document.getElementById("panelTotal").textContent=total.toLocaleString("es-AR");
+document.getElementById("panelTotal").textContent =
+total.toLocaleString("es-AR");
 
 }
 
-document.getElementById("btnVerPedido").addEventListener("click",function(e){
-e.preventDefault();
-abrirPanelPedido();
-});
 
 document.getElementById("btnVaciarPedido").onclick = function(){
 
