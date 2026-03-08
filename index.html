@@ -1086,9 +1086,10 @@ if(cart.has(name)){
     cart.delete(name);
   }else{
     cart.set(name,{
-      qty,
-      price,
-      detalle:""
+      name:name,
+      detalle:"",
+      qty:qty,
+      price:price
     });
   }
 
