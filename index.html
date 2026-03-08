@@ -1073,9 +1073,12 @@ if(cart.has(name)){
 
       input.addEventListener('change', ()=>{
 
-  const qty=Math.max(0,parseInt(input.value||'0'));
+  const qty = Math.max(0, parseInt(input.value || '0'));
 
-  const subtotal = qty * price;
+  // recalcular precio actual
+  const priceActual = getPriceFromCard(card);
+
+  const subtotal = qty * priceActual;
 
   const subEl = card.querySelector(".subtotalValor");
   if(subEl){
@@ -1089,7 +1092,7 @@ if(cart.has(name)){
       name:name,
       detalle:"",
       qty:qty,
-      price:price
+      price:priceActual
     });
   }
 
