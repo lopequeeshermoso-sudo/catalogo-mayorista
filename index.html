@@ -1085,16 +1085,25 @@ if(cart.has(name)){
     subEl.textContent = subtotal.toLocaleString("es-AR");
   }
 
-  if(qty===0){
-    cart.delete(name);
-  }else{
-    cart.set(name,{
-      name:name,
-      detalle:"",
-      qty:qty,
-      price:priceActual
-    });
-  }
+let detalle="";
+
+const selTiteres = card.querySelector(".selector-titeres");
+if(selTiteres){
+detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
+}
+
+const key = name + (detalle ? " - " + detalle : "");
+
+if(qty===0){
+  cart.delete(key);
+}else{
+  cart.set(key,{
+    name:name,
+    detalle:detalle,
+    qty:qty,
+    price:priceActual
+  });
+}  
 
   updateBar();
   actualizarContadorPedido();
