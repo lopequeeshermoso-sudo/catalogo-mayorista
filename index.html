@@ -1057,8 +1057,8 @@ card.dataset.titeres = opciones[0].q;
 }
 
       const input = wrap.querySelector('.qty-input');
-if(cart.has(name)){
-  input.value = cart.get(name).qty;
+if(cart.has(key)){
+  input.value = cart.get(key).qty;
 }
       wrap.addEventListener('click',(e)=>{
         const act=e.target?.dataset?.act;
@@ -1069,13 +1069,26 @@ if(cart.has(name)){
       });
 
       input.addEventListener('change', ()=>{
-        const qty=Math.max(0,parseInt(input.value||'0'));
-        if(qty===0) cart.delete(name);
-        else const titeres = card.dataset.titeres || "";
-cart.set(name,{qty,price,titeres});
-        updateBar();
-      });
+
+  const qty = Math.max(0, parseInt(input.value || '0'));
+
+  if(qty === 0){
+    cart.delete(key);
+  }else{
+
+    const titeres = card.dataset.titeres || "";
+
+    cart.set(key,{
+      qty,
+      price,
+      titeres
     });
+
+  }
+
+  updateBar();
+
+});
   }
 
   function sendWhats(){
