@@ -454,8 +454,10 @@ background:#7a5637;
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
 .descripcionProducto{
-max-height:500px;
+
+max-height:0;
 overflow:hidden;
+
 white-space:pre-line;
 
 font-size:13px;
@@ -463,13 +465,19 @@ color:#444;
 line-height:1.4;
 
 margin-top:0;
+padding:0;
+
+display:block;
 
 transition:max-height .35s ease, margin-top .35s ease;
+
 }
 
 .descripcionProducto.abierta{
-max-height:220px;
+
+max-height:500px;
 margin-top:8px;
+
 }
 
 .btnDescripcion{
