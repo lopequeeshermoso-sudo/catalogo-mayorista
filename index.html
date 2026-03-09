@@ -1606,6 +1606,12 @@ if(contador){
 contador.textContent = 0;
 }
 
+/* reiniciar subtotal del botón Revisar pedido */
+
+const btn = document.getElementById("btnVerPedido");
+if(btn){
+btn.textContent = "Revisar pedido ($0)";
+}
 };
 </script>
 <script>
