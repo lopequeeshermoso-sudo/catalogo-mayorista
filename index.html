@@ -1592,24 +1592,35 @@ btnEnviar.textContent = "Revisar y enviar pedido ($" + total.toLocaleString("es-
 
 }
 
-
 document.getElementById("btnVaciarPedido").onclick = function(){
 
 if(!confirm("¿Vaciar todo el pedido?")) return;
 
+/* vaciar carrito */
 cart.clear();
+
+/* guardar carrito vacío */
 localStorage.setItem('lph_cart', JSON.stringify([]));
 
-/* reiniciar cantidades en el catálogo */
+/* reiniciar cantidades en catálogo */
 document.querySelectorAll(".qty-input").forEach(input=>{
 input.value = 0;
 });
 
+/* actualizar panel */
 actualizarPanelPedido();
-updateBar();
-actualizarContadorPedido()
 
-/* asegurar que el botón Revisar pedido quede en cero */
+/* reiniciar barra inferior */
+document.getElementById("cartCount").textContent = 0;
+document.getElementById("cartTotal").textContent = 0;
+
+/* actualizar barra */
+updateBar();
+
+/* contador interno */
+actualizarContadorPedido();
+
+/* asegurar botón revisar pedido */
 
 const btnVer = document.getElementById("btnVerPedido");
 
@@ -1617,13 +1628,16 @@ if(btnVer){
 btnVer.textContent = "🧾 Revisar pedido — 0 productos / 0 unidades ($0)";
 }
 
-/* actualizar botón flotante */
+/* contador flotante */
+
 const contador = document.getElementById("contadorPedido");
+
 if(contador){
 contador.textContent = 0;
 }
 
 };
+
 </script>
 <script>
 
