@@ -624,12 +624,28 @@ cursor:pointer;
 <option value="">Categorías</option>
 </select>
 
+<div style="position:relative;display:inline-block;">
+
 <input 
 type="text"
 id="buscarProducto"
 class="buscadorInput"
 placeholder="Buscar producto..."
 onkeyup="filtrarProductosDebounce()">
+
+<span id="limpiarBusqueda" style="
+position:absolute;
+right:12px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+font-weight:bold;
+color:#999;
+font-size:16px;
+display:none;
+">✕</span>
+
+</div>
 
 </div>
 <header class="catalog-header">
@@ -1292,10 +1308,18 @@ function quitarAcentos(texto){
 function filtrarProductos(){
 
 const input = quitarAcentos(
-document.getElementById("buscarProducto").value.toLowerCase()
+document.getElementById("buscarProducto").value.toLowerCase().trim()
 );
 
 const productos = document.querySelectorAll(".card");
+
+/* si el buscador está vacío mostrar todo */
+if(input === ""){
+productos.forEach(card=>{
+card.style.display="";
+});
+return;
+}
 
 productos.forEach(card=>{
 
@@ -1314,9 +1338,9 @@ const descripcion = quitarAcentos(
 const textoTotal = nombre + " " + categoria + " " + descripcion;
 
 if(textoTotal.includes(input)){
-card.style.display = "";
+card.style.display="";
 }else{
-card.style.display = "none";
+card.style.display="none";
 }
 
 });
@@ -1327,6 +1351,38 @@ let buscarTimeout;
 function filtrarProductosDebounce(){
   clearTimeout(buscarTimeout);
   buscarTimeout = setTimeout(filtrarProductos, 180);
+}
+function filtrarProductosDebounce(){
+  clearTimeout(buscarTimeout);
+  buscarTimeout = setTimeout(filtrarProductos, 180);
+}
+
+/* BOTON LIMPIAR BUSQUEDA */
+
+const buscador = document.getElementById("buscarProducto");
+const limpiar = document.getElementById("limpiarBusqueda");
+
+if(buscador && limpiar){
+
+buscador.addEventListener("input",function(){
+
+if(this.value.length>0){
+limpiar.style.display="block";
+}else{
+limpiar.style.display="none";
+}
+
+});
+
+limpiar.addEventListener("click",function(){
+
+buscador.value="";
+limpiar.style.display="none";
+
+filtrarProductos();
+
+});
+
 }
 </script>
 <div id="visorImagen" style="
