@@ -675,11 +675,22 @@ let PRECIOS = [];
 fetch('precios.json').then(r=>r.json()).then(j=>{PRECIOS=j; render();}).catch(()=>render());
 
 function precio(p){
-  const r = PRECIOS.find(x=>x.name===p.name);
-  if(!r) return Number(p.price||0);
-  return Number(r.precio_mayorista||p.price||0);
+
+const r = PRECIOS.find(x =>
+(x["Nombre del producto"]||"").trim() === p.name.trim()
+);
+
+if(!r) return Number(p.price||0);
+
+/* prioridad 1: precio mayorista */
+if(r["Precio mayorista"] && Number(r["Precio mayorista"])>0){
+return Number(r["Precio mayorista"]);
 }
 
+/* prioridad 2: precio original */
+return Number(p.price||0);
+
+}
 function render(){
  const g=document.getElementById('grid');
  g.innerHTML='';
