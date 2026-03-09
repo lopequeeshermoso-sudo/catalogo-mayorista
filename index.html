@@ -947,15 +947,16 @@ document.getElementById('cartTotal').textContent = formatARS(total);
 
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
 
-/* actualizar botón verde del panel */
-const btnEnviar = document.getElementById("btnEnviarPedido");
+/* actualizar botón visible Revisar pedido */
 
-if(btnEnviar){
-btnEnviar.textContent =
-"Revisar y enviar pedido ($" + total.toLocaleString("es-AR") + ")";
+const btn = document.getElementById("btnVerPedido");
+
+if(btn){
+btn.textContent = "Revisar pedido ($" + total.toLocaleString("es-AR") + ")";
 }
 
 }
+
 
   function ensureQtyControls(){
     document.querySelectorAll('.card').forEach(card=>{
