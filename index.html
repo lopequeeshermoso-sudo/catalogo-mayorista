@@ -1290,21 +1290,37 @@ function quitarAcentos(texto){
   return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 function filtrarProductos(){
-  const input = quitarAcentos(
-    document.getElementById("buscarProducto").value.toLowerCase()
-  );
 
-  const productos = document.querySelectorAll(".card");
+const input = quitarAcentos(
+document.getElementById("buscarProducto").value.toLowerCase()
+);
 
-  productos.forEach(card=>{
-    const nombre = quitarAcentos(card.textContent.toLowerCase());
+const productos = document.querySelectorAll(".card");
 
-    if(nombre.includes(input)){
-      card.style.display = "block";
-    }else{
-      card.style.display = "none";
-    }
-  });
+productos.forEach(card=>{
+
+const nombre = quitarAcentos(
+(card.querySelector(".card-title")?.textContent || "").toLowerCase()
+);
+
+const categoria = quitarAcentos(
+(card.querySelector("small")?.textContent || "").toLowerCase()
+);
+
+const descripcion = quitarAcentos(
+(card.querySelector(".descripcionProducto")?.textContent || "").toLowerCase()
+);
+
+const textoTotal = nombre + " " + categoria + " " + descripcion;
+
+if(textoTotal.includes(input)){
+card.style.display = "";
+}else{
+card.style.display = "none";
+}
+
+});
+
 }
 let buscarTimeout;
 
