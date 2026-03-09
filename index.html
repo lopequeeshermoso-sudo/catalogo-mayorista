@@ -1456,6 +1456,34 @@ ${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 
 lista.appendChild(div);
 
+const btnMenos = div.querySelector(".menosItem");
+const btnMas = div.querySelector(".masItem");
+const btnEliminar = div.querySelector(".eliminarItem");
+
+btnMenos.addEventListener("click",()=>{
+  v.qty--;
+  if(v.qty <= 0){
+    cart.delete(k);
+  }else{
+    cart.set(k,v);
+  }
+  actualizarPanelPedido();
+  updateBar();
+});
+
+btnMas.addEventListener("click",()=>{
+  v.qty++;
+  cart.set(k,v);
+  actualizarPanelPedido();
+  updateBar();
+});
+
+btnEliminar.addEventListener("click",()=>{
+  cart.delete(k);
+  actualizarPanelPedido();
+  updateBar();
+});
+
 });
 
 document.getElementById("panelTotal").textContent =
