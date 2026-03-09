@@ -951,14 +951,16 @@ window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 
   function updateBar(){
 
-let count=0,total=0;
+let unidades = 0;
+let total = 0;
+let productos = cart.size;
 
 cart.forEach(v=>{
-count += v.qty;
-total += v.qty*v.price;
+unidades += v.qty;
+total += v.qty * v.price;
 });
 
-document.getElementById('cartCount').textContent = count;
+document.getElementById('cartCount').textContent = unidades;
 document.getElementById('cartTotal').textContent = formatARS(total);
 
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
@@ -970,8 +972,10 @@ const btn = document.getElementById("btnVerPedido");
 if(btn){
 btn.textContent =
 "🧾 Revisar pedido — " +
-count +
-" productos ($" +
+productos +
+" productos / " +
+unidades +
+" unidades ($" +
 total.toLocaleString("es-AR") +
 ")";
 }
