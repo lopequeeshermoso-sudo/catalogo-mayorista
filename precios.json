@@ -1,7 +1,7 @@
 [
   {
     "Nombre del producto": "Muñeca Piccolina doctora",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -20,7 +20,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Jardinera",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -39,7 +39,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Coqueta",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -58,7 +58,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Deportiva",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -77,7 +77,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Romántica",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -96,7 +96,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Folk",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -115,7 +115,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Bella",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -134,7 +134,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Cenicienta",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -153,7 +153,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Blancanieves",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -172,7 +172,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Aurora",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -191,7 +191,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Rapunsel",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -210,7 +210,7 @@
   },
   {
     "Nombre del producto": "Muñeca Piccolina Sofía",
-    "Precio Mayorista": 24350.0,
+    "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -229,7 +229,7 @@
   },
   {
     "Nombre del producto": "Traje de doctora para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -248,7 +248,7 @@
   },
   {
     "Nombre del producto": "Traje de jardinera para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -267,7 +267,7 @@
   },
   {
     "Nombre del producto": "Vestido coqueta para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -286,7 +286,7 @@
   },
   {
     "Nombre del producto": "Traje deportivo para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -305,7 +305,7 @@
   },
   {
     "Nombre del producto": "Vestido romántico para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -324,7 +324,7 @@
   },
   {
     "Nombre del producto": "Vestido campesino para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -343,7 +343,7 @@
   },
   {
     "Nombre del producto": "Vestido de Bella para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -362,7 +362,7 @@
   },
   {
     "Nombre del producto": "Vestido de Cenicienta para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -381,7 +381,7 @@
   },
   {
     "Nombre del producto": "Vestido de Blancanieves para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -400,7 +400,7 @@
   },
   {
     "Nombre del producto": "Vestido de Aurora para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -419,7 +419,7 @@
   },
   {
     "Nombre del producto": "Vestido de Rapunzel para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -438,7 +438,7 @@
   },
   {
     "Nombre del producto": "Vestido de Princesa Sofía para muñecas",
-    "Precio Mayorista": 8300.0,
+    "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -457,7 +457,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Ponis",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -476,7 +476,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Sirenitas",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -495,7 +495,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Dinosaurios",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -514,7 +514,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Piratas",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -533,7 +533,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Superhéroes",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -552,7 +552,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Maestra",
-    "Precio Mayorista": 28600.0,
+    "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -571,7 +571,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Maestro",
-    "Precio Mayorista": 28600.0,
+    "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -590,7 +590,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Chef nena",
-    "Precio Mayorista": 21000.0,
+    "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -609,7 +609,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Chef varón",
-    "Precio Mayorista": 21000.0,
+    "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -628,7 +628,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Jardineros",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -647,7 +647,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Veterinarios",
-    "Precio Mayorista": 26400.0,
+    "Precio mayorista": 26400.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -666,7 +666,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Spa",
-    "Precio Mayorista": 29800.0,
+    "Precio mayorista": 29800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -685,7 +685,7 @@
   },
   {
     "Nombre del producto": "Valija de Tarde de Mate",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -704,7 +704,7 @@
   },
   {
     "Nombre del producto": "Valija de Tardes de Té",
-    "Precio Mayorista": 25000.0,
+    "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -723,7 +723,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Exploradores",
-    "Precio Mayorista": 24800.0,
+    "Precio mayorista": 24800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -742,7 +742,7 @@
   },
   {
     "Nombre del producto": "Valija de Mini Doctor",
-    "Precio Mayorista": 37500.0,
+    "Precio mayorista": 37500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -761,7 +761,7 @@
   },
   {
     "Nombre del producto": "Bolsito Explorador Jirafas",
-    "Precio Mayorista": 11500.0,
+    "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -780,7 +780,7 @@
   },
   {
     "Nombre del producto": "Bolsito Explorador África",
-    "Precio Mayorista": 11500.0,
+    "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -799,7 +799,7 @@
   },
   {
     "Nombre del producto": "Bolsito Chef varón",
-    "Precio Mayorista": 11500.0,
+    "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -818,7 +818,7 @@
   },
   {
     "Nombre del producto": "Bolsito Chef nena",
-    "Precio Mayorista": 11500.0,
+    "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -837,7 +837,7 @@
   },
   {
     "Nombre del producto": "Bolsito Belleza",
-    "Precio Mayorista": 11500.0,
+    "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -856,7 +856,7 @@
   },
   {
     "Nombre del producto": "Set de esqueleto y órganos del cuerpo humano para Docentes y Educadores",
-    "Precio Mayorista": 16500.0,
+    "Precio mayorista": 16500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -875,7 +875,7 @@
   },
   {
     "Nombre del producto": "Rayuela de tela para aprender los números jugando",
-    "Precio Mayorista": 24500.0,
+    "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -894,7 +894,7 @@
   },
   {
     "Nombre del producto": "Libro para bebé \"Cosquillitas\"",
-    "Precio Mayorista": 8400.0,
+    "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -913,7 +913,7 @@
   },
   {
     "Nombre del producto": "Libro para bebé \"Mariposas\"",
-    "Precio Mayorista": 8400.0,
+    "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -932,7 +932,7 @@
   },
   {
     "Nombre del producto": "Libro para bebé \"Coral\"",
-    "Precio Mayorista": 8400.0,
+    "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -951,7 +951,7 @@
   },
   {
     "Nombre del producto": "Manta para bebé \"La Ciudad\"",
-    "Precio Mayorista": 15600.0,
+    "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -970,7 +970,7 @@
   },
   {
     "Nombre del producto": "Manta para bebé \"Animalitos de la Selva\"",
-    "Precio Mayorista": 15600.0,
+    "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -989,7 +989,7 @@
   },
   {
     "Nombre del producto": "Mantitas parabebé \"Mininos\"",
-    "Precio Mayorista": 15600.0,
+    "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1008,7 +1008,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Monstruos",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1027,7 +1027,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Dinosaurios",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1046,7 +1046,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Haditas",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1065,7 +1065,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Animalitos",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1084,7 +1084,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Selva",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1103,7 +1103,7 @@
   },
   {
     "Nombre del producto": "Globo Pelota Gatitos",
-    "Precio Mayorista": 6800.0,
+    "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1122,7 +1122,7 @@
   },
   {
     "Nombre del producto": "Pelota de Trapo  Dinosaurios",
-    "Precio Mayorista": 15950.0,
+    "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1141,7 +1141,7 @@
   },
   {
     "Nombre del producto": "Pelota de Trapo  Animalitos",
-    "Precio Mayorista": 15950.0,
+    "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1160,7 +1160,7 @@
   },
   {
     "Nombre del producto": "Pelota de Trapo Selva",
-    "Precio Mayorista": 15950.0,
+    "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1179,7 +1179,7 @@
   },
   {
     "Nombre del producto": "Pelota de Trapo Gatitos",
-    "Precio Mayorista": 15950.0,
+    "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1198,7 +1198,7 @@
   },
   {
     "Nombre del producto": "Pulpitos Reversibles con dos emociones (alegre/ enojado)",
-    "Precio Mayorista": 7500.0,
+    "Precio mayorista": 7500.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1217,7 +1217,7 @@
   },
   {
     "Nombre del producto": "Cesto organizador de juguetes",
-    "Precio Mayorista": 22900.0,
+    "Precio mayorista": 22900.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1236,7 +1236,7 @@
   },
   {
     "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (seis)",
-    "Precio Mayorista": 19950.0,
+    "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1255,7 +1255,7 @@
   },
   {
     "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (ocho)",
-    "Precio Mayorista": 25400.0,
+    "Precio mayorista": 25400.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1274,7 +1274,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Selva Africana con Títeres de dedo de la Selva Africana (cinco)",
-    "Precio Mayorista": 18200.0,
+    "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1293,7 +1293,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Selva Africana con Títeres de dedo de la Selva Africana (ocho)",
-    "Precio Mayorista": 25300.0,
+    "Precio mayorista": 25300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1312,7 +1312,7 @@
   },
   {
     "Nombre del producto": "Miniteatro de Selva Misionera Argentina con Títeres de dedo de la Selva Misionera Argentina (cinco)",
-    "Precio Mayorista": 18200.0,
+    "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1331,7 +1331,7 @@
   },
   {
     "Nombre del producto": "Mini teatro de los Esteros del iberá con Títeres de dedo de animalitos de Los Esteros del Iberá (seis)",
-    "Precio Mayorista": 19950.0,
+    "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1350,7 +1350,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Cuento de Hadas (cuatro)",
-    "Precio Mayorista": 18800.0,
+    "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1369,7 +1369,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Cuento (cuatro)",
-    "Precio Mayorista": 18800.0,
+    "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1388,7 +1388,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Heroínas de Cuento (siete)",
-    "Precio Mayorista": 26100.0,
+    "Precio mayorista": 26100.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1407,7 +1407,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Fondo del Mar con Títeres de dedo de La Sirenita (cinco)",
-    "Precio Mayorista": 19980.0,
+    "Precio mayorista": 19980.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1426,7 +1426,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Circo con  Títeres de dedo de Artistas (cuatro)",
-    "Precio Mayorista": 18800.0,
+    "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1445,7 +1445,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Barco Pirata con Títeres de dedo de Piratas (cuatro)",
-    "Precio Mayorista": 16300.0,
+    "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1464,7 +1464,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del cuento Los Tres Chanchitos y el Lobo (cuatro)",
-    "Precio Mayorista": 16300.0,
+    "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1483,7 +1483,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento de Caperucita Roja (cuatro)",
-    "Precio Mayorista": 16300.0,
+    "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1502,7 +1502,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento Blancanieves y los Siete Enanitos (nueve)",
-    "Precio Mayorista": 18800.0,
+    "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1521,7 +1521,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de Superhéroes (cuatro)",
-    "Precio Mayorista": 18800.0,
+    "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1540,7 +1540,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de La Familia (cuatro)",
-    "Precio Mayorista": 16300.0,
+    "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1559,7 +1559,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de La Familia (siete)",
-    "Precio Mayorista": 21300.0,
+    "Precio mayorista": 21300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1578,7 +1578,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de  Animalitos Domésticos",
-    "Precio Mayorista": 19950.0,
+    "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1597,7 +1597,7 @@
   },
   {
     "Nombre del producto": "Mini teatro Prehistoria con Títeres de dedo de Dinosaurios y Cavernícolas",
-    "Precio Mayorista": 19980.0,
+    "Precio mayorista": 19980.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -1616,7 +1616,7 @@
   },
   {
     "Nombre del producto": "Tutú de bailarina",
-    "Precio Mayorista": 19500.0,
+    "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1635,7 +1635,7 @@
   },
   {
     "Nombre del producto": "Tutú de Bailarina Unicornio",
-    "Precio Mayorista": 23200.0,
+    "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1654,7 +1654,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Mujer Maravilla",
-    "Precio Mayorista": 19850.0,
+    "Precio mayorista": 19850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
     "Precio x1": "",
@@ -1673,7 +1673,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Rapunzel Encantada",
-    "Precio Mayorista": 33300.0,
+    "Precio mayorista": 33300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1692,7 +1692,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Princesa Aurora,  La Bella Durmiente",
-    "Precio Mayorista": 23970.0,
+    "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1711,7 +1711,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Cenicienta",
-    "Precio Mayorista": 23970.0,
+    "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1730,7 +1730,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Bella",
-    "Precio Mayorista": 23970.0,
+    "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1749,7 +1749,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Blancanieves",
-    "Precio Mayorista": 24850.0,
+    "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1768,7 +1768,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Elsa (Frozen)",
-    "Precio Mayorista": 24850.0,
+    "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1787,7 +1787,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Anna (Frozen)",
-    "Precio Mayorista": 24850.0,
+    "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1806,7 +1806,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Unicornio Mágico",
-    "Precio Mayorista": 27400.0,
+    "Precio mayorista": 27400.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1825,7 +1825,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Sirenita",
-    "Precio Mayorista": 22500.0,
+    "Precio mayorista": 22500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
     "Precio x1": "",
@@ -1844,7 +1844,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Moana",
-    "Precio Mayorista": 24500.0,
+    "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
     "Precio x1": "",
@@ -1863,7 +1863,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Mira K-Pop Demon Hunters",
-    "Precio Mayorista": 38500.0,
+    "Precio mayorista": 38500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
     "Precio x1": "",
@@ -1882,7 +1882,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters",
-    "Precio Mayorista": 28500.0,
+    "Precio mayorista": 28500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
     "Precio x1": "",
@@ -1901,7 +1901,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters, con Chaqueta y encanto dorado",
-    "Precio Mayorista": 53200.0,
+    "Precio mayorista": 53200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
     "Precio x1": "",
@@ -1920,7 +1920,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters (Traje de colores con Chaqueta amarilla)",
-    "Precio Mayorista": 51800.0,
+    "Precio mayorista": 51800.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
     "Precio x1": "",
@@ -1939,7 +1939,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Vampira",
-    "Precio Mayorista": 25300.0,
+    "Precio mayorista": 25300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1958,7 +1958,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Merlina",
-    "Precio Mayorista": 32000.0,
+    "Precio mayorista": 32000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1977,7 +1977,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Brujita",
-    "Precio Mayorista": 25500.0,
+    "Precio mayorista": 25500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -1996,7 +1996,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Pirata",
-    "Precio Mayorista": 18000.0,
+    "Precio mayorista": 18000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2015,7 +2015,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Hombre Araña",
-    "Precio Mayorista": 18000.0,
+    "Precio mayorista": 18000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2034,7 +2034,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Superman",
-    "Precio Mayorista": 22000.0,
+    "Precio mayorista": 22000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2053,7 +2053,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Capitán América",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2072,7 +2072,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Batman",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2091,7 +2091,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Esqueleto",
-    "Precio Mayorista": 25000.0,
+    "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2110,7 +2110,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Calabaza",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2129,7 +2129,7 @@
   },
   {
     "Nombre del producto": "Caramelera Calabaza",
-    "Precio Mayorista": 9000.0,
+    "Precio mayorista": 9000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2148,7 +2148,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Dinosaurio",
-    "Precio Mayorista": 25200.0,
+    "Precio mayorista": 25200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2167,7 +2167,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Cebra",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2186,7 +2186,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Tigre",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2205,7 +2205,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Araña",
-    "Precio Mayorista": 23500.0,
+    "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
     "Precio x1": "",
@@ -2224,7 +2224,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Bombero",
-    "Precio Mayorista": 15000.0,
+    "Precio mayorista": 15000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2243,7 +2243,7 @@
   },
   {
     "Nombre del producto": "Disfraz de Policía",
-    "Precio Mayorista": 15000.0,
+    "Precio mayorista": 15000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2262,7 +2262,7 @@
   },
   {
     "Nombre del producto": "Los Esteros del Iberá. Títeres de Mano",
-    "Precio Mayorista": 23200.0,
+    "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2281,7 +2281,7 @@
   },
   {
     "Nombre del producto": "La Granja Arcoíris. Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2300,7 +2300,7 @@
   },
   {
     "Nombre del producto": "Mis amigos los animalitos domésticos . Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2319,7 +2319,7 @@
   },
   {
     "Nombre del producto": "La Selva Africana. Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2338,7 +2338,7 @@
   },
   {
     "Nombre del producto": "La Selva Misionera Argentina. Títeres de Mano",
-    "Precio Mayorista": 19000.0,
+    "Precio mayorista": 19000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2357,7 +2357,7 @@
   },
   {
     "Nombre del producto": "Cuento de Hadas. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2376,7 +2376,7 @@
   },
   {
     "Nombre del producto": "Cuento de Príncipe Sapo y su Princesa. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2395,7 +2395,7 @@
   },
   {
     "Nombre del producto": "La Sirenita. Títeres de Mano",
-    "Precio Mayorista": 25200.0,
+    "Precio mayorista": 25200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2414,7 +2414,7 @@
   },
   {
     "Nombre del producto": "El Circo Mágico. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2433,7 +2433,7 @@
   },
   {
     "Nombre del producto": "Los Piratas Siete Mares. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2452,7 +2452,7 @@
   },
   {
     "Nombre del producto": "Los 3 Chanchitos y el Lobo Feroz . Títeres de Mano",
-    "Precio Mayorista": 11850.0,
+    "Precio mayorista": 11850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2471,7 +2471,7 @@
   },
   {
     "Nombre del producto": "Caperucita Roja. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2490,7 +2490,7 @@
   },
   {
     "Nombre del producto": "Heroínas de Cuentos Clásicos. Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2509,7 +2509,7 @@
   },
   {
     "Nombre del producto": "Blancanieves y los Siete Enanitos. Títeres de Mano y de Dedo.",
-    "Precio Mayorista": 29450.0,
+    "Precio mayorista": 29450.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2528,7 +2528,7 @@
   },
   {
     "Nombre del producto": "La Familia Monte Espino. Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2547,7 +2547,7 @@
   },
   {
     "Nombre del producto": "Superhéroes. Títeres de Mano",
-    "Precio Mayorista": 20300.0,
+    "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2566,7 +2566,7 @@
   },
   {
     "Nombre del producto": "Títeres Patrios. Títeres de Mano",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2585,7 +2585,7 @@
   },
   {
     "Nombre del producto": "Navidad. Títeres de Mano.",
-    "Precio Mayorista": 11200.0,
+    "Precio mayorista": 11200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2604,7 +2604,7 @@
   },
   {
     "Nombre del producto": "El Pesebre de Navideño. Títeres de Mano.",
-    "Precio Mayorista": 41200.0,
+    "Precio mayorista": 41200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2623,7 +2623,7 @@
   },
   {
     "Nombre del producto": "La Prehistoria: Dinosaurios y Cavernícolas. Títeres de mano.",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2642,7 +2642,7 @@
   },
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nene",
-    "Precio Mayorista": 30200.0,
+    "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2661,7 +2661,7 @@
   },
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nena",
-    "Precio Mayorista": 30200.0,
+    "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2680,7 +2680,7 @@
   },
   {
     "Nombre del producto": "Teatro Granja con Títeres de La Granja",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2699,7 +2699,7 @@
   },
   {
     "Nombre del producto": "Teatro Selva con Títeres de la Selva Africana",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2718,7 +2718,7 @@
   },
   {
     "Nombre del producto": "Teatro Selva Misionera Argentina con Títeres de la Selva Misionera",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2737,7 +2737,7 @@
   },
   {
     "Nombre del producto": "Teatro de los Esteros del Iberá Títeres de animales de los Esteros del Iberá",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2756,7 +2756,7 @@
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres de Cuento de Hadas",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2775,7 +2775,7 @@
   },
   {
     "Nombre del producto": "Teatro bosque con Títeres de Caperucita Roja",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2794,7 +2794,7 @@
   },
   {
     "Nombre del producto": "Teatro Fondo del mar con Títeres de \"La Sirenita\"",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2813,7 +2813,7 @@
   },
   {
     "Nombre del producto": "Teatro Barco con Títeres de Los Piratas de los Siete Mares.",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2832,7 +2832,7 @@
   },
   {
     "Nombre del producto": "Teatro Bosque con Títeres del cuento \"Los tres Chanchitos y el Lobo Feroz\"",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2851,7 +2851,7 @@
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de La Familia Monte Espino",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2870,7 +2870,7 @@
   },
   {
     "Nombre del producto": "Teatro de la Época Colonial con Títeres Patrios",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2889,7 +2889,7 @@
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres del Cuento \"Príncipe Sapo y su Princesa\"",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2908,7 +2908,7 @@
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres de Heroínas de Cuentos Clásicos.",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2927,7 +2927,7 @@
   },
   {
     "Nombre del producto": "Teatro \"El Circo Mágico\" con Títeres de Artistas",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2946,7 +2946,7 @@
   },
   {
     "Nombre del producto": "Teatro bosque con títeres de Blancanieves y los Siete Enanitos",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2965,7 +2965,7 @@
   },
   {
     "Nombre del producto": "Teatro ciudad con títeres de Superhéroes.",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -2984,7 +2984,7 @@
   },
   {
     "Nombre del producto": "Teatro Prehistoria con Títeres de Dinosaurios y Cavernícolas",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3003,7 +3003,7 @@
   },
   {
     "Nombre del producto": "Teatro Ciudad con títeres de niños animalitos domésticos",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3022,7 +3022,7 @@
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de nena y sus Emociones",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3041,7 +3041,7 @@
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de Nene y sus Emociones",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3060,7 +3060,7 @@
   },
   {
     "Nombre del producto": "Teatro de Títeres Didáctico Clásico para Escuelas y Jardines de Infantes",
-    "Precio Mayorista": "",
+    "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3079,7 +3079,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Nena en Hamaca",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3098,7 +3098,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Nena con Globos",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3117,7 +3117,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Unicornio",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3136,7 +3136,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Princesa",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3155,7 +3155,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Monstruos",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3174,7 +3174,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Astronautas",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3193,7 +3193,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Robots",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3212,7 +3212,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Gato Automovilista",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3231,7 +3231,7 @@
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Cocodrilo en Submarino",
-    "Precio Mayorista": 25850.0,
+    "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3250,7 +3250,7 @@
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Elefante",
-    "Precio Mayorista": 12000.0,
+    "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3269,7 +3269,7 @@
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Pajaritos",
-    "Precio Mayorista": 12000.0,
+    "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3288,7 +3288,7 @@
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Espacio",
-    "Precio Mayorista": 12000.0,
+    "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
@@ -3307,7 +3307,7 @@
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Gato automovilista",
-    "Precio Mayorista": 12000.0,
+    "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
     "Precio x1": "",
