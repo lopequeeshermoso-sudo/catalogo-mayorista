@@ -1598,7 +1598,7 @@ document.getElementById("btnVaciarPedido").onclick = function(){
 if(!confirm("¿Vaciar todo el pedido?")) return;
 
 cart.clear();
-localStorage.removeItem("lph_cart");
+localStorage.setItem('lph_cart', JSON.stringify([]));
 
 /* reiniciar cantidades en el catálogo */
 document.querySelectorAll(".qty-input").forEach(input=>{
