@@ -1133,38 +1133,15 @@ if(cart.has(name)){
 
   const qty = Math.max(0, parseInt(input.value || '0'));
 
-  // recalcular precio actual
   const priceActual = getPriceFromCard(card);
 
   const subtotal = qty * priceActual;
 
   const subEl = card.querySelector(".subtotalValor");
+
   if(subEl){
     subEl.textContent = subtotal.toLocaleString("es-AR");
   }
-
-let detalle="";
-
-const selTiteres = card.querySelector(".selector-titeres");
-if(selTiteres){
-detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
-}
-
-const key = name + (detalle ? " - " + detalle : "");
-
-if(qty===0){
-  cart.delete(key);
-}else{
-  cart.set(key,{
-    name:name,
-    detalle:detalle,
-    qty:qty,
-    price:priceActual
-  });
-}  
-
-  updateBar();
-  actualizarContadorPedido();
 
 });
     });
