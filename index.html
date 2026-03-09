@@ -934,13 +934,28 @@ window.cart=new Map(JSON.parse(localStorage.getItem('lph_cart')||'[]'));
 }
 
   function updateBar(){
-    let count=0,total=0;
-    cart.forEach(v=>{count += v.qty; total += v.qty*v.price;});
-    document.getElementById('cartCount').textContent = count;
-    document.getElementById('cartTotal').textContent = formatARS(total);
+
+let count=0,total=0;
+
+cart.forEach(v=>{
+count += v.qty;
+total += v.qty*v.price;
+});
+
+document.getElementById('cartCount').textContent = count;
+document.getElementById('cartTotal').textContent = formatARS(total);
 
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
-  }
+
+/* actualizar botón verde del panel */
+const btnEnviar = document.getElementById("btnEnviarPedido");
+
+if(btnEnviar){
+btnEnviar.textContent =
+"Revisar y enviar pedido ($" + total.toLocaleString("es-AR") + ")";
+}
+
+}
 
   function ensureQtyControls(){
     document.querySelectorAll('.card').forEach(card=>{
