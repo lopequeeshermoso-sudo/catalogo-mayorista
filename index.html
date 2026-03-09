@@ -960,16 +960,27 @@ unidades += v.qty;
 total += v.qty * v.price;
 });
 
+/* actualizar barra inferior */
+
 document.getElementById('cartCount').textContent = unidades;
 document.getElementById('cartTotal').textContent = formatARS(total);
 
+/* guardar carrito */
+
 localStorage.setItem('lph_cart', JSON.stringify([...cart]));
 
-/* actualizar botón visible Revisar pedido */
+/* botón revisar pedido */
 
 const btn = document.getElementById("btnVerPedido");
 
 if(btn){
+
+if(cart.size === 0){
+
+btn.textContent = "🧾 Revisar pedido — 0 productos / 0 unidades ($0)";
+
+}else{
+
 btn.textContent =
 "🧾 Revisar pedido — " +
 productos +
@@ -978,6 +989,9 @@ unidades +
 " unidades ($" +
 total.toLocaleString("es-AR") +
 ")";
+
+}
+
 }
 
 }
