@@ -1593,7 +1593,15 @@ input.value = 0;
 
 actualizarPanelPedido();
 updateBar();
-actualizarContadorPedido();
+actualizarContadorPedido()
+
+/* asegurar que el botón Revisar pedido quede en cero */
+
+const btnVer = document.getElementById("btnVerPedido");
+
+if(btnVer){
+btnVer.textContent = "🧾 Revisar pedido — 0 productos / 0 unidades ($0)";
+}
 
 /* actualizar botón flotante */
 const contador = document.getElementById("contadorPedido");
