@@ -695,23 +695,54 @@ function render(){
  const g=document.getElementById('grid');
  g.innerHTML='';
  const grupos = {};
- PRODUCTOS.forEach(p=>{
-   const row = PRECIOS.find(x =>
+
+let todosLosProductos = [...PRODUCTOS];
+
+/* agregar productos que estén en el Excel pero no en el index */
+
+PRECIOS.forEach(r=>{
+
+const nombreExcel = (r["Nombre del producto"]||"").trim();
+
+if(!nombreExcel) return;
+
+const existe = todosLosProductos.find(p =>
+quitarAcentos(p.name.toLowerCase().trim()) ===
+quitarAcentos(nombreExcel.toLowerCase().trim())
+);
+
+if(!existe){
+
+todosLosProductos.push({
+name: nombreExcel,
+price: Number(r["Precio mayorista"]||0),
+category: r["Categoría"] || "Otros",
+image: r["Imagen"] || "",
+sku:"",
+qty:0
+});
+
+}
+
+});
+
+todosLosProductos.forEach(p=>{
+
+const row = PRECIOS.find(x =>
 quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 ===
 quitarAcentos(p.name.toLowerCase().trim())
 );
 
-if(row && row["Activo"] && row["Activo"].toUpperCase().trim() === "NO"){
-  return;
-}
-
 let categoriaExcel = row ? (row["Categoría"] || "") : "";
 
 const cat = (categoriaExcel || p.category || 'Otros').split(",")[0].trim() || 'Otros';
-   if(!grupos[cat]) grupos[cat]=[];
-   grupos[cat].push(p);
- });
+
+if(!grupos[cat]) grupos[cat]=[];
+
+grupos[cat].push(p);
+
+});
  let idx=0;
 
  const ordenCategorias = [
