@@ -1,6 +1,7 @@
 [
   {
     "Nombre del producto": "Muñeca Piccolina doctora",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -16,10 +17,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_doctora",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Jardinera",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -35,10 +39,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Coqueta",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -54,10 +61,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Deportiva",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -73,10 +83,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Romántica",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -92,10 +105,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Folk",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -111,10 +127,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Bella",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -130,10 +149,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Cenicienta",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -149,10 +171,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Blancanieves",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -168,10 +193,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Aurora",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -187,10 +215,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Rapunsel",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -206,10 +237,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Muñeca Piccolina Sofía",
+    "Categoría": "",
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -225,10 +259,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "imágenes/muneca_",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Traje de doctora para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -244,10 +281,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Traje de jardinera para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -263,10 +303,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido coqueta para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -282,10 +325,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Traje deportivo para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -301,10 +347,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido romántico para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -320,10 +369,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido campesino para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -339,10 +391,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Bella para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -358,10 +413,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Cenicienta para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -377,10 +435,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Blancanieves para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -396,10 +457,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Aurora para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -415,10 +479,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Rapunzel para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -434,10 +501,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Princesa Sofía para muñecas",
+    "Categoría": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -453,10 +523,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Ponis",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -472,10 +545,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Sirenitas",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -491,10 +567,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Dinosaurios",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -510,10 +589,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Piratas",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -529,10 +611,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Superhéroes",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -548,10 +633,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Maestra",
+    "Categoría": "",
     "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -567,10 +655,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Maestro",
+    "Categoría": "",
     "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -586,10 +677,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Chef nena",
+    "Categoría": "",
     "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -605,10 +699,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Chef varón",
+    "Categoría": "",
     "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -624,10 +721,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Jardineros",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -643,10 +743,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Veterinarios",
+    "Categoría": "",
     "Precio mayorista": 26400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -662,10 +765,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Spa",
+    "Categoría": "",
     "Precio mayorista": 29800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -681,10 +787,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Tarde de Mate",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -700,10 +809,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Tardes de Té",
+    "Categoría": "",
     "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -719,10 +831,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Exploradores",
+    "Categoría": "",
     "Precio mayorista": 24800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -738,10 +853,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Mini Doctor",
+    "Categoría": "",
     "Precio mayorista": 37500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -757,10 +875,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Explorador Jirafas",
+    "Categoría": "",
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -776,10 +897,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Explorador África",
+    "Categoría": "",
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -795,10 +919,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Chef varón",
+    "Categoría": "",
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -814,10 +941,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Chef nena",
+    "Categoría": "",
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -833,10 +963,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Belleza",
+    "Categoría": "",
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -852,10 +985,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Set de esqueleto y órganos del cuerpo humano para Docentes y Educadores",
+    "Categoría": "",
     "Precio mayorista": 16500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -871,10 +1007,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Rayuela de tela para aprender los números jugando",
+    "Categoría": "",
     "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -890,10 +1029,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Libro para bebé \"Cosquillitas\"",
+    "Categoría": "",
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -909,10 +1051,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Libro para bebé \"Mariposas\"",
+    "Categoría": "",
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -928,10 +1073,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Libro para bebé \"Coral\"",
+    "Categoría": "",
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -947,10 +1095,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Manta para bebé \"La Ciudad\"",
+    "Categoría": "",
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -966,10 +1117,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Manta para bebé \"Animalitos de la Selva\"",
+    "Categoría": "",
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -985,10 +1139,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mantitas parabebé \"Mininos\"",
+    "Categoría": "",
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1004,10 +1161,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Monstruos",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1023,10 +1183,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Dinosaurios",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1042,10 +1205,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Haditas",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1061,10 +1227,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Animalitos",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1080,10 +1249,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Selva",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1099,10 +1271,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Globo Pelota Gatitos",
+    "Categoría": "",
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1118,10 +1293,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo  Dinosaurios",
+    "Categoría": "",
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1137,10 +1315,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo  Animalitos",
+    "Categoría": "",
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1156,10 +1337,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo Selva",
+    "Categoría": "",
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1175,10 +1359,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo Gatitos",
+    "Categoría": "",
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1194,10 +1381,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Pulpitos Reversibles con dos emociones (alegre/ enojado)",
+    "Categoría": "",
     "Precio mayorista": 7500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1213,10 +1403,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Cesto organizador de juguetes",
+    "Categoría": "",
     "Precio mayorista": 22900.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1232,10 +1425,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (seis)",
+    "Categoría": "",
     "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1251,10 +1447,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (ocho)",
+    "Categoría": "",
     "Precio mayorista": 25400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1270,10 +1469,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Selva Africana con Títeres de dedo de la Selva Africana (cinco)",
+    "Categoría": "",
     "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1289,10 +1491,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Selva Africana con Títeres de dedo de la Selva Africana (ocho)",
+    "Categoría": "",
     "Precio mayorista": 25300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1308,10 +1513,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Miniteatro de Selva Misionera Argentina con Títeres de dedo de la Selva Misionera Argentina (cinco)",
+    "Categoría": "",
     "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1327,10 +1535,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro de los Esteros del iberá con Títeres de dedo de animalitos de Los Esteros del Iberá (seis)",
+    "Categoría": "",
     "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1346,10 +1557,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Cuento de Hadas (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1365,10 +1579,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Cuento (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1384,10 +1601,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Castillo con Títeres de dedo de Heroínas de Cuento (siete)",
+    "Categoría": "",
     "Precio mayorista": 26100.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1403,10 +1623,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Fondo del Mar con Títeres de dedo de La Sirenita (cinco)",
+    "Categoría": "",
     "Precio mayorista": 19980.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1422,10 +1645,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Circo con  Títeres de dedo de Artistas (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1441,10 +1667,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Barco Pirata con Títeres de dedo de Piratas (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1460,10 +1689,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del cuento Los Tres Chanchitos y el Lobo (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1479,10 +1711,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento de Caperucita Roja (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1498,10 +1733,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento Blancanieves y los Siete Enanitos (nueve)",
+    "Categoría": "",
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1517,10 +1755,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de Superhéroes (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1536,10 +1777,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de La Familia (cuatro)",
+    "Categoría": "",
     "Precio mayorista": 16300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1555,10 +1799,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de La Familia (siete)",
+    "Categoría": "",
     "Precio mayorista": 21300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1574,10 +1821,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de  Animalitos Domésticos",
+    "Categoría": "",
     "Precio mayorista": 19950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1593,10 +1843,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Prehistoria con Títeres de dedo de Dinosaurios y Cavernícolas",
+    "Categoría": "",
     "Precio mayorista": 19980.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1612,10 +1865,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Tutú de bailarina",
+    "Categoría": "",
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1631,10 +1887,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Tutú de Bailarina Unicornio",
+    "Categoría": "",
     "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1650,10 +1909,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Mujer Maravilla",
+    "Categoría": "",
     "Precio mayorista": 19850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -1669,10 +1931,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Rapunzel Encantada",
+    "Categoría": "",
     "Precio mayorista": 33300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1688,10 +1953,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Princesa Aurora,  La Bella Durmiente",
+    "Categoría": "",
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1707,10 +1975,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Cenicienta",
+    "Categoría": "",
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1726,10 +1997,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Bella",
+    "Categoría": "",
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1745,10 +2019,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Blancanieves",
+    "Categoría": "",
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1764,10 +2041,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Elsa (Frozen)",
+    "Categoría": "",
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1783,10 +2063,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Anna (Frozen)",
+    "Categoría": "",
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1802,10 +2085,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Unicornio Mágico",
+    "Categoría": "",
     "Precio mayorista": 27400.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1821,10 +2107,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Sirenita",
+    "Categoría": "",
     "Precio mayorista": 22500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -1840,10 +2129,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Moana",
+    "Categoría": "",
     "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -1859,10 +2151,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Mira K-Pop Demon Hunters",
+    "Categoría": "",
     "Precio mayorista": 38500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -1878,10 +2173,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters",
+    "Categoría": "",
     "Precio mayorista": 28500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -1897,10 +2195,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters, con Chaqueta y encanto dorado",
+    "Categoría": "",
     "Precio mayorista": 53200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -1916,10 +2217,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters (Traje de colores con Chaqueta amarilla)",
+    "Categoría": "",
     "Precio mayorista": 51800.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -1935,10 +2239,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Vampira",
+    "Categoría": "",
     "Precio mayorista": 25300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1954,10 +2261,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Merlina",
+    "Categoría": "",
     "Precio mayorista": 32000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1973,10 +2283,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Brujita",
+    "Categoría": "",
     "Precio mayorista": 25500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1992,10 +2305,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Pirata",
+    "Categoría": "",
     "Precio mayorista": 18000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2011,10 +2327,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Hombre Araña",
+    "Categoría": "",
     "Precio mayorista": 18000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2030,10 +2349,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Superman",
+    "Categoría": "",
     "Precio mayorista": 22000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2049,10 +2371,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Capitán América",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2068,10 +2393,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Batman",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2087,10 +2415,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Esqueleto",
+    "Categoría": "",
     "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2106,10 +2437,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Calabaza",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2125,10 +2459,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Caramelera Calabaza",
+    "Categoría": "",
     "Precio mayorista": 9000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2144,10 +2481,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Dinosaurio",
+    "Categoría": "",
     "Precio mayorista": 25200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2163,10 +2503,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Cebra",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2182,10 +2525,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Tigre",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2201,10 +2547,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Araña",
+    "Categoría": "",
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2220,10 +2569,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Bombero",
+    "Categoría": "",
     "Precio mayorista": 15000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2239,10 +2591,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Disfraz de Policía",
+    "Categoría": "",
     "Precio mayorista": 15000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2258,10 +2613,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Los Esteros del Iberá. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2277,10 +2635,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con 6 títeres de animalitos de los Esteros del Iberá: Yacaré, Carayá Rojo, Yaguareté, Oso Hormiguero, Capibara y Garza Mora.           \n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con 6 títeres de animalitos de los Esteros del Iberá: Yacaré, Carayá Rojo, Yaguareté, Oso Hormiguero, Capibara y Garza Mora.           \n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Granja Arcoíris. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2296,10 +2657,13 @@
     "Precio x10": 33200.0,
     "Precio x11": 35700.0,
     "Precio x12": 38800.0,
-    "Descripción": "**Composición**\n\nContás con 12 títeres de mano de animalitos de granja para armar tu set: \n\nGallo, Gallina, Vaquita, Burrito, Cerdita, Caballo, Oveja, Conejita, Conejito, Patito, Perro, Gatita\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n"
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con 12 títeres de mano de animalitos de granja para armar tu set: \n\nGallo, Gallina, Vaquita, Burrito, Cerdita, Caballo, Oveja, Conejita, Conejito, Patito, Perro, Gatita\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Mis amigos los animalitos domésticos . Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2315,10 +2679,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "\n**Composición**\n\nContás con 7 hermosos títeres de niños y animalitos domésticos para armar tu set. Nena, Nene, Gatita, perro, lorito, tortuga, caballo\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "\n**Composición**\n\nContás con 7 hermosos títeres de niños y animalitos domésticos para armar tu set. Nena, Nene, Gatita, perro, lorito, tortuga, caballo\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Selva Africana. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2334,10 +2701,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con 8 hermosos títeres de animalitos de granja para armar tu set. Elegí los tuyos y envianos un mensajito detallándolos (Podés armar conjuntos de cuatro, seis u ocho títeres)\nPersonajes de los títeres\nLeón, hipopótamo, cocodrilo, monito, elefanta, cebra , jirafa y cobra\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con 8 hermosos títeres de animalitos de granja para armar tu set. Elegí los tuyos y envianos un mensajito detallándolos (Podés armar conjuntos de cuatro, seis u ocho títeres)\nPersonajes de los títeres\nLeón, hipopótamo, cocodrilo, monito, elefanta, cebra , jirafa y cobra\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Selva Misionera Argentina. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 19000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2353,10 +2723,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con 5 hermosos títeres de animalitos. Yacaré, Carayá Rojo, Mariposa Espejito, Yaguareté y Tucán Grande.**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con 5 hermosos títeres de animalitos. Yacaré, Carayá Rojo, Mariposa Espejito, Yaguareté y Tucán Grande.**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Cuento de Hadas. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2372,10 +2745,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de cuento\nPersonajes de los títeres\nPríncipe, Princesa, Brujita Pícara y Hada Brillante\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de cuento\nPersonajes de los títeres\nPríncipe, Princesa, Brujita Pícara y Hada Brillante\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Cuento de Príncipe Sapo y su Princesa. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2391,10 +2767,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de cuento\nPersonajes de los títeres\nPríncipe, Princesa, Brujita Pícara y Sapo\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n"
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de cuento\nPersonajes de los títeres\nPríncipe, Princesa, Brujita Pícara y Sapo\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Sirenita. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 25200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2410,10 +2789,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCinco títeres de personajes del cuento La Sirenita\nPersonajes de los títeres\nSirenita, Príncipe, Bruja del Mar, Tritón y Cangrejo.\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCinco títeres de personajes del cuento La Sirenita\nPersonajes de los títeres\nSirenita, Príncipe, Bruja del Mar, Tritón y Cangrejo.\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "El Circo Mágico. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2429,10 +2811,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de artistas\nPersonajes de los títeres\nPayaso Zapatón, Bailarina Rusa, Mago Misterioso y Payaso Rayita.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de artistas\nPersonajes de los títeres\nPayaso Zapatón, Bailarina Rusa, Mago Misterioso y Payaso Rayita.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Los Piratas Siete Mares. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2448,10 +2833,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de piratas\nPersonajes de los títeres\nCapitán Rebelde, Pata de palo, Morena y Arena del Mar.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de piratas\nPersonajes de los títeres\nCapitán Rebelde, Pata de palo, Morena y Arena del Mar.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Los 3 Chanchitos y el Lobo Feroz . Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 11850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2467,10 +2855,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de personajes del cuento Los Tres chanchitos y el lobo feroz.\nPersonajes de los títeres\nChanchito albañil, Chanchito leñador, Chanchito Flautista, Lobo feroz.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de personajes del cuento Los Tres chanchitos y el lobo feroz.\nPersonajes de los títeres\nChanchito albañil, Chanchito leñador, Chanchito Flautista, Lobo feroz.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Caperucita Roja. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2486,10 +2877,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "*Composición*\n\nCuatro títeres de personajes del cuento Caperucita Roja.\nPersonajes de los títeres\nCaperucita, abuelita, leñador y lobo (el lobo es doble faz; de un lado está disfrazado de abuelita).\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "*Composición*\n\nCuatro títeres de personajes del cuento Caperucita Roja.\nPersonajes de los títeres\nCaperucita, abuelita, leñador y lobo (el lobo es doble faz; de un lado está disfrazado de abuelita).\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Heroínas de Cuentos Clásicos. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2505,10 +2899,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con siete hermosos títeres de heroínas de cuento para armar tu set.\nElegí los tuyos y envianos un mensajito detallándolos.\nPodés armar conjuntos de tres, cuatro, cinco, seis o siete títeres.\nPersonajes de los títeres\nSirenita, Rapunzel, Bella Durmiente, Cenicienta, Blancanieves, Elsa y Anna.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con siete hermosos títeres de heroínas de cuento para armar tu set.\nElegí los tuyos y envianos un mensajito detallándolos.\nPodés armar conjuntos de tres, cuatro, cinco, seis o siete títeres.\nPersonajes de los títeres\nSirenita, Rapunzel, Bella Durmiente, Cenicienta, Blancanieves, Elsa y Anna.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Blancanieves y los Siete Enanitos. Títeres de Mano y de Dedo.",
+    "Categoría": "",
     "Precio mayorista": 29450.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2524,10 +2921,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de mano y siete títeres de dedo.\nPersonajes de los títeres\nBlancanieves, Príncipe, Madrastra (doble faz, de un lado es reina y del otro viejita), Cazador, Siete Enanitos.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de mano y siete títeres de dedo.\nPersonajes de los títeres\nBlancanieves, Príncipe, Madrastra (doble faz, de un lado es reina y del otro viejita), Cazador, Siete Enanitos.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Familia Monte Espino. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2543,10 +2943,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con gran cantidad de  hermosos títeres de personajes de la familia y sus mascotas para armar tu set. Mamá, papá, nena, nene, abuelito, abuelita, bebé o bebita, perro, gato, mamá con bebé en brazos, papá con bebé en brazos, familia con vestimenta tradicional judío ortodoxa. Elegí los tuyos y envianos un mensajito detallándolos\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con gran cantidad de  hermosos títeres de personajes de la familia y sus mascotas para armar tu set. Mamá, papá, nena, nene, abuelito, abuelita, bebé o bebita, perro, gato, mamá con bebé en brazos, papá con bebé en brazos, familia con vestimenta tradicional judío ortodoxa. Elegí los tuyos y envianos un mensajito detallándolos\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Superhéroes. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2562,10 +2965,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nCuatro títeres de Superhéroes\nPersonajes de los títeres\nMujer Maravilla, Hombre Araña, Capitán América y Batman.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nCuatro títeres de Superhéroes\nPersonajes de los títeres\nMujer Maravilla, Hombre Araña, Capitán América y Batman.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Títeres Patrios. Títeres de Mano",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2581,10 +2987,13 @@
     "Precio x10": 33200.0,
     "Precio x11": 35700.0,
     "Precio x12": 38800.0,
-    "Descripción": "**Composición**\n\nContás con gran cantidad de  hermosos títeres de personajes Patrios para armar tu set.\nElegí los tuyos y envianos un mensajito detallándolos.\nPodés armar conjuntos de cuatro, seis, ocho, diez o doce títeres.San Martín, Belgrano, Guemes, Sarmiento, Sargento Cabral, Criollo, Criolla, Gaucho, Paisana, Damas ,Caballeros, Granadero, Niñas, Virrey, Soldado Realista\nPregoneros: Vendedora de Empanadas, Vendedor de Velas, Aguatero, Lavandera, Escobero.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con gran cantidad de  hermosos títeres de personajes Patrios para armar tu set.\nElegí los tuyos y envianos un mensajito detallándolos.\nPodés armar conjuntos de cuatro, seis, ocho, diez o doce títeres.San Martín, Belgrano, Guemes, Sarmiento, Sargento Cabral, Criollo, Criolla, Gaucho, Paisana, Damas ,Caballeros, Granadero, Niñas, Virrey, Soldado Realista\nPregoneros: Vendedora de Empanadas, Vendedor de Velas, Aguatero, Lavandera, Escobero.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Navidad. Títeres de Mano.",
+    "Categoría": "",
     "Precio mayorista": 11200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2600,10 +3009,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTres títeres\nPersonajes de los títeres\nPapá Noel, Reno y Árbol de Navidad.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTres títeres\nPersonajes de los títeres\nPapá Noel, Reno y Árbol de Navidad.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "El Pesebre de Navideño. Títeres de Mano.",
+    "Categoría": "",
     "Precio mayorista": 41200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2619,10 +3031,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nDiez títeres\nPersonajes de los títeres\nMaría, José, Bebé Jesús, Arcangel Gabriel, Arcángel Miguel, Tres Reyes Magos, Pastorcito, oveja y burrito.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nDiez títeres\nPersonajes de los títeres\nMaría, José, Bebé Jesús, Arcangel Gabriel, Arcángel Miguel, Tres Reyes Magos, Pastorcito, oveja y burrito.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "La Prehistoria: Dinosaurios y Cavernícolas. Títeres de mano.",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2638,10 +3053,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con cinco hermosos títeres de la prehistoria  para armar tu set: Cavernícola hombre, Cavernícola Mujer, Tiranosaurus Rex, Styracosaurus y Tupuxuara\nElegí los tuyos y envianos un mensajito detallándolos.\n\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con cinco hermosos títeres de la prehistoria  para armar tu set: Cavernícola hombre, Cavernícola Mujer, Tiranosaurus Rex, Styracosaurus y Tupuxuara\nElegí los tuyos y envianos un mensajito detallándolos.\n\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nene",
+    "Categoría": "",
     "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2657,10 +3075,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nSeis emociones representadas en un mismo personaje masculino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNene.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nSeis emociones representadas en un mismo personaje masculino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNene.\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nena",
+    "Categoría": "",
     "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2676,10 +3097,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nSeis emociones representadas en un mismo personaje femenino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNena..\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nSeis emociones representadas en un mismo personaje femenino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNena..\n\n**Detalles del producto**\n\nConfeccionados en tela estampada con colores indelebles y no tóxicos.\nRellenos con espuma y vellón siliconado hipoalergénico de la mejor calidad.\nLos títeres se adecuan a la mano de niños y adultos.\n\n**Medidas del títere de mano**\n\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Granja con Títeres de La Granja",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2695,10 +3119,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\n Gallo, Gallina, Vaquita, Burrito, Cerdita, Caballo, Oveja, Conejita, Conejito, Patito, Perro, Gatita.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\n Gallo, Gallina, Vaquita, Burrito, Cerdita, Caballo, Oveja, Conejita, Conejito, Patito, Perro, Gatita.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Selva con Títeres de la Selva Africana",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2714,10 +3141,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nLeón, hipopótamo, cocodrilo, monito, elefanta, cebra , jirafa y cobra.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nLeón, hipopótamo, cocodrilo, monito, elefanta, cebra , jirafa y cobra.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Selva Misionera Argentina con Títeres de la Selva Misionera",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2733,10 +3163,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con un teatro de La Selva Misionera y 5 hermosos títeres de animalitos. Yacaré, Carayá Rojo, Mariposa Espejito, Yaguareté y Tucán Grande.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con un teatro de La Selva Misionera y 5 hermosos títeres de animalitos. Yacaré, Carayá Rojo, Mariposa Espejito, Yaguareté y Tucán Grande.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro de los Esteros del Iberá Títeres de animales de los Esteros del Iberá",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2752,10 +3185,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás con un teatro de Los Esteros del Iberá y 6 hermosos títeres de animalitos: Yacaré, oso hormiguero, carayá, capibara, garza mora, yaguareté .\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás con un teatro de Los Esteros del Iberá y 6 hermosos títeres de animalitos: Yacaré, oso hormiguero, carayá, capibara, garza mora, yaguareté .\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres de Cuento de Hadas",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2771,10 +3207,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nUn teatro castillo y Cuatro títeres de cuento:\nPríncipe, Princesa, Brujita Pícara y Hada Brillante.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nUn teatro castillo y Cuatro títeres de cuento:\nPríncipe, Princesa, Brujita Pícara y Hada Brillante.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro bosque con Títeres de Caperucita Roja",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2790,10 +3229,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro del bosque y cuatro títeres de personajes del cuento Caperucita Roja.\n\n**Personajes de los títeres**\nCaperucita, abuelita, leñador y lobo (el lobo es doble faz; de un lado está disfrazado de abuelita).\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro del bosque y cuatro títeres de personajes del cuento Caperucita Roja.\n\n**Personajes de los títeres**\nCaperucita, abuelita, leñador y lobo (el lobo es doble faz; de un lado está disfrazado de abuelita).\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Fondo del mar con Títeres de \"La Sirenita\"",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2809,10 +3251,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro fondo del Mar y Cinco títeres de personajes del cuento La Sirenita\n\n**Personajes de los títeres**\nSirenita, Príncipe, Bruja del Mar, Tritón y Cangrejo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro fondo del Mar y Cinco títeres de personajes del cuento La Sirenita\n\n**Personajes de los títeres**\nSirenita, Príncipe, Bruja del Mar, Tritón y Cangrejo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Barco con Títeres de Los Piratas de los Siete Mares.",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2828,10 +3273,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro Barco Pirata y Cuatro títeres de piratas\n\n**Personajes de los títeres**\nCapitán Rebelde, Pata de palo, Morena y Arena del Mar.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n"
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro Barco Pirata y Cuatro títeres de piratas\n\n**Personajes de los títeres**\nCapitán Rebelde, Pata de palo, Morena y Arena del Mar.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Bosque con Títeres del cuento \"Los tres Chanchitos y el Lobo Feroz\"",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2847,10 +3295,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro del bosque y cuatro títeres de personajes del cuento Los Tres chanchitos y el lobo feroz.\n\n**Personajes de los títeres**\nChanchito albañil, Chanchito leñador, Chanchito Flautista, Lobo feroz.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro del bosque y cuatro títeres de personajes del cuento Los Tres chanchitos y el lobo feroz.\n\n**Personajes de los títeres**\nChanchito albañil, Chanchito leñador, Chanchito Flautista, Lobo feroz.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de La Familia Monte Espino",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2866,10 +3317,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Elegí tus títeres de familia y envianos un mensajito detallándolos**\n Mamá, papá, nena, nene, abuelito, abuelita, bebé o bebita, perro, gato, mamá con bebé en brazos, papá con bebé en brazos, familia con vestimenta tradicional judío ortodoxa. \n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Elegí tus títeres de familia y envianos un mensajito detallándolos**\n Mamá, papá, nena, nene, abuelito, abuelita, bebé o bebita, perro, gato, mamá con bebé en brazos, papá con bebé en brazos, familia con vestimenta tradicional judío ortodoxa. \n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro de la Época Colonial con Títeres Patrios",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2885,10 +3339,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "Elegí tus títeres patrios y envianos un mensajito detallándolos.\n\n**Héroes de La patria** San Martín, Belgrano, Guemes, Sarmiento, Sargento Cabral\n\n**Personajes de la Colonia** Criollo, Criolla, Gaucho, Paisana, Damas ,Caballeros, Granadero, Niñas, Virrey, Soldado Realista\n\n**Pregoneros** Vendedora de Empanadas, Vendedor de Velas, Aguatero, Lavandera, Escobero.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "Elegí tus títeres patrios y envianos un mensajito detallándolos.\n\n**Héroes de La patria** San Martín, Belgrano, Guemes, Sarmiento, Sargento Cabral\n\n**Personajes de la Colonia** Criollo, Criolla, Gaucho, Paisana, Damas ,Caballeros, Granadero, Niñas, Virrey, Soldado Realista\n\n**Pregoneros** Vendedora de Empanadas, Vendedor de Velas, Aguatero, Lavandera, Escobero.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres del Cuento \"Príncipe Sapo y su Princesa\"",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2904,10 +3361,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro castillo y Cuatro títeres del cuento El príncipe Sapo.\n\n**Personajes de los títeres**\nPríncipe, Princesa, Brujita Pícara y Sapo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro castillo y Cuatro títeres del cuento El príncipe Sapo.\n\n**Personajes de los títeres**\nPríncipe, Princesa, Brujita Pícara y Sapo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Castillo con Títeres de Heroínas de Cuentos Clásicos.",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2923,10 +3383,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Elegí tus títeres de heroínas de cuento y envianos un mensajito detallándolo**\n\nSirenita, Rapunzel, Bella Durmiente, Cenicienta, Blancanieves, Elsa y Anna\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Elegí tus títeres de heroínas de cuento y envianos un mensajito detallándolo**\n\nSirenita, Rapunzel, Bella Durmiente, Cenicienta, Blancanieves, Elsa y Anna\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro \"El Circo Mágico\" con Títeres de Artistas",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2942,10 +3405,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro Circo y Cuatro títeres de artistas.\n\n**Personajes de los títeres**\nPayaso Zapatón, Bailarina Rusa, Mago Misterioso y Payaso Rayita.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro Circo y Cuatro títeres de artistas.\n\n**Personajes de los títeres**\nPayaso Zapatón, Bailarina Rusa, Mago Misterioso y Payaso Rayita.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro bosque con títeres de Blancanieves y los Siete Enanitos",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2961,10 +3427,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro Bosque, Cuatro títeres de mano y siete títeres de dedo.\n\n**Personajes de los títeres**\nBlancanieves, Príncipe, Madrastra (doble faz, de un lado es reina y del otro viejita), Cazador, Siete Enanitos. \n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro Bosque, Cuatro títeres de mano y siete títeres de dedo.\n\n**Personajes de los títeres**\nBlancanieves, Príncipe, Madrastra (doble faz, de un lado es reina y del otro viejita), Cazador, Siete Enanitos. \n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro ciudad con títeres de Superhéroes.",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2980,10 +3449,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro ciudad y Cuatro títeres de Superhéroes\n\n**Personajes de los títeres**\nMujer Maravilla, Hombre Araña, Capitán América y Batman.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro ciudad y Cuatro títeres de Superhéroes\n\n**Personajes de los títeres**\nMujer Maravilla, Hombre Araña, Capitán América y Batman.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Prehistoria con Títeres de Dinosaurios y Cavernícolas",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2999,10 +3471,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\nTeatro de la prehistoria y Cinco títeres\n\n**Personajes de los títeres**\nCavernícola hombre, Cavernícola Mujer, Tiranosaurus Rex, Styracosaurus y Tupuxuara.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n"
+    "Imagen": "",
+    "Descripción": "**Composición**\nTeatro de la prehistoria y Cinco títeres\n\n**Personajes de los títeres**\nCavernícola hombre, Cavernícola Mujer, Tiranosaurus Rex, Styracosaurus y Tupuxuara.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.\n\n",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Ciudad con títeres de niños animalitos domésticos",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3018,10 +3493,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nContás Un teatro Ciudad y 7 hermosos títeres de niños y animalitos domésticos para armar tu set. Elegí los tuyos y envianos un mensajito detallándolos : Nena, Nene, Gatita, perro, lorito, tortuga, caballo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nContás Un teatro Ciudad y 7 hermosos títeres de niños y animalitos domésticos para armar tu set. Elegí los tuyos y envianos un mensajito detallándolos : Nena, Nene, Gatita, perro, lorito, tortuga, caballo.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de nena y sus Emociones",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3037,10 +3515,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro ciudad y seis emociones representadas en un mismo personaje femenino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNena.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro ciudad y seis emociones representadas en un mismo personaje femenino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNena.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro Ciudad con Títeres de Nene y sus Emociones",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3056,10 +3537,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Composición**\n\nTeatro coiudad y seis emociones representadas en un mismo personaje masculino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNene.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox."
+    "Imagen": "",
+    "Descripción": "**Composición**\n\nTeatro coiudad y seis emociones representadas en un mismo personaje masculino.\nAlegría, asombro, miedo, tristeza, enojo, disconformidad.\nPersonajes de los títeres:\nNene.\n\n**Detalles del producto**\nEl teatro de títeres es de melamina forrada en tela con diseños originales estampados. Tiene laterales plegables que sirven de parantes.\n\n**Medidas del teatro de títeres**\nTamaño del frente: 47x 47 cm. aprox.\nTamaño de los laterales: 15 cm de base x 25cm de alto.\nTamaño de la ventana: 29 x 21 cm\n\n**Medidas del títere de mano**\nAlto, 25 cm aprox.\nAncho del cuerpo, 18 cm aprox.\nAncho entre las manitos del títere, 22 cm aprox.",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Teatro de Títeres Didáctico Clásico para Escuelas y Jardines de Infantes",
+    "Categoría": "",
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3075,10 +3559,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": "**Teatro de títeres grande con cortinas y soporte para telón**\n\nSu estructura resistente combina interior de madera con un frente forrado en tela impermeable y lavable, ofreciendo durabilidad y fácil mantenimiento para el uso cotidiano. Los laterales plegables permiten armarlo y guardarlo con practicidad, facilitando el transporte y el almacenamiento.\n\n✔ Medidas: 90 cm de ancho x 80 cm de alto\n✔ Laterales plegables para mayor practicidad\n✔ Incluye cortinas y soporte para telones\n✔ Frente impermeable y lavable\n✔ Se entrega en bolsa de guardado\n✔ Incluye un telón"
+    "Imagen": "",
+    "Descripción": "**Teatro de títeres grande con cortinas y soporte para telón**\n\nSu estructura resistente combina interior de madera con un frente forrado en tela impermeable y lavable, ofreciendo durabilidad y fácil mantenimiento para el uso cotidiano. Los laterales plegables permiten armarlo y guardarlo con practicidad, facilitando el transporte y el almacenamiento.\n\n✔ Medidas: 90 cm de ancho x 80 cm de alto\n✔ Laterales plegables para mayor practicidad\n✔ Incluye cortinas y soporte para telones\n✔ Frente impermeable y lavable\n✔ Se entrega en bolsa de guardado\n✔ Incluye un telón",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Nena en Hamaca",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3094,10 +3581,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Nena con Globos",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3113,10 +3603,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Unicornio",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3132,10 +3625,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Princesa",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3151,10 +3647,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Monstruos",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3170,10 +3669,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Astronautas",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3189,10 +3691,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Robots",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3208,10 +3713,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Gato Automovilista",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3227,10 +3735,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Valija de Arte Mis Diseños. Cocodrilo en Submarino",
+    "Categoría": "",
     "Precio mayorista": 25850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3246,10 +3757,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Elefante",
+    "Categoría": "",
     "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3265,10 +3779,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Pajaritos",
+    "Categoría": "",
     "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3284,10 +3801,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Espacio",
+    "Categoría": "",
     "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3303,10 +3823,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Amasando ideas Gato automovilista",
+    "Categoría": "",
     "Precio mayorista": 12000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3322,6 +3845,382 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Descripción": ""
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de granja",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": 11400.0,
+    "Precio x7": 13200.0,
+    "Precio x8": 15100.0,
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Selva Africana",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": 11400.0,
+    "Precio x7": 13200.0,
+    "Precio x8": 15100.0,
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Selva Misionera",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Los Esteros del Iberá",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": 11400.0,
+    "Precio x7": 13200.0,
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Animalitos domésticos",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Cuento de Hadas",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 10300.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Cuento Príncipe Encantado",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 10300.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de La Sirenita",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 12700.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Heroínas de cuento",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 10300.0,
+    "Precio x5": 12700.0,
+    "Precio x6": "",
+    "Precio x7": 17600.0,
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de El Circo Mágico",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 10300.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Los Piratas Siete Mares",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 5960.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Los Tres Chanchitos y el lobo",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 5960.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Caperucita roja",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 5960.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de Superhéroes",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 10300.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de La Familia Monte Espino",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": 7800.0,
+    "Precio x5": 9600.0,
+    "Precio x6": 11400.0,
+    "Precio x7": 13200.0,
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo de La Prehistoria",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": "",
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": 5960.0,
+    "Precio x4": "",
+    "Precio x5": 9600.0,
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo Pack x 10 unidades de animalitos",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Precio mayorista": 18000.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "",
+    "Descripción": "",
+    "Activo": "SI"
   }
 ]
