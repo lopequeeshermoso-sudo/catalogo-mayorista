@@ -740,7 +740,10 @@ const cat = (categoriaExcel || p.category || 'Otros').split(",")[0].trim() || 'O
 
 if(!grupos[cat]) grupos[cat]=[];
 
-grupos[cat].push(p);
+grupos[cat].push({
+producto:p,
+orden: row && row["Orden"] ? Number(row["Orden"]) : 9999
+});
 
 });
  let idx=0;
@@ -773,7 +776,11 @@ Object.keys(grupos)
    const cid='cat-'+cat.toLowerCase().normalize('NFD').replace(/[^a-z0-9]+/g,'-'); sec.id=cid; sec.innerHTML=`<div class="category-title">${cat}</div>`;
    g.appendChild(sec);
 
-   grupos[cat].forEach(p=>{
+   grupos[cat]
+.sort((a,b)=>a.orden-b.orden)
+.forEach(item=>{
+
+const p = item.producto;
 const row = PRECIOS.find(x =>
 quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 ===
