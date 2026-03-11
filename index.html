@@ -702,6 +702,10 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 quitarAcentos(p.name.toLowerCase().trim())
 );
 
+if(row && row["Activo"] && row["Activo"].toUpperCase().trim() === "NO"){
+  return;
+}
+
 let categoriaExcel = row ? (row["Categoría"] || "") : "";
 
 const cat = (categoriaExcel || p.category || 'Otros').split(",")[0].trim() || 'Otros';
