@@ -696,7 +696,15 @@ function render(){
  g.innerHTML='';
  const grupos = {};
  PRODUCTOS.forEach(p=>{
-   const cat = (p.category||'Otros').split(",")[0].trim() || 'Otros';
+   const row = PRECIOS.find(x =>
+quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
+===
+quitarAcentos(p.name.toLowerCase().trim())
+);
+
+let categoriaExcel = row ? (row["Categoría"] || "") : "";
+
+const cat = (categoriaExcel || p.category || 'Otros').split(",")[0].trim() || 'Otros';
    if(!grupos[cat]) grupos[cat]=[];
    grupos[cat].push(p);
  });
@@ -744,7 +752,8 @@ descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
      const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
-     const src=p.image || "https://via.placeholder.com/400x400?text=LPH";
+     let imagenExcel = row ? (row["Imagen"] || "") : "";
+const src = imagenExcel || p.image || "https://via.placeholder.com/400x400?text=LPH";
      c.innerHTML=`<img loading="lazy" src="${src}" onerror="this.style.display='none'">
 
 <div class='card-title'><strong>${p.name}</strong></div>
@@ -1079,6 +1088,9 @@ quitarAcentos((x["Nombre del producto"]||x.name||"").toLowerCase().trim())
 ===
 quitarAcentos(nombre.toLowerCase().trim())
 );
+if(row && row["Activo"] && row["Activo"].toUpperCase() === "NO"){
+return;
+}
 let descripcion = row ? (row["Descripción"] || "") : "";
 
 /* convertir **texto** en negrita */
