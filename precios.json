@@ -1518,7 +1518,7 @@
     "Activo": "SI"
   },
   {
-    "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (seis)",
+    "Nombre del producto": "Mini teatro granja con títeres de dedo de La Granja Arcoiris",
     "Categoría": "",
     "Orden": "",
     "Precio mayorista": 19950.0,
@@ -1541,32 +1541,9 @@
     "Activo": "SI"
   },
   {
-    "Nombre del producto": "Mini teatro granja con Títeres de dedo de Animales de Granja (ocho)",
-    "Categoría": "",
-    "Orden": "",
-    "Precio mayorista": 25400.0,
-    "Cantidad de títeres": "",
-    "Talle": "",
-    "Precio x1": "",
-    "Precio x2": "",
-    "Precio x3": "",
-    "Precio x4": "",
-    "Precio x5": "",
-    "Precio x6": "",
-    "Precio x7": "",
-    "Precio x8": "",
-    "Precio x9": "",
-    "Precio x10": "",
-    "Precio x11": "",
-    "Precio x12": "",
-    "Imagen": "",
-    "Descripción": "",
-    "Activo": "SI"
-  },
-  {
     "Nombre del producto": "Mini teatro Selva Africana con Títeres de dedo de la Selva Africana (cinco)",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
