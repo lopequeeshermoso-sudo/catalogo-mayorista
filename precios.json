@@ -554,7 +554,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Ponis",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -577,7 +577,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Sirenitas",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -600,7 +600,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Dinosaurios",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -623,7 +623,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Piratas",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -646,7 +646,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Superhéroes",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -669,7 +669,7 @@
   {
     "Nombre del producto": "Valija de Arte Mini Artista, Haditas",
     "Categoría": "VALIJAS DIDÁCTICAS DE ARTE",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
