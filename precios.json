@@ -2003,7 +2003,7 @@
   {
     "Nombre del producto": "Tutú de Bailarina Unicornio",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 15.0,
     "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2026,7 +2026,7 @@
   {
     "Nombre del producto": "Disfraz de Mujer Maravilla",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 19850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -2049,7 +2049,7 @@
   {
     "Nombre del producto": "Disfraz de Rapunzel Encantada",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 13.0,
     "Precio mayorista": 33300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2072,7 +2072,7 @@
   {
     "Nombre del producto": "Disfraz de Princesa Aurora,  La Bella Durmiente",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2095,7 +2095,7 @@
   {
     "Nombre del producto": "Disfraz de Cenicienta",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 12.0,
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2118,7 +2118,7 @@
   {
     "Nombre del producto": "Disfraz de Bella",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 23970.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2141,7 +2141,7 @@
   {
     "Nombre del producto": "Disfraz de Blancanieves",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 11.0,
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2164,7 +2164,7 @@
   {
     "Nombre del producto": "Disfraz de Elsa (Frozen)",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2187,7 +2187,7 @@
   {
     "Nombre del producto": "Disfraz de Anna (Frozen)",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 24850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2210,7 +2210,7 @@
   {
     "Nombre del producto": "Disfraz de Unicornio Mágico",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": 27400.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2233,7 +2233,7 @@
   {
     "Nombre del producto": "Disfraz de Sirenita",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 16.0,
     "Precio mayorista": 22500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -2256,7 +2256,7 @@
   {
     "Nombre del producto": "Disfraz de Moana",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 14.0,
     "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -2279,7 +2279,7 @@
   {
     "Nombre del producto": "Disfraz de Mira K-Pop Demon Hunters",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 38500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -2302,7 +2302,7 @@
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 28500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -2325,7 +2325,7 @@
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters, con Chaqueta y encanto dorado",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 53200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
@@ -2348,7 +2348,7 @@
   {
     "Nombre del producto": "Disfraz de Rumi K-Pop Demon Hunters (Traje de colores con Chaqueta amarilla)",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 51800.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3,4,5",
