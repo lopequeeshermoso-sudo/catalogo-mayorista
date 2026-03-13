@@ -1812,7 +1812,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/m53.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
@@ -4349,7 +4349,7 @@
   {
     "Nombre del producto": "Títeres de dedo Pack x 10 unidades de animalitos",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 30.0,
+    "Orden": 35.0,
     "Precio mayorista": 18000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -4368,5 +4368,28 @@
     "Imagen": "",
     "Descripción": "",
     "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Títeres de dedo del Cuento Blancanieves y los siete enanitos",
+    "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
+    "Orden": 30.0,
+    "Precio mayorista": 12700.0,
+    "Cantidad de títeres": "",
+    "Talle": "",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "imagenes/m54.jpg",
+    "Descripción": "",
+    "Activo": ""
   }
 ]
