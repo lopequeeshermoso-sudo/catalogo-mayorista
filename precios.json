@@ -1543,7 +1543,7 @@
   {
     "Nombre del producto": "Mini teatro Selva con Títeres de dedo de la Selva Africana",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 2.0,
+    "Orden": 10.0,
     "Precio mayorista": 18200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1796,7 +1796,7 @@
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento Blancanieves y los Siete Enanitos",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 10.0,
+    "Orden": 2.0,
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -4004,7 +4004,7 @@
   {
     "Nombre del producto": "Títeres de dedo de Selva Africana",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 19.0,
+    "Orden": 24.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -4119,7 +4119,7 @@
   {
     "Nombre del producto": "Títeres de dedo de Cuento Príncipe Encantado",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 24.0,
+    "Orden": 19.0,
     "Precio mayorista": 10300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -4158,7 +4158,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "imagenes/m47.jpg",
+    "Imagen": "",
     "Descripción": "",
     "Activo": "SI"
   },
@@ -4181,7 +4181,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/m47.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
