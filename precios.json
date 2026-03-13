@@ -1536,7 +1536,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/m41.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
@@ -1796,7 +1796,7 @@
   {
     "Nombre del producto": "Mini teatro Bosque con Títeres de dedo del Cuento Blancanieves y los Siete Enanitos",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 7.0,
+    "Orden": 10.0,
     "Precio mayorista": 18800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1888,7 +1888,7 @@
   {
     "Nombre del producto": "Mini teatro Prehistoria con Títeres de dedo de Dinosaurios y Cavernícolas",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 10.0,
+    "Orden": 7.0,
     "Precio mayorista": 19980.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3997,7 +3997,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "imagenes/.jpg",
+    "Imagen": "imagenes/42.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
