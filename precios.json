@@ -1858,14 +1858,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/m73.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Mini teatro Ciudad con Títeres de dedo de  Animalitos Domésticos",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 16.0,
+    "Orden": 7.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1888,7 +1888,7 @@
   {
     "Nombre del producto": "Mini teatro Prehistoria con Títeres de dedo de Dinosaurios y Cavernícolas",
     "Categoría": "MINITEATROS Y TÍTERES DE DEDO",
-    "Orden": 7.0,
+    "Orden": 16.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -4319,7 +4319,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/m74.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
