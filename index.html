@@ -719,7 +719,7 @@ quitarAcentos(p.name.toLowerCase().trim())
 
 let categoriaExcel = row ? (row["Categoría"] || "") : "";
 
-const cat = (categoriaExcel || p.category || 'Otros').split(",")[0].trim() || 'Otros';
+const cat = (categoriaExcel || p.category || 'Otros').trim() || 'Otros';
 
 if(!grupos[cat]) grupos[cat]=[];
 
