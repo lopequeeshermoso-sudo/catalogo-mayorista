@@ -1235,16 +1235,21 @@ if(cart.has(name)){
 
     const grouped={};
     cart.forEach((v,k)=>{
-      const cat=nameToCategory[k]||'Otros';
-      if(!grouped[cat]) grouped[cat]=[];
-      grouped[cat].push({
-name:k,
-detalle:v.detalle || "",
-qty:v.qty,
-price:v.price,
-sub:v.qty*v.price
+
+  const nombreBase = k.split(" - ")[0]; // quitar detalle de variantes
+  const cat = nameToCategory[nombreBase] || 'Otros';
+
+  if(!grouped[cat]) grouped[cat]=[];
+
+  grouped[cat].push({
+    name:nombreBase,
+    detalle:v.detalle || "",
+    qty:v.qty,
+    price:v.price,
+    sub:v.qty*v.price
+  });
+
 });
-    });
 
     const iconFor=(cat)=>{
       const c=(cat||'').toLowerCase();
