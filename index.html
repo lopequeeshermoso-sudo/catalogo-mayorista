@@ -1597,8 +1597,37 @@ div.className="itemPedido";
 const sub=v.qty*v.price;
 total+=sub;
 
+/* buscar imagen en PRODUCTOS o en EXCEL */
+
+let img = "";
+
+/* 1. buscar en productos originales */
 const producto = PRODUCTOS.find(p => p.name === v.name);
-const img = producto ? producto.image : "";
+
+if(producto && producto.image){
+  img = producto.image;
+}
+
+/* 2. si no hay, buscar en el Excel */
+if(!img){
+
+  const nombreBase = v.name.split(" - ")[0];
+
+  const row = PRECIOS.find(x =>
+    quitarAcentos((x["Nombre del producto"]||"").toLowerCase().trim()) ===
+    quitarAcentos(nombreBase.toLowerCase().trim())
+  );
+
+  if(row && row["Imagen"]){
+    img = row["Imagen"];
+  }
+
+}
+
+/* 3. fallback */
+if(!img){
+  img = "https://via.placeholder.com/80x80?text=LPH";
+}
 
 div.innerHTML=`
 <div style="display:flex;gap:8px;align-items:center;width:100%">
