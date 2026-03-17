@@ -2,7 +2,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina doctora",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -25,7 +25,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Jardinera",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -48,7 +48,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Coqueta",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -71,7 +71,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Deportiva",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -94,7 +94,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Romántica",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -117,7 +117,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Folk",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -140,7 +140,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Bella",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -163,7 +163,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Cenicienta",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -186,7 +186,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Blancanieves",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -209,7 +209,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Aurora",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -232,7 +232,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Rapunsel",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -255,7 +255,7 @@
   {
     "Nombre del producto": "Muñeca Piccolina Sofía",
     "Categoría": "MUÑECAS DE TRAPO",
-    "Orden": "",
+    "Orden": 11.0,
     "Precio mayorista": 24350.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -277,7 +277,7 @@
   },
   {
     "Nombre del producto": "Traje de doctora para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -300,7 +300,7 @@
   },
   {
     "Nombre del producto": "Traje de jardinera para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -317,13 +317,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V10.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido coqueta para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -340,13 +340,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V6.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Traje deportivo para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -363,13 +363,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V7.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido romántico para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -386,13 +386,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V11.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido campesino para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -409,13 +409,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V8.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Bella para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -432,13 +432,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V2.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Cenicienta para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -455,13 +455,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V5.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Blancanieves para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -478,13 +478,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V4.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Aurora para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -501,13 +501,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V1.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Rapunzel para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -524,13 +524,13 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V9.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Vestido de Princesa Sofía para muñecas",
-    "Categoría": "",
+    "Categoría": "MUÑECAS DE TRAPO",
     "Orden": "",
     "Precio mayorista": 8300.0,
     "Cantidad de títeres": "",
@@ -547,7 +547,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/V3.jpg",
     "Descripción": "",
     "Activo": "SI"
   },
