@@ -1260,7 +1260,7 @@ if(cart.has(name)){
       return '📦';
     };
 
-    let msg='LPH - Pedido Mayorista%0A%0A';
+    let msg='Hola! Quiero hacer el siguiente pedido:%0A%0A';
     let total=0;
 
     const ordenCategorias = [
@@ -1285,21 +1285,20 @@ Object.keys(grouped)
   return (ia===-1?999:ia) - (ib===-1?999:ib);
 })
 .forEach(cat=>{
-      msg += `${cat}%0A`;
+      msg += `${iconFor(cat)} ${cat}%0A`;
 
-grouped[cat].forEach(it=>{
-  total += it.sub;
+      grouped[cat].forEach(it=>{
+        total += it.sub;
 
-  msg += `${it.qty} | ${it.name}`;
+        msg += `• ${it.name}`;
+if(it.detalle){ msg += ` (${it.detalle})`; }
+msg += `%0A`;
 
-  if(it.detalle){
-    msg += ` | ${it.detalle}`;
-  }else{
-    msg += ` | -`;
-  }
+        msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
+      });
 
-  msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
-});
+      msg += `%0A`;
+    });
 
     msg += `━━━━━━━━━━━━━━%0A`;
     msg += `TOTAL FINAL: $${formatARS(total)}%0A`;
