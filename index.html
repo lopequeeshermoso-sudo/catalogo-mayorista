@@ -1263,7 +1263,28 @@ if(cart.has(name)){
     let msg='Hola! Quiero hacer el siguiente pedido:%0A%0A';
     let total=0;
 
-    Object.keys(grouped).sort((a,b)=>a.localeCompare(b,'es')).forEach(cat=>{
+    const ordenCategorias = [
+"TÍTERES DE MANO",
+"TEATROS CON TÍTERES",
+"MINITEATROS Y TÍTERES DE DEDO",
+"VALIJAS DIDÁCTICAS DE ARTE",
+"VALIJAS DIDÁCTICAS DE OFICIO",
+"DISFRACES PARA NENAS",
+"DISFRACES PARA NENES",
+"DISFRACES DE ANIMALITOS",
+"DISFRACES DE HALLOWEEN",
+"JUGUETES PARA BEBÉS",
+"MUÑECAS DE TRAPO",
+"TRAJES PARA BALLET GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO"
+];
+
+Object.keys(grouped)
+.sort((a,b)=>{
+  const ia = ordenCategorias.indexOf(a);
+  const ib = ordenCategorias.indexOf(b);
+  return (ia===-1?999:ia) - (ib===-1?999:ib);
+})
+.forEach(cat=>{
       msg += `${iconFor(cat)} ${cat}%0A`;
 
       grouped[cat].forEach(it=>{
