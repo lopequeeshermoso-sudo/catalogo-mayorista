@@ -1290,12 +1290,15 @@ Object.keys(grouped)
       grouped[cat].forEach(it=>{
         total += it.sub;
 
-        msg += `• ${it.name}`;
-if(it.detalle){ msg += ` (${it.detalle})`; }
-msg += `%0A`;
+        msg += `${it.qty} | ${it.name}`;
 
-        msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
-      });
+if(it.detalle){
+  msg += ` | ${it.detalle}`;
+}else{
+  msg += ` | -`;
+}
+
+msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
 
       msg += `%0A`;
     });
