@@ -1235,7 +1235,33 @@ if(cart.has(name)){
 
     const grouped={};
     cart.forEach((v,k)=>{
+let img = "";
 
+/* buscar imagen en PRODUCTOS */
+const producto = PRODUCTOS.find(p => p.name === v.name);
+
+if(producto && producto.image){
+  img = producto.image;
+}
+
+/* fallback: buscar en Excel */
+if(!img){
+  const nombreBase = v.name.split(" - ")[0];
+
+  const row = PRECIOS.find(x =>
+    quitarAcentos((x["Nombre del producto"]||"").toLowerCase().trim()) ===
+    quitarAcentos(nombreBase.toLowerCase().trim())
+  );
+
+  if(row && row["Imagen"]){
+    img = row["Imagen"];
+  }
+}
+
+/* fallback final */
+if(!img){
+  img = "https://via.placeholder.com/80x80?text=LPH";
+}
   const nombreBase = k.split(" - ")[0]; // quitar detalle de variantes
   const cat = nameToCategory[nombreBase] || 'Otros';
 
@@ -1290,11 +1316,15 @@ Object.keys(grouped)
       grouped[cat].forEach(it=>{
         total += it.sub;
 
-        msg += `• ${it.name}`;
-if(it.detalle){ msg += ` (${it.detalle})`; }
-msg += `%0A`;
+        msg += `${it.qty} | ${it.name}`;
 
-        msg += `   ${it.qty} u. x $${formatARS(it.price)} = $${formatARS(it.sub)}%0A`;
+if(it.detalle){
+  msg += ` | ${it.detalle}`;
+}else{
+  msg += ` | -`;
+}
+
+msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
       });
 
       msg += `%0A`;
@@ -1597,37 +1627,7 @@ div.className="itemPedido";
 const sub=v.qty*v.price;
 total+=sub;
 
-/* buscar imagen en PRODUCTOS o en EXCEL */
 
-let img = "";
-
-/* 1. buscar en productos originales */
-const producto = PRODUCTOS.find(p => p.name === v.name);
-
-if(producto && producto.image){
-  img = producto.image;
-}
-
-/* 2. si no hay, buscar en el Excel */
-if(!img){
-
-  const nombreBase = v.name.split(" - ")[0];
-
-  const row = PRECIOS.find(x =>
-    quitarAcentos((x["Nombre del producto"]||"").toLowerCase().trim()) ===
-    quitarAcentos(nombreBase.toLowerCase().trim())
-  );
-
-  if(row && row["Imagen"]){
-    img = row["Imagen"];
-  }
-
-}
-
-/* 3. fallback */
-if(!img){
-  img = "https://via.placeholder.com/80x80?text=LPH";
-}
 
 div.innerHTML=`
 <div style="display:flex;gap:8px;align-items:center;width:100%">
@@ -1726,7 +1726,7 @@ document.getElementById("cartTotal").textContent = "0";
 const btnVer = document.getElementById("btnVerPedido");
 
 if(btnVer){
-btnVer.textContent = "🧾 Revisar pedido";
+btnVer.textContent = "🧾 Revisar pedido — 0 productos / 0 unidades ($0)";
 }
 
 /* reiniciar contador interno */
