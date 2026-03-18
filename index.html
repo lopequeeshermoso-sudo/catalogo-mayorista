@@ -1288,7 +1288,11 @@ if(!img){
 
     let nombreCliente = prompt("Por favor ingresá tu nombre o el de tu comercio:");
 
-if(!nombreCliente){
+if(nombreCliente === null){
+  return; // 👈 si cancela, NO sigue
+}
+
+if(nombreCliente.trim() === ""){
   nombreCliente = "Cliente";
 }
 
