@@ -1286,7 +1286,15 @@ if(!img){
       return '📦';
     };
 
-    let msg='Hola! Quiero hacer el siguiente pedido:%0A%0A';
+    let nombreCliente = prompt("Por favor ingresá tu nombre o el de tu comercio:");
+
+if(!nombreCliente){
+  nombreCliente = "Cliente";
+}
+
+let msg = "PEDIDO MAYORISTA%0A";
+msg += "Cliente: " + nombreCliente + "%0A%0A";
+msg += "Detalle del pedido:%0A%0A";
     let total=0;
 
     const ordenCategorias = [
