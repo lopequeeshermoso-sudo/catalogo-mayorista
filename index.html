@@ -1621,13 +1621,40 @@ let total=0;
 
 cart.forEach((v,k)=>{
 
-const div=document.createElement("div");
-div.className="itemPedido";
-
 const sub=v.qty*v.price;
 total+=sub;
 
+/* obtener imagen correctamente */
+let img = "";
 
+const nombreBase = v.name.split(" - ")[0];
+
+const producto = PRODUCTOS.find(p =>
+  quitarAcentos(p.name.toLowerCase().trim()) ===
+  quitarAcentos(nombreBase.toLowerCase().trim())
+);
+
+if(producto && producto.image){
+  img = producto.image;
+}
+
+if(!img){
+  const row = PRECIOS.find(x =>
+    quitarAcentos((x["Nombre del producto"]||"").toLowerCase().trim()) ===
+    quitarAcentos(nombreBase.toLowerCase().trim())
+  );
+
+  if(row && row["Imagen"]){
+    img = row["Imagen"];
+  }
+}
+
+if(!img){
+  img = "https://via.placeholder.com/80x80?text=LPH";
+}
+
+const div=document.createElement("div");
+div.className="itemPedido";
 
 div.innerHTML=`
 <div style="display:flex;gap:8px;align-items:center;width:100%">
