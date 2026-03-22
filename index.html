@@ -1298,9 +1298,7 @@ if(nombreCliente.trim() === ""){
 
 let msg = "PEDIDO MAYORISTA%0A";
 msg += "Cliente: " + nombreCliente + "%0A%0A";
-msg += "Detalle del pedido:%0A";
-msg += "Cantidad;Producto;Variante;Precio unitario;Subtotal%0A";
-msg += "--------------------------------------------%0A";
+msg += "Detalle del pedido:%0A%0A";
     let total=0;
 
     const ordenCategorias = [
@@ -1330,15 +1328,15 @@ Object.keys(grouped)
       grouped[cat].forEach(it=>{
         total += it.sub;
 
-        msg += `${it.qty};${it.name};`;
+        msg += `${it.qty} | ${it.name}`;
 
 if(it.detalle){
-  msg += `${it.detalle};`;
+  msg += ` | ${it.detalle}`;
 }else{
-  msg += `-;`;
+  msg += ` | -`;
 }
 
-msg += `${it.price};${it.sub}%0A`;
+msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
       });
 
       msg += `%0A`;
