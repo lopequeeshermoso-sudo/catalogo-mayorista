@@ -2302,7 +2302,7 @@
   {
     "Nombre del producto": "Disfraz de Vampira",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 25300.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2325,7 +2325,7 @@
   {
     "Nombre del producto": "Disfraz de Merlina",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 32000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2348,7 +2348,7 @@
   {
     "Nombre del producto": "Disfraz de Brujita Violeta",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2365,13 +2365,13 @@
     "Precio x11": "",
     "Precio x12": "",
     "Imagen": "",
-    "Descripción": "",
+    "Descripción": "🧙‍♀️ Disfraz de Brujita con Tutú y Vincha\n\nDisfraz infantil ideal para Halloween y juego simbólico, favorece la imaginación, la expresión y la recreación de historias.\n\n🎭 Incluye\nTop de raso con apliques + tutú de tul y gasa cristal con cintura plateada + vincha con gorrito de bruja\n\n🧵 Confección\nTelas de hermosos colores\nTerminaciones cuidadas\nSe adapta a amplio rango de talles\nIncluye detalles decorativos\n\n📏 Posibilidad de ajustar talle según medidas del niño/a.",
     "Activo": ""
   },
   {
     "Nombre del producto": "Disfraz de Brujita Naranja",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2388,13 +2388,13 @@
     "Precio x11": "",
     "Precio x12": "",
     "Imagen": "",
-    "Descripción": "",
+    "Descripción": "🧙‍♀️ Disfraz de Brujita con Tutú y Vincha\n\nDisfraz infantil ideal para Halloween y juego simbólico, favorece la imaginación, la expresión y la recreación de historias.\n\n🎭 Incluye\nTop de raso con apliques + tutú de tul y gasa cristal con cintura plateada + vincha con gorrito de bruja\n\n🧵 Confección\nTelas de hermosos colores\nTerminaciones cuidadas\nSe adapta a amplio rango de talles\nIncluye detalles decorativos\n\n📏 Posibilidad de ajustar talle según medidas del niño/a.",
     "Activo": ""
   },
   {
     "Nombre del producto": "Disfraz de Brujita Verde",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -2411,13 +2411,13 @@
     "Precio x11": "",
     "Precio x12": "",
     "Imagen": "",
-    "Descripción": "",
+    "Descripción": "🧙‍♀️ Disfraz de Brujita con Tutú y Vincha\n\nDisfraz infantil ideal para Halloween y juego simbólico, favorece la imaginación, la expresión y la recreación de historias.\n\n🎭 Incluye\nTop de raso con apliques + tutú de tul y gasa cristal con cintura plateada + vincha con gorrito de bruja\n\n🧵 Confección\nTelas de hermosos colores\nTerminaciones cuidadas\nSe adapta a amplio rango de talles\nIncluye detalles decorativos\n\n📏 Posibilidad de ajustar talle según medidas del niño/a.",
     "Activo": ""
   },
   {
     "Nombre del producto": "Disfraz de Brujita Fuxia",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 25500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2440,7 +2440,7 @@
   {
     "Nombre del producto": "Disfraz de Esqueleto",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2463,7 +2463,7 @@
   {
     "Nombre del producto": "Disfraz de Calabaza",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2486,7 +2486,7 @@
   {
     "Nombre del producto": "Disfraz de Araña",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -2509,7 +2509,7 @@
   {
     "Nombre del producto": "Caramelera Calabaza",
     "Categoría": "DISFRACES DE HALLOWEEN",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": 9000.0,
     "Cantidad de títeres": "",
     "Talle": "",
