@@ -1911,7 +1911,7 @@
   {
     "Nombre del producto": "Tutú de bailarina",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 18.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1934,7 +1934,7 @@
   {
     "Nombre del producto": "Tutú de Bailarina Unicornio",
     "Categoría": "",
-    "Orden": 15.0,
+    "Orden": 16.0,
     "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "1,2",
@@ -1957,7 +1957,7 @@
   {
     "Nombre del producto": "Disfraz de Mujer Maravilla",
     "Categoría": "",
-    "Orden": 5.0,
+    "Orden": 15.0,
     "Precio mayorista": 19850.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -2164,7 +2164,7 @@
   {
     "Nombre del producto": "Disfraz de Sirenita",
     "Categoría": "",
-    "Orden": 16.0,
+    "Orden": 17.0,
     "Precio mayorista": 22500.0,
     "Cantidad de títeres": "",
     "Talle": "1,2,3",
@@ -2227,7 +2227,7 @@
     "Precio x11": "",
     "Precio x12": "",
     "Imagen": "",
-    "Descripción": "🎤 Disfraz K-Pop Mira – Set con Pollera\n\nDisfraz infantil estilo K-Pop, ideal para baile, juego simbólico y fiestas temáticas.\n\n🎭 Incluye\nTop + pollera + torera con hombreras\n\n🧵 Confección\nLycra argentina de calidad\nDetalles en transfer dorado\nSe adapta a amplio rango de talles\nIncluye accesorios decorativos\n\n📏 Medidas por talle disponibles en galería\nPosibilidad de ajustar talle según medidas del niño/a",
+    "Descripción": "🎤 Disfraz K-Pop Mira – Set con Pollera\n\nDisfraz infantil estilo K-Pop, ideal para baile, juego simbólico y fiestas temáticas.\n\n🎭 Incluye\nTop + pollera + torera con hombreras\n\n🧵 Confección\nLycra argentina de calidad\nDetalles en transfer dorado\nSe adapta a amplio rango de talles\nIncluye accesorios decorativos\n\n📏 Medidas por talle disponibles a solicitud\nPosibilidad de ajustar talle según medidas del niño/a",
     "Activo": "SI"
   },
   {
@@ -2250,7 +2250,30 @@
     "Precio x11": "",
     "Precio x12": "",
     "Imagen": "",
-    "Descripción": "🎤 Disfraz K-Pop Rumi con Trenza\n\nDisfraz infantil inspirado en el estilo K-Pop, ideal para juego simbólico, baile y fiestas temáticas.\n\n🎭 Incluye\nTop + short + polainas + trenza de raso violeta\n\n🧵 Confección\nLycra argentina de calidad\nDetalles en transfer dorado\nSe adapta a amplio rango de talles\nIncluye accesorios decorativos\n\n📏 Medidas por talle disponibles en galería\nPosibilidad de ajustar talle según medidas del niño/a",
+    "Descripción": "🎤 Disfraz K-Pop Rumi con Trenza\n\nDisfraz infantil inspirado en el estilo K-Pop, ideal para juego simbólico, baile y fiestas temáticas.\n\n🎭 Incluye\nTop + short + polainas + trenza de raso violeta\n\n🧵 Confección\nLycra argentina de calidad\nDetalles en transfer dorado\nSe adapta a amplio rango de talles\nIncluye accesorios decorativos\n\n📏 Medidas por talle disponibles a solicitud\nPosibilidad de ajustar talle según medidas del niño/a",
+    "Activo": "SI"
+  },
+  {
+    "Nombre del producto": "Disfraz de Zoey  K-Pop Demon Hunters",
+    "Categoría": "DISFRACES PARA NENAS",
+    "Orden": 5.0,
+    "Precio mayorista": 45000.0,
+    "Cantidad de títeres": "",
+    "Talle": "1,2,3,4,6",
+    "Precio x1": "",
+    "Precio x2": "",
+    "Precio x3": "",
+    "Precio x4": "",
+    "Precio x5": "",
+    "Precio x6": "",
+    "Precio x7": "",
+    "Precio x8": "",
+    "Precio x9": "",
+    "Precio x10": "",
+    "Precio x11": "",
+    "Precio x12": "",
+    "Imagen": "imagenes/z.jpg",
+    "Descripción": "🎤 Disfraz K-Pop Zoey\n\nDisfraz infantil inspirado en el estilo K-Pop, ideal para juego simbólico, baile y fiestas temáticas.\n\n🎭 Incluye\nTop + short + polainas + chaqueta\n\n🧵 Confección\nLycra argentina de calidad\nDetalles en transfer dorado\nSe adapta a amplio rango de talles\nIncluye accesorios decorativos\n\n📏 Medidas por talle disponibles a solicitud\nPosibilidad de ajustar talle según medidas del niño/a",
     "Activo": "SI"
   },
   {
