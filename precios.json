@@ -692,7 +692,7 @@
   {
     "Nombre del producto": "Valija de Mini Maestra",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -715,7 +715,7 @@
   {
     "Nombre del producto": "Valija de Mini Maestro",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 28600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -738,7 +738,7 @@
   {
     "Nombre del producto": "Valija de Mini Chef nena",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -761,7 +761,7 @@
   {
     "Nombre del producto": "Valija de Mini Chef varón",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 21000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -784,7 +784,7 @@
   {
     "Nombre del producto": "Valija de Mini Jardineros",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 23500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -807,7 +807,7 @@
   {
     "Nombre del producto": "Valija de Mini Veterinarios",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 26400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -830,7 +830,7 @@
   {
     "Nombre del producto": "Valija de Mini Spa",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 29800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -853,7 +853,7 @@
   {
     "Nombre del producto": "Valija de Tarde de Mate",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 19500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -876,7 +876,7 @@
   {
     "Nombre del producto": "Valija de Tardes de Té",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 25000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -899,7 +899,7 @@
   {
     "Nombre del producto": "Valija de Mini Exploradores",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": 24800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -922,7 +922,7 @@
   {
     "Nombre del producto": "Valija de Mini Doctor",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 11.0,
     "Precio mayorista": 37500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -945,7 +945,7 @@
   {
     "Nombre del producto": "Bolsito Explorador Jirafas",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 13.0,
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -961,14 +961,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/bo2.jpg",
     "Descripción": "✨ Bolsito de Oficio – Explorador\nSet de exploración infantil ideal para investigar, observar y descubrir la naturaleza mediante juego simbólico.\n\n🎒 Incluye\nBolsito + lupa chica + linterna + riñonera + manga de vientos + mapa estelar con bolsillo para muestras.\n\n💡 Ideal para juego al aire libre y exploración del entorno.",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Explorador África",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 14.0,
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -984,14 +984,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/bo1.jpg",
     "Descripción": "✨ Bolsito de Oficio – Explorador\nSet de exploración infantil ideal para investigar, observar y descubrir la naturaleza mediante juego simbólico.\n\n🎒 Incluye\nBolsito + lupa chica + linterna + riñonera + manga de vientos + mapa estelar con bolsillo para muestras.\n\n💡 Ideal para juego al aire libre y exploración del entorno.",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Chef varón",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 15.0,
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1007,14 +1007,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/bo4.jpg",
     "Descripción": "✨ Bolsito de Oficio – Chef\nSet de cocina infantil ideal para amasar, cortar y preparar recetas, estimulando la motricidad fina y el juego compartido.\n\n🎒 Incluye\nBolsito + delantal a la cintura + gorro de chef + agarradera + palito de amasar + 3 moldecitos + 3 recetas.\n\n💡 Ideal para juego simbólico y actividades en familia.",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Chef nena",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 16.0,
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1030,14 +1030,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/bo5.jpg",
     "Descripción": "✨ Bolsito de Oficio – Chef\nSet de cocina infantil ideal para amasar, cortar y preparar recetas, estimulando la motricidad fina y el juego compartido.\n\n🎒 Incluye\nBolsito + delantal a la cintura + gorro de chef + agarradera + palito de amasar + 3 moldecitos + 3 recetas.\n\n💡 Ideal para juego simbólico y actividades en familia.",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Bolsito Mini Peluquería",
     "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
-    "Orden": "",
+    "Orden": 17.0,
     "Precio mayorista": 11500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1053,14 +1053,14 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/bo3.jpg",
     "Descripción": "✨ Bolsito de Oficio – Mini Peluquería\nSet de juego simbólico de peluquería y cuidado personal, ideal para estimular la motricidad fina, la creatividad y el juego compartido.\n\n🎒 Incluye\nBolsito + capa de peluquería + peine + espejito + mechitas de colores + toallita de manicura + lima + colines + pincitas.\n\n💡 Ideal para juego de roles y actividades compartidas.",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Set de esqueleto y órganos del cuerpo humano para Docentes y Educadores",
-    "Categoría": "",
-    "Orden": "",
+    "Categoría": "VALIJAS DIDÁCTICAS DE OFICIO",
+    "Orden": 12.0,
     "Precio mayorista": 16500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1076,7 +1076,7 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/O49.jpg",
     "Descripción": "✨ Set Didáctico – Esqueleto y Órganos del Cuerpo Humano\nMaterial educativo interactivo ideal para docentes y educadores para enseñar huesos, órganos y sistemas del cuerpo humano.\n\n🎒 Incluye\nEsqueleto de tela 1 metro de largo con órganos y costillas extraíbles con velcro + 3 afiches explicativos (órganos, huesos y sistemas del cuerpo).\n\n🧵 Material manipulable en tela, ideal para uso en aula.\n\n",
     "Activo": "SI"
   },
