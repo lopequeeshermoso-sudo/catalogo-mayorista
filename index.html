@@ -1569,7 +1569,12 @@ box-shadow:0 10px 40px rgba(0,0,0,0.5);
 document.addEventListener("click",function(e){
 
 // visor de imagen
-if(e.target.tagName==="IMG" && e.target.src && !e.target.closest("#iconCategorias")){
+if(
+e.target.tagName==="IMG" &&
+e.target.src &&
+!e.target.closest("#iconCategorias") &&
+!e.target.closest(".card")
+){
 
 const visor=document.getElementById("visorImagen");
 const grande=document.getElementById("imgGrande");
