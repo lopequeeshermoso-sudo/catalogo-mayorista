@@ -1702,8 +1702,16 @@ border-radius:6px;
 
 <div style="flex:1">
 <strong>${v.name}</strong><br>
-${v.detalle ? v.detalle+"<br>" : ""}
-${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
+
+${v.detalle
+? (
+v.name.toLowerCase().includes("disfraz")
+? "Talle: " + v.detalle + "<br>"
+: v.detalle + "<br>"
+)
+: ""}
+
+${v.qty} x $${v.price.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")} = $${sub.toLocaleString("es-AR")}
 </div>
 
 <div style="display:flex;gap:4px">
