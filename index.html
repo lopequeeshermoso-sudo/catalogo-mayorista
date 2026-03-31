@@ -1079,9 +1079,16 @@ return;
 
 let detalle="";
 
+/* selector de títeres */
 const selTiteres = card.querySelector(".selector-titeres");
 if(selTiteres){
 detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
+}
+
+/* selector de talles */
+const selTalle = card.querySelector(".selector-talle");
+if(selTalle){
+detalle = selTalle.options[selTalle.selectedIndex].textContent;
 }
 
 const key = name + (detalle ? " - " + detalle : "");
