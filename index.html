@@ -1157,7 +1157,13 @@ card.appendChild(labelT);const selT=document.createElement("select");
       selT.appendChild(op);
     });
 
-    card.appendChild(selT);if(imagenTalle){
+    card.appendChild(selT);
+
+/* botón tabla de talles junto al selector */
+
+const imagenTalleLocal = row ? (row["Imagen talle"] || "") : "";
+
+if(imagenTalleLocal){
 
 const btnTabla=document.createElement("button");
 
@@ -1165,7 +1171,7 @@ btnTabla.className="btnTablaTalles";
 btnTabla.textContent="📏 Ver tabla de talles";
 
 btnTabla.onclick=()=>{
-mostrarTablaTalles(imagenTalle);
+mostrarTablaTalles(imagenTalleLocal);
 };
 
 card.appendChild(btnTabla);
