@@ -1338,9 +1338,23 @@ Object.keys(grouped)
         msg += `${it.qty} | ${it.name}`;
 
 if(it.detalle){
-  msg += ` | ${it.detalle}`;
+
+let etiqueta = "Detalle";
+
+if(it.detalle.toLowerCase().includes("talle")){
+etiqueta = "Talle";
+}
+
+if(it.detalle.toLowerCase().includes("títere")){
+etiqueta = "Cantidad de títeres";
+}
+
+msg += ` | ${etiqueta}: ${it.detalle}`;
+
 }else{
-  msg += ` | -`;
+
+msg += ` | -`;
+
 }
 
 msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
