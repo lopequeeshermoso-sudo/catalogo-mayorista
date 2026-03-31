@@ -780,15 +780,12 @@ descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
      let imagenExcel = row ? (row["Imagen"] || "") : "";
 let imagenTalle = row ? (row["Imagen talle"] || "") : "";
 const src = imagenExcel || p.image || "https://via.placeholder.com/400x400?text=LPH";
-     c.innerHTML=`<img loading="lazy" src="${src}" onerror="this.style.display='none'">
-
-${imagenTalle ? `
+     c.innerHTML=`<img loading="lazy" src="${src}"${imagenTalle ? `
 <button class="btnTablaTalles"
 onclick="mostrarTablaTalles('${imagenTalle}')">
-📏 Ver tabla de talles
+Ver tabla de talles
 </button>
-` : ""}
-`
+` : ""} onerror="this.style.display='none'">
 
 <div class='card-title'><strong>${p.name}</strong></div>
 <small>${p.category||''}</small>
