@@ -1341,10 +1341,12 @@ if(it.detalle){
 
 let etiqueta = "Detalle";
 
-if(it.detalle.toLowerCase().includes("talle")){
+/* si pertenece a disfraces → es talle */
+if(cat.toLowerCase().includes("disfraz")){
 etiqueta = "Talle";
 }
 
+/* si menciona títeres */
 if(it.detalle.toLowerCase().includes("títere")){
 etiqueta = "Cantidad de títeres";
 }
@@ -1356,7 +1358,6 @@ msg += ` | ${etiqueta}: ${it.detalle}`;
 msg += ` | -`;
 
 }
-
 msg += ` | $${formatARS(it.price)} | $${formatARS(it.sub)}%0A`;
       });
 
