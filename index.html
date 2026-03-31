@@ -1886,12 +1886,16 @@ box-shadow:0 4px 10px rgba(0,0,0,.4);
 </div>
 `;
 
-modal.onclick = () => modal.remove();
+modal.addEventListener("click", e=>{
+if(e.target === modal){
+modal.remove();
+}
+});
 
-modal.querySelector("button").onclick = e=>{
+modal.querySelector("button").addEventListener("click", e=>{
 e.stopPropagation();
 modal.remove();
-};
+});
 
 document.body.appendChild(modal);
 
