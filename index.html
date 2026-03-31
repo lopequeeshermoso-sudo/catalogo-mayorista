@@ -786,12 +786,6 @@ onclick="mostrarTablaTalles('${src}')"
 style="cursor:pointer"
 onerror="this.style.display='none'">
 
-${imagenTalle ? `
-<button class="btnTablaTalles"
-onclick="mostrarTablaTalles('${imagenTalle}')">
-📏 Ver tabla de talles
-</button>
-` : ""}
 
 <div class='card-title'><strong>${p.name}</strong></div>
 <small>${p.category||''}</small>
@@ -1163,7 +1157,20 @@ card.appendChild(labelT);const selT=document.createElement("select");
       selT.appendChild(op);
     });
 
-    card.appendChild(selT);
+    card.appendChild(selT);if(imagenTalle){
+
+const btnTabla=document.createElement("button");
+
+btnTabla.className="btnTablaTalles";
+btnTabla.textContent="📏 Ver tabla de talles";
+
+btnTabla.onclick=()=>{
+mostrarTablaTalles(imagenTalle);
+};
+
+card.appendChild(btnTabla);
+
+}
   }
 }
 
