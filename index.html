@@ -782,13 +782,13 @@ let imagenTalle = row ? (row["Imagen talle"] || "") : "";
 const src = imagenExcel || p.image || "https://via.placeholder.com/400x400?text=LPH";
      c.innerHTML=`<img loading="lazy"
 src="${src}"
-onclick="event.stopPropagation(); mostrarImagenGrande('${src}')"
+onclick="mostrarImagenGrande('${src}'); return false;"
 style="cursor:pointer"
 onerror="this.style.display='none'">
 
 ${imagenTalle ? `
 <button class="btnTablaTalles"
-onclick="mostrarTablaTalles('${imagenTalle}')">
+onclick="mostrarTablaTalles('${imagenTalle}'); return false;">
 📏 Ver tabla de talles
 </button>
 ` : ""}
