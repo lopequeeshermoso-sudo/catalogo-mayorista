@@ -1130,7 +1130,7 @@
   {
     "Nombre del producto": "Rayuela de tela para aprender los números jugando",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 18.0,
     "Precio mayorista": 24500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1154,7 +1154,7 @@
   {
     "Nombre del producto": "Libro para bebé \"Cosquillitas\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1178,7 +1178,7 @@
   {
     "Nombre del producto": "Libro para bebé \"Mariposas\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1202,7 +1202,7 @@
   {
     "Nombre del producto": "Libro para bebé \"Coral\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 8400.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1226,7 +1226,7 @@
   {
     "Nombre del producto": "Manta para bebé \"La Ciudad\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 16.0,
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1250,7 +1250,7 @@
   {
     "Nombre del producto": "Manta para bebé \"Animalitos de la Selva\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 15.0,
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1274,7 +1274,7 @@
   {
     "Nombre del producto": "Mantitas parabebé \"Mininos\"",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 17.0,
     "Precio mayorista": 15600.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1298,7 +1298,7 @@
   {
     "Nombre del producto": "Globo Pelota Monstruos",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1322,7 +1322,7 @@
   {
     "Nombre del producto": "Globo Pelota Dinosaurios",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1346,7 +1346,7 @@
   {
     "Nombre del producto": "Globo Pelota Haditas",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1370,7 +1370,7 @@
   {
     "Nombre del producto": "Globo Pelota Animalitos",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1394,7 +1394,7 @@
   {
     "Nombre del producto": "Globo Pelota Selva",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1418,7 +1418,7 @@
   {
     "Nombre del producto": "Globo Pelota Gatitos",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 6800.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1442,7 +1442,7 @@
   {
     "Nombre del producto": "Pelota de Trapo  Dinosaurios",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 14.0,
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1458,15 +1458,15 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/b19.jpg",
     "Imagen talle": "",
-    "Descripción": "🎈 Globolota – Pelota Sensorial con Globo\n\nUna propuesta divertida y segura para que bebés y niños pequeños jueguen con un globo sin que se pinche fácilmente, estimulando el movimiento y la exploración desde edades tempranas.\n\n🎭 Incluye\nPelota de tela para inflar un globo en su interior\nCascabel\n3 globos\nBolsito de guardado\n\n🧵 Confección\nPelota de tela liviana y segura\nDiseñada especialmente para bebés\nFácil de manipular y transportar",
+    "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo  Animalitos",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 11.0,
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1482,15 +1482,15 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/b17.jpg",
     "Imagen talle": "",
-    "Descripción": "🎈 Globolota – Pelota Sensorial con Globo\n\nUna propuesta divertida y segura para que bebés y niños pequeños jueguen con un globo sin que se pinche fácilmente, estimulando el movimiento y la exploración desde edades tempranas.\n\n🎭 Incluye\nPelota de tela para inflar un globo en su interior\nCascabel\n3 globos\nBolsito de guardado\n\n🧵 Confección\nPelota de tela liviana y segura\nDiseñada especialmente para bebés\nFácil de manipular y transportar",
+    "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo Selva",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 12.0,
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1506,15 +1506,15 @@
     "Precio x10": "",
     "Precio x11": "",
     "Precio x12": "",
-    "Imagen": "",
+    "Imagen": "imagenes/b21.jpg",
     "Imagen talle": "",
-    "Descripción": "🎈 Globolota – Pelota Sensorial con Globo\n\nUna propuesta divertida y segura para que bebés y niños pequeños jueguen con un globo sin que se pinche fácilmente, estimulando el movimiento y la exploración desde edades tempranas.\n\n🎭 Incluye\nPelota de tela para inflar un globo en su interior\nCascabel\n3 globos\nBolsito de guardado\n\n🧵 Confección\nPelota de tela liviana y segura\nDiseñada especialmente para bebés\nFácil de manipular y transportar",
+    "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Pelota de Trapo Gatitos",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 13.0,
     "Precio mayorista": 15950.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1532,13 +1532,13 @@
     "Precio x12": "",
     "Imagen": "",
     "Imagen talle": "",
-    "Descripción": "🎈 Globolota – Pelota Sensorial con Globo\n\nUna propuesta divertida y segura para que bebés y niños pequeños jueguen con un globo sin que se pinche fácilmente, estimulando el movimiento y la exploración desde edades tempranas.\n\n🎭 Incluye\nPelota de tela para inflar un globo en su interior\nCascabel\n3 globos\nBolsito de guardado\n\n🧵 Confección\nPelota de tela liviana y segura\nDiseñada especialmente para bebés\nFácil de manipular y transportar",
+    "Descripción": "",
     "Activo": "SI"
   },
   {
     "Nombre del producto": "Pulpitos Reversibles con dos emociones (alegre/ enojado)",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 7500.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -1562,7 +1562,7 @@
   {
     "Nombre del producto": "Cesto organizador de juguetes",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": 22900.0,
     "Cantidad de títeres": "",
     "Talle": "",
