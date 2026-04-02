@@ -2072,11 +2072,29 @@ alert("El pedido está vacío.");
 return;
 }
 
-let csv="PEDIDO MAYORISTA\n\n";
+/* pedir datos cliente */
+
+const nombreCliente = prompt("Nombre del cliente:", "") || "";
+const telefonoCliente = prompt("Teléfono:", "") || "";
+const localidadCliente = prompt("Localidad:", "") || "";
+
+/* fecha automática */
+
+const fecha = new Date().toLocaleDateString("es-AR");
+
+/* encabezado CSV */
+
+let csv =
+"PEDIDO MAYORISTA\n\n"+
+"Cliente:;"+nombreCliente+"\n"+
+"Teléfono:;"+telefonoCliente+"\n"+
+"Localidad:;"+localidadCliente+"\n"+
+"Fecha:;"+fecha+"\n\n"+
+"Cantidad;Producto;Detalle;Precio unitario;Subtotal\n";
 
 let total=0;
 
-/* agrupar por categoría igual que WhatsApp */
+/* agrupar por categoría */
 
 const grouped={};
 
@@ -2092,7 +2110,7 @@ grouped[cat].push(item);
 
 });
 
-/* ordenar categorías */
+/* orden categorías */
 
 const ordenCategorias=[
 "TÍTERES DE MANO",
@@ -2129,11 +2147,11 @@ const sub=it.qty*it.price;
 total+=sub;
 
 csv+=
-it.qty+" | "+
-it.name+" | "+
-(it.detalle||"-")+" | "+
-"$"+it.price+" | "+
-"$"+sub+"\n";
+it.qty+";"+
+it.name+";"+
+(it.detalle||"-")+";"+
+it.price+";"+
+sub+"\n";
 
 });
 
@@ -2141,7 +2159,9 @@ csv+="\n";
 
 });
 
-csv+="TOTAL FINAL: $"+total+"\n";
+/* total final */
+
+csv+="TOTAL FINAL:;$"+total+"\n";
 
 /* crear archivo */
 
