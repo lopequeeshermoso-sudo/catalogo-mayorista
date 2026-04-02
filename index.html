@@ -79,6 +79,8 @@ margin:0 6px;
 display:flex;
 align-items:center;
 
+flex-shrink:0;
+
 }
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
@@ -739,10 +741,12 @@ transform:scale(1.08);
 }
 .tituloCatalogoImg{
 
-height:48px;
+height:70px;
 width:auto;
 
 display:block;
+
+object-fit:contain;
 
 }
 </style>
