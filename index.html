@@ -41,13 +41,18 @@ margin:20px auto 20px auto;
 }
 
 .logoCatalogo{
+
 height:80px;
 width:auto;
+
 object-fit:contain;
 display:block;
 cursor:pointer;
-}
 
+aspect-ratio:auto;
+background:transparent;
+
+}
 
 
 #buscarProducto:focus{
@@ -84,7 +89,13 @@ flex-shrink:0;
 }
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;background:#fafafa}
+.grid .grid img{
+width:100%;
+aspect-ratio:1/1;
+object-fit:cover;
+border-radius:8px;
+background:#fafafa;
+}
 .row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
 small{color:#666}
 
@@ -747,6 +758,9 @@ width:auto;
 display:block;
 
 object-fit:contain;
+
+aspect-ratio:auto;
+background:transparent;
 
 }
 </style>
