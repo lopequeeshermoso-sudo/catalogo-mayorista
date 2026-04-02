@@ -469,6 +469,7 @@ right:4px;
 }
 
 .btnAgregar{
+
 width:100%;
 margin-top:10px;
 padding:10px;
@@ -483,12 +484,35 @@ font-weight:bold;
 font-size:14px;
 cursor:pointer;
 
-transition:all .2s ease;
+transition:all .15s ease;
+
 }
 
+/* hover */
+
 .btnAgregar:hover{
+
+background:#dcc768;
 transform:scale(1.03);
-background:#dcc768;   /* amarillo un poco más oscuro */
+
+}
+
+/* click */
+
+.btnAgregar:active{
+
+background:#d6c062;
+transform:scale(.98);
+
+}
+
+/* evitar que scripts viejos cambien el color */
+
+.btnAgregar.agregado{
+
+background:#E6D27A !important;
+color:#6b4a2f !important;
+
 }
 
 .subtotalProducto{
