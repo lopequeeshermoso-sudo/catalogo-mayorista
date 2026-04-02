@@ -239,13 +239,37 @@ color:white;
 }
 
 .qty-wrap{display:flex;align-items:center;gap:6px;margin-top:8px}
-.qty-btn{border:none;background:#6b4a2f;color:#fff;border-radius:6px;padding:4px 8px;cursor:pointer}
+.qty-btn{
+
+background:#7FB8A4;   /* verde marca */
+color:white;
+
+border:none;
+border-radius:6px;
+
+padding:4px 8px;
+
+font-weight:bold;
+cursor:pointer;
+
+transition:all .2s ease;
+
+}
+
+.qty-btn:hover{
+
+background:#6da693;   /* verde más oscuro */
+transform:scale(1.08);
+
+}
 .qty-input{width:48px;text-align:center;border:1px solid #ccc;border-radius:6px;padding:4px}
 #cartBar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #ddd;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;z-index:1000}
 #btnVerPedido{
 
-background:#25D366;
-color:white;
+#btnVerPedido{
+
+background:#E6D27A;   /* amarillo marca */
+color:#6b4a2f;        /* marrón marca */
 
 border:none;
 border-radius:999px;
@@ -261,6 +285,11 @@ box-shadow:0 4px 14px rgba(0,0,0,0.25);
 animation:pulsePedido 2s infinite;
 
 transition:transform .15s ease;
+}
+
+#btnVerPedido:hover{
+transform:scale(1.05);
+background:#dcc768;
 }
 
 #btnVerPedido:hover{
