@@ -445,8 +445,8 @@ padding:10px;
 border:none;
 border-radius:8px;
 
-background:#6b4a2f;
-color:white;
+background:#E6D27A;   /* amarillo marca */
+color:#6b4a2f;        /* marrón marca */
 
 font-weight:bold;
 font-size:14px;
@@ -457,7 +457,7 @@ transition:all .2s ease;
 
 .btnAgregar:hover{
 transform:scale(1.03);
-background:#7a5637;
+background:#dcc768;   /* amarillo un poco más oscuro */
 }
 .subtotalProducto{
 font-size:13px;
@@ -498,16 +498,22 @@ margin-top:8px;
 
 .btnDescripcion{
 margin-top:8px;
-background:#eee;
+background:#CF7F98;   /* rosa marca */
+color:white;
+
 border:none;
 border-radius:6px;
 padding:6px 10px;
 font-size:12px;
+font-weight:600;
+
 cursor:pointer;
+transition:all .2s ease;
 }
 
 .btnDescripcion:hover{
-background:#e0e0e0;
+background:#c2708a;   /* rosa un poco más oscuro */
+transform:scale(1.03);
 }
 #panelPedido{
 position:fixed;
@@ -613,7 +619,55 @@ font-weight:bold;
 cursor:pointer;
 
 }
+.menosItem,
+.masItem{
 
+background:#7FB8A4;   /* verde marca */
+color:white;
+
+border:none;
+border-radius:6px;
+
+width:26px;
+height:26px;
+
+font-size:16px;
+font-weight:bold;
+
+cursor:pointer;
+
+transition:all .2s ease;
+
+}
+
+.menosItem:hover,
+.masItem:hover{
+
+background:#6da693;   /* verde más oscuro */
+transform:scale(1.08);
+
+}
+.eliminarItem{
+
+background:#f2cfcf;
+border:none;
+border-radius:6px;
+
+width:26px;
+height:26px;
+
+cursor:pointer;
+
+transition:all .2s ease;
+
+}
+
+.eliminarItem:hover{
+
+background:#e6b8b8;
+transform:scale(1.08);
+
+}
 </style>
 
 </head>
