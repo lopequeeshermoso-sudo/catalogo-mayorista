@@ -1088,13 +1088,26 @@ let detalle="";
 /* selector de títeres */
 const selTiteres = card.querySelector(".selector-titeres");
 if(selTiteres){
-detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
+detalle =
+selTiteres.options[selTiteres.selectedIndex].textContent;
 }
 
-/* selector de talles */
+/* selector de talle */
 const selTalle = card.querySelector(".selector-talle");
 if(selTalle){
-detalle = selTalle.options[selTalle.selectedIndex].textContent;
+detalle +=
+(detalle ? " - " : "") +
+"Talle: " +
+selTalle.options[selTalle.selectedIndex].textContent;
+}
+
+/* selector de color */
+const selColor = card.querySelector(".selector-color");
+if(selColor){
+detalle +=
+(detalle ? " - " : "") +
+"Color: " +
+selColor.options[selColor.selectedIndex].textContent;
 }
 
 const key = name + (detalle ? " - " + detalle : "");
@@ -1179,7 +1192,39 @@ card.appendChild(btnTabla);
 }
   }
 }
+/* ===== selector de color ===== */
 
+if(row["Color"]){
+
+const colores = row["Color"]
+.split(",")
+.map(c=>c.trim())
+.filter(c=>c);
+
+if(colores.length>0){
+
+const labelC=document.createElement("div");
+labelC.textContent="Color:";
+labelC.style.fontSize="12px";
+labelC.style.marginTop="6px";
+labelC.style.color="#6b4a2f";
+
+card.appendChild(labelC);
+
+const selC=document.createElement("select");
+selC.className="selector-color";
+
+colores.forEach(c=>{
+const op=document.createElement("option");
+op.textContent=c;
+selC.appendChild(op);
+});
+
+card.appendChild(selC);
+
+}
+
+}
   let opciones=[];
 
   for(let i=1;i<=12;i++){
