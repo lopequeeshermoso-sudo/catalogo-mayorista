@@ -1247,6 +1247,16 @@ if(qty === 0){
 alert("Elegí cuántos sets querés pedir");
 return;
 }
+btnAgregar.classList.add("agregado");
+
+/* animación de confirmación */
+
+btnAgregar.textContent = "✔ Agregado";
+
+setTimeout(()=>{
+btnAgregar.classList.remove("agregado");
+btnAgregar.textContent = "Agregar al pedido";
+},1200);
 
 let detalle="";
 
@@ -1295,14 +1305,6 @@ price:price
 updateBar();
 actualizarContadorPedido();
 /* animación de confirmación */
-
-btnAgregar.textContent = "✔ Agregado";
-
-
-setTimeout(()=>{
-btnAgregar.textContent = "Agregar al pedido";
-
-},1200);
 
 });
 }
