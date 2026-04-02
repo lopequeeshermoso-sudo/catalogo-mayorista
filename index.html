@@ -1104,10 +1104,18 @@ selTalle.options[selTalle.selectedIndex].textContent;
 /* selector de color */
 const selColor = card.querySelector(".selector-color");
 if(selColor){
+
+const activo = selColor.querySelector(".activo");
+
+if(activo){
+
 detalle +=
 (detalle ? " - " : "") +
 "Color: " +
-selColor.options[selColor.selectedIndex].textContent;
+activo.title;
+
+}
+
 }
 
 const key = name + (detalle ? " - " + detalle : "");
@@ -1193,6 +1201,7 @@ card.appendChild(btnTabla);
   }
 }
 /* ===== selector de color ===== */
+/* ===== selector de color visual ===== */
 
 if(row["Color"]){
 
@@ -1211,20 +1220,55 @@ labelC.style.color="#6b4a2f";
 
 card.appendChild(labelC);
 
-const selC=document.createElement("select");
-selC.className="selector-color";
+/* contenedor de botones */
 
-colores.forEach(c=>{
-const op=document.createElement("option");
-op.textContent=c;
-selC.appendChild(op);
+const contColores=document.createElement("div");
+contColores.className="selector-color";
+contColores.style.display="flex";
+contColores.style.gap="6px";
+contColores.style.marginTop="4px";
+
+/* crear botones circulares */
+
+colores.forEach((c,i)=>{
+
+const btn=document.createElement("button");
+
+btn.type="button";
+btn.title=c;
+
+btn.style.width="22px";
+btn.style.height="22px";
+btn.style.borderRadius="50%";
+btn.style.border="2px solid #ccc";
+btn.style.cursor="pointer";
+btn.style.background=c;
+
+/* color seleccionado */
+
+if(i===0){
+btn.classList.add("activo");
+}
+
+btn.onclick=()=>{
+
+contColores.querySelectorAll("button")
+.forEach(b=>b.classList.remove("activo"));
+
+btn.classList.add("activo");
+
+};
+
+contColores.appendChild(btn);
+
 });
 
-card.appendChild(selC);
+card.appendChild(contColores);
 
 }
 
 }
+
   let opciones=[];
 
   for(let i=1;i<=12;i++){
