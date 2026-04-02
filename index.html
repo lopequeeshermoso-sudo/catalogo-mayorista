@@ -1805,6 +1805,8 @@ btnEnviar.addEventListener("click", sendWhats);
 
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
 
+<button id="btnExportarExcel">📊 Descargar pedido en Excel</button>
+
 </div>
 
 </div>
@@ -2063,5 +2065,96 @@ modal.remove();
 document.body.appendChild(modal);
 
 }
+document.getElementById("btnExportarExcel").onclick = function(){
+
+if(cart.size===0){
+alert("El pedido está vacío.");
+return;
+}
+
+let csv="PEDIDO MAYORISTA\n\n";
+
+let total=0;
+
+/* agrupar por categoría igual que WhatsApp */
+
+const grouped={};
+
+cart.forEach(item=>{
+
+const cat=item.category||"OTROS";
+
+if(!grouped[cat]){
+grouped[cat]=[];
+}
+
+grouped[cat].push(item);
+
+});
+
+/* ordenar categorías */
+
+const ordenCategorias=[
+"TÍTERES DE MANO",
+"TEATROS CON TÍTERES",
+"MINITEATROS Y TÍTERES DE DEDO",
+"VALIJAS DIDÁCTICAS DE ARTE",
+"VALIJAS DIDÁCTICAS DE OFICIO",
+"DISFRACES PARA NENAS",
+"DISFRACES PARA NENES",
+"DISFRACES DE ANIMALITOS",
+"DISFRACES DE HALLOWEEN",
+"JUGUETES PARA BEBÉS",
+"MUÑECAS DE TRAPO",
+"TRAJES PARA BALLET GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO"
+];
+
+Object.keys(grouped)
+.sort((a,b)=>{
+
+const ia=ordenCategorias.indexOf(a);
+const ib=ordenCategorias.indexOf(b);
+
+return (ia===-1?999:ia)-(ib===-1?999:ib);
+
+})
+.forEach(cat=>{
+
+csv+=cat+"\n";
+
+grouped[cat].forEach(it=>{
+
+const sub=it.qty*it.price;
+
+total+=sub;
+
+csv+=
+it.qty+" | "+
+it.name+" | "+
+(it.detalle||"-")+" | "+
+"$"+it.price+" | "+
+"$"+sub+"\n";
+
+});
+
+csv+="\n";
+
+});
+
+csv+="TOTAL FINAL: $"+total+"\n";
+
+/* crear archivo */
+
+const blob=new Blob([csv],{type:"text/csv;charset=utf-8;"});
+
+const link=document.createElement("a");
+
+link.href=URL.createObjectURL(blob);
+
+link.download="pedido_mayorista.csv";
+
+link.click();
+
+};
 </script>
 </body></html>
