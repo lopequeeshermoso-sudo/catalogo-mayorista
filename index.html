@@ -234,8 +234,10 @@ transform:scale(1.05);
 }
 
 #catMenu button.active{
-background:#6b4a2f;
+
+background:#F4A62A;
 color:white;
+
 }
 
 .qty-wrap{display:flex;align-items:center;gap:6px;margin-top:8px}
@@ -424,10 +426,15 @@ text-align:center;
 }
 
 .catIcon.activa{
+
 transform:scale(1.08);
+
 box-shadow:0 6px 18px rgba(0,0,0,0.18);
-border:2px solid #6b4a2f;
+
+border:2px solid #F4A62A;   /* naranja marca */
+
 box-sizing:border-box;
+
 }
 .catCarousel{
 position:relative;
@@ -483,13 +490,17 @@ transition:all .2s ease;
 transform:scale(1.03);
 background:#dcc768;   /* amarillo un poco más oscuro */
 }
+
 .subtotalProducto{
+
 font-size:13px;
 margin-top:6px;
-color:#6b4a2f;
-font-weight:bold;
-}
 
+color:#F4A62A;   /* naranja marca */
+
+font-weight:bold;
+
+}
 
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
@@ -617,14 +628,29 @@ border-top:1px solid #ddd;
 }
 
 #btnEnviarPedido{
+
 width:100%;
-background:#25D366;
+
+background:#F4A62A;   /* naranja marca */
+color:white;
+
 border:none;
 padding:10px;
+
 border-radius:8px;
-color:white;
+
 font-weight:bold;
 cursor:pointer;
+
+transition:all .2s ease;
+
+}
+
+#btnEnviarPedido:hover{
+
+background:#e3951d;
+transform:scale(1.02);
+
 }
 #btnSeguirComprando{
 
