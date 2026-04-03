@@ -1178,6 +1178,35 @@ c.appendChild(contColor);
 }
 
 }
+/* ===== control de cantidad + y − ===== */
+
+const btnMenos = c.querySelector(".menos");
+const btnMas = c.querySelector(".mas");
+const inputQty = c.querySelector(".qty-input");
+
+if(btnMenos && btnMas && inputQty){
+
+btnMenos.onclick = () => {
+
+let v = parseInt(inputQty.value || 0);
+
+if(v > 0){
+
+inputQty.value = v - 1;
+
+}
+
+};
+
+btnMas.onclick = () => {
+
+let v = parseInt(inputQty.value || 0);
+
+inputQty.value = v + 1;
+
+};
+
+}
      g.appendChild(c);
    });
  });
