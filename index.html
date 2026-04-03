@@ -1342,9 +1342,11 @@ activo.title;
 }
 
 const key = name + (detalle ? " - " + detalle : "");
+const categoria = card.dataset.categoria;
 
 cart.set(key,{
 name:name,
+category:categoria,
 detalle:detalle,
 qty:qty,
 price:price
