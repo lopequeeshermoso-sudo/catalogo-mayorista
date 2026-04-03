@@ -269,15 +269,18 @@ transform:scale(1.08);
 }
 .qty-input{width:48px;text-align:center;border:1px solid #ccc;border-radius:6px;padding:4px}
 #cartBar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #ddd;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;z-index:1000}
+
 #btnVerPedido{
 
-background:#E6D27A;   /* amarillo marca */
-color:#6b4a2f;        /* marrón marca */
+background:#CF7F98;   /* rosa marca */
+
+color:white;
 
 border:none;
 border-radius:999px;
 
 padding:12px 22px;
+
 font-size:16px;
 font-weight:bold;
 
@@ -288,11 +291,15 @@ box-shadow:0 4px 14px rgba(0,0,0,0.25);
 animation:pulsePedido 2s infinite;
 
 transition:transform .15s ease;
+
 }
 
 #btnVerPedido:hover{
+
+background:#c2708a;
+
 transform:scale(1.05);
-background:#dcc768;
+
 }
 
 
@@ -592,9 +599,37 @@ flex-direction:column;
 @media (max-width:600px){
 
 .barraSuperior{
-flex-wrap:wrap;
-justify-content:center;
+
+flex-direction:column;
+align-items:center;
 gap:8px;
+
+padding:10px 12px;
+
+}
+
+.logoCatalogo{
+
+height:55px;
+
+}
+
+.buscadorWrap{
+
+width:90%;
+
+}
+
+.buscadorInput{
+
+width:100%;
+
+font-size:14px;
+
+padding:10px 14px 10px 36px;
+
+}
+
 }
 
 .logoCatalogo{
@@ -678,15 +713,18 @@ border-top:1px solid #ddd;
 
 width:100%;
 
-background:#F4A62A;   /* naranja marca */
+background:#CF7F98;   /* rosa marca */
+
 color:white;
 
 border:none;
+
 padding:10px;
 
 border-radius:8px;
 
 font-weight:bold;
+
 cursor:pointer;
 
 transition:all .2s ease;
@@ -695,7 +733,8 @@ transition:all .2s ease;
 
 #btnEnviarPedido:hover{
 
-background:#e3951d;
+background:#c2708a;
+
 transform:scale(1.02);
 
 }
