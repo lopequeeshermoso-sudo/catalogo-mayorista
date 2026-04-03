@@ -70,24 +70,27 @@ padding-bottom:8px;
 
 text-align:center;
 }
-.tituloCatalogo{
-font-family:'Baloo 2', cursive;
+.tituloCatalogoImg{
 
-font-size:34px;
-font-weight:700;
+height:65px;
+width:auto;
 
-color:#6b4a2f;
-letter-spacing:1px;
+display:block;
+margin:6px auto 6px auto;
 
-padding-top:18px;
-padding-bottom:6px;
+background:transparent;
 
-line-height:1.2;
 }
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;background:#fafafa}
+.card img{
+width:100%;
+aspect-ratio:1/1;
+object-fit:cover;
+border-radius:8px;
+background:#fafafa;
+}
 .row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
 small{color:#666}
 
@@ -348,14 +351,7 @@ outline:none;
 transition:all .25s ease;
 box-shadow:0 2px 6px rgba(0,0,0,0.08);
 }
-.menuCategorias{
-padding:10px 14px;
-border-radius:20px;
-border:2px solid #e6dccb;
-background:white;
-font-size:14px;
-cursor:pointer;
-}
+
 #iconCategorias{
 display:flex;
 gap:12px;
@@ -602,13 +598,6 @@ gap:8px;
 height:50px;
 }
 
-.menuCategorias{
-order:2;
-width:46%;
-font-size:13px;
-padding:8px 10px;
-}
-
 .buscadorInput{
 order:3;
 width:46%;
@@ -770,10 +759,6 @@ transform:scale(1.08);
 
 <img src="logo_lph.png" class="logoCatalogo" onclick="volverArriba()">
 
-<select id="menuCategorias" class="menuCategorias">
-<option value="">Categorías</option>
-</select>
-
 <div style="position:relative;display:inline-block;">
 
 <input 
@@ -800,9 +785,9 @@ display:none;
 </div>
 <header class="catalog-header">
 
-<div class="tituloCatalogo">
-Catálogo Mayorista
-</div>
+<img src="titulo_catalogo_mayorista.png"
+class="tituloCatalogoImg"
+alt="Catálogo Mayorista">
 
 </header>
 
