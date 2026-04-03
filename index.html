@@ -1053,18 +1053,31 @@ c.appendChild(sel);
 
 }
 
-<button class="btnAgregar">Agregar al pedido</button>
 
-<div class="subtotalProducto">
-Subtotal: $<span class="subtotalValor">0</span>
-</div>
+/* ===== botones producto ===== */
 
-<button class="btnDescripcion">▼ Descripción</button>
-<div class="descripcionProducto">
-${descripcion || "Descripción no disponible."}
-</div>
-`;
+const btnAgregar=document.createElement("button");
+btnAgregar.className="btnAgregar";
+btnAgregar.textContent="Agregar al pedido";
+c.appendChild(btnAgregar);
 
+
+const subtotalDiv=document.createElement("div");
+subtotalDiv.className="subtotalProducto";
+subtotalDiv.innerHTML='Subtotal: $<span class="subtotalValor">0</span>';
+c.appendChild(subtotalDiv);
+
+
+const btnDesc=document.createElement("button");
+btnDesc.className="btnDescripcion";
+btnDesc.textContent="▼ Descripción";
+c.appendChild(btnDesc);
+
+
+const descDiv=document.createElement("div");
+descDiv.className="descripcionProducto";
+descDiv.innerHTML=`${descripcion || "Descripción no disponible."}`;
+c.appendChild(descDiv);
 
 /* ===== selector de talle ===== */
 
