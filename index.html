@@ -7,11 +7,15 @@
 <style>
 #barraContactoCatalogo{
 
+position:fixed;          /* ← clave */
+top:0;
+left:0;
 width:100%;
+
 background:#fff7ef;
 border-bottom:1px solid #e6d5c3;
 
-padding:14px 12px 8px 12px;  /* ← más aire arriba */
+padding:16px 12px 12px 12px;   /* más altura superior */
 
 font-size:13px;
 
@@ -23,6 +27,8 @@ justify-content:center;
 
 color:#6b4a2f;
 font-weight:500;
+
+z-index:1100;   /* por encima del header */
 
 }
 
@@ -322,11 +328,11 @@ box-shadow:0 0 0 0 rgba(37,211,102,0);
 #btnWhats{background:#25D366;color:#fff;border:none;border-radius:999px;padding:8px 14px;font-weight:700;cursor:pointer}
 body{
 padding-bottom:70px;
-padding-top:140px;
+padding-top:190px;
 }
 .barraSuperior{
 position:fixed;
-top:0;   
+top:48;   
 left:0;
 width:100%;
 z-index:1000;
