@@ -1028,6 +1028,45 @@ min="0">
 </div>
 
 <button class="btnAgregar">Agregar al pedido</button>
+/* ===== selector cantidad de títeres ===== */
+
+if(row && row["Cantidad de títeres"]){
+
+const opciones = row["Cantidad de títeres"]
+.split(",")
+.map(x=>x.trim())
+.filter(x=>x);
+
+if(opciones.length){
+
+const label=document.createElement("div");
+
+label.textContent="Cantidad de títeres:";
+label.style.fontSize="12px";
+label.style.marginTop="6px";
+label.style.color="#6b4a2f";
+
+c.appendChild(label);
+
+const sel=document.createElement("select");
+
+sel.className="selector-titeres";
+
+opciones.forEach(o=>{
+
+const op=document.createElement("option");
+
+op.textContent=o + " títeres";
+
+sel.appendChild(op);
+
+});
+
+c.appendChild(sel);
+
+}
+
+}
 
 <div class="subtotalProducto">
 Subtotal: $<span class="subtotalValor">0</span>
