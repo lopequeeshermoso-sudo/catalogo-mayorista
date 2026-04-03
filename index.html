@@ -466,8 +466,12 @@ box-sizing:border-box;
 position:relative;
 display:flex;
 align-items:center;
-}
 
+/* evita que el header fijo lo tape al hacer scroll */
+
+scroll-margin-top:210px;
+
+}
 .catArrow{
 position:absolute;
 top:50%;
@@ -868,6 +872,15 @@ padding:8px 8px 6px 8px;
 body{
 
 padding-top:155px;
+
+}
+
+}
+@media (max-width:600px){
+
+.catCarousel{
+
+scroll-margin-top:155px;
 
 }
 
