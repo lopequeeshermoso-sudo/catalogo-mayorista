@@ -797,6 +797,7 @@ aspect-ratio:auto;
 background:transparent;
 
 }
+
 </style>
 
 </head>
@@ -1428,7 +1429,48 @@ const colores = row["Color"]
 .split(",")
 .map(c=>c.trim().toLowerCase())
 .filter(c=>c);
+if(colores.length>0){
 
+const labelColor=document.createElement("div");
+labelColor.textContent="Color:";
+labelColor.style.fontSize="12px";
+labelColor.style.marginTop="6px";
+labelColor.style.color="#6b4a2f";
+
+card.appendChild(labelColor);
+
+const contColor=document.createElement("div");
+contColor.className="selector-color";
+
+colores.forEach(color=>{
+
+const dot=document.createElement("div");
+
+dot.className="colorDot";
+
+dot.title=color;
+
+/* pintar color real */
+
+dot.style.background=color;
+
+dot.onclick=()=>{
+
+contColor.querySelectorAll(".colorDot")
+.forEach(d=>d.classList.remove("activo"));
+
+dot.classList.add("activo");
+
+};
+
+contColor.appendChild(dot);
+
+});
+
+card.appendChild(contColor);
+
+}
+}
 /* traducción español → color CSS */
 
 const mapaColores = {
