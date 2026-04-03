@@ -70,18 +70,19 @@ padding-bottom:8px;
 
 text-align:center;
 }
+
 .tituloCatalogoImg{
 
-height:65px;
+height:55px;
 width:auto;
 
 display:block;
-margin:10px auto 16px auto;
 
-background:transparent;
+margin:0 10px;
+
+object-fit:contain;
 
 }
-
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 .card img{
@@ -831,6 +832,10 @@ class="logoCatalogo"
 onclick="volverArriba()">
 </div>
 
+<img src="titulo_catalogo_mayorista.png"
+class="tituloCatalogoImg"
+alt="Catálogo Mayorista">
+
 <div class="buscadorWrap">
 
 <input
@@ -846,13 +851,7 @@ class="limpiarBusquedaBtn">✕</span>
 </div>
 
 </div>
-<header class="catalog-header">
 
-<img src="titulo_catalogo_mayorista.png"
-class="tituloCatalogoImg"
-alt="Catálogo Mayorista">
-
-</header>
 
 <div class="catCarousel">
 
