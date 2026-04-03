@@ -987,7 +987,10 @@ let descripcion = row ? (row["Descripción"] || "") : "";
 
 /* convertir **texto** en negrita */
 descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
-     const c=document.createElement('div'); c.className='card';
+     const c=document.createElement('div');
+ c.className='card';
+c.dataset.categoria = cat;
+
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
      let imagenExcel = row ? (row["Imagen"] || "") : "";
