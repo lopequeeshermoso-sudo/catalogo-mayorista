@@ -87,7 +87,19 @@ align-items:center;
 flex-shrink:0;
 
 }
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+
+gap:12px;
+
+padding:12px 10px;
+
+justify-items:center;
+
+}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
 
 .card img{
@@ -200,7 +212,12 @@ width:630px;
 @keyframes cardIn{
   to{opacity:1; transform:translateY(0);}
 }
-.category-section{padding:8px 12px 2px 12px;}
+.category-section{
+padding:8px 12px 2px 12px;
+
+scroll-margin-top:190px;
+
+}
 .category-title{
   margin:14px 0 6px 0;
   color:#6b4a2f;
@@ -604,6 +621,7 @@ flex-direction:column;
 flex-wrap:wrap;
 justify-content:center;
 gap:8px;
+
 }
 
 .logoCatalogo{
@@ -622,7 +640,16 @@ padding:8px 10px 8px 34px;
 top:150px;
 
 }
+.category-section{
+scroll-margin-top:220px;
+}
+.grid{
 
+grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+
+padding:12px 8px;
+
+}
 }
 #panelPedido.abierto{
 right:0;
