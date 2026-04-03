@@ -976,117 +976,6 @@ onerror="this.style.display='none'">
 <strong class="price">$${precio(p).toLocaleString('es-AR')}</strong>
 </div>
 
-/* ===== selector cantidad de títeres ===== */
-
-if(row && row["Cantidad de títeres"]){
-
-const opciones = row["Cantidad de títeres"]
-.split(",")
-.map(x=>x.trim())
-.filter(x=>x);
-
-if(opciones.length){
-
-const label=document.createElement("div");
-
-label.textContent="Cantidad de títeres:";
-label.style.fontSize="12px";
-label.style.marginTop="6px";
-label.style.color="#6b4a2f";
-
-c.appendChild(label);
-
-const sel=document.createElement("select");
-
-sel.className="selector-titeres";
-
-opciones.forEach(o=>{
-
-const op=document.createElement("option");
-
-op.textContent=o + " títeres";
-
-sel.appendChild(op);
-
-});
-
-c.appendChild(sel);
-
-}
-
-}
-
-
-/* ===== selector colores pulpitos ===== */
-
-if(row && row["Color"]){
-
-const mapaColores = {
-
-celeste:"#87CEEB",
-amarillo:"#FFD966",
-verde:"#6FCF97",
-violeta:"#9B59B6",
-naranja:"#F39C12",
-rojo:"#E74C3C",
-rosado:"#FF8FB1"
-
-};
-
-const colores=row["Color"]
-.split(",")
-.map(c=>c.trim().toLowerCase())
-.filter(c=>c);
-
-if(colores.length){
-
-const labelColor=document.createElement("div");
-
-labelColor.textContent="Color:";
-labelColor.style.fontSize="12px";
-labelColor.style.marginTop="6px";
-labelColor.style.color="#6b4a2f";
-
-c.appendChild(labelColor);
-
-const contColor=document.createElement("div");
-
-contColor.className="selector-color";
-
-colores.forEach(color=>{
-
-const dot=document.createElement("div");
-
-dot.className="colorDot";
-
-dot.title=color;
-
-dot.style.background = mapaColores[color] || color;
-
-dot.onclick=()=>{
-
-contColor.querySelectorAll(".colorDot")
-.forEach(d=>d.classList.remove("activo"));
-
-dot.classList.add("activo");
-
-};
-
-contColor.appendChild(dot);
-
-});
-
-c.appendChild(contColor);
-
-}
-
-}
-
-
-/* ===== botones producto ===== */
-
-c.innerHTML += `
-
 <button class="btnAgregar">Agregar al pedido</button>
 
 <div class="subtotalProducto">
@@ -1094,11 +983,9 @@ Subtotal: $<span class="subtotalValor">0</span>
 </div>
 
 <button class="btnDescripcion">▼ Descripción</button>
-
 <div class="descripcionProducto">
 ${descripcion || "Descripción no disponible."}
 </div>
-
 `;
      g.appendChild(c);
    });
