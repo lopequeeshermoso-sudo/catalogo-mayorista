@@ -2269,7 +2269,7 @@ let csv =
 "Teléfono:;=\"" + telefonoCliente + "\"\n"+
 "Localidad:;=\"" + localidadCliente + "\"\n"+
 "Fecha:;=\"" + fecha + "\"\n\n"+
-"Cantidad;Producto;Detalle;Precio unitario;Subtotal\n";
+"Cantidad;Producto;Categoría;Detalle;Precio unitario;Subtotal\n";
 let total=0;
 
 /* agrupar por categoría */
@@ -2278,7 +2278,7 @@ const grouped={};
 
 cart.forEach(item=>{
 
-const cat=item.category||"OTROS";
+const cat=item.category||"SIN CATEGORÍA";
 
 if(!grouped[cat]){
 grouped[cat]=[];
@@ -2316,8 +2316,6 @@ return (ia===-1?999:ia)-(ib===-1?999:ib);
 })
 .forEach(cat=>{
 
-csv+=cat+"\n";
-
 grouped[cat].forEach(it=>{
 
 const sub=it.qty*it.price;
@@ -2327,6 +2325,7 @@ total+=sub;
 csv+=
 it.qty+";"+
 it.name+";"+
+cat+";"+
 (it.detalle||"-")+";"+
 it.price+";"+
 sub+"\n";
