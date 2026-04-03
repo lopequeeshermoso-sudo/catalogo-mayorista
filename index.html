@@ -1012,22 +1012,6 @@ onerror="this.style.display='none'">
 <span>Precio</span>
 <strong class="price">$${precio(p).toLocaleString('es-AR')}</strong>
 </div>
-
-<div class="qty-wrap">
-
-<button class="qty-btn menos">−</button>
-
-<input
-class="qty-input"
-type="number"
-value="0"
-min="0">
-
-<button class="qty-btn mas">+</button>
-
-</div>
-
-<button class="btnAgregar">Agregar al pedido</button>
 /* ===== selector cantidad de títeres ===== */
 
 if(row && row["Cantidad de títeres"]){
@@ -1068,6 +1052,8 @@ c.appendChild(sel);
 
 }
 
+<button class="btnAgregar">Agregar al pedido</button>
+
 <div class="subtotalProducto">
 Subtotal: $<span class="subtotalValor">0</span>
 </div>
@@ -1077,39 +1063,6 @@ Subtotal: $<span class="subtotalValor">0</span>
 ${descripcion || "Descripción no disponible."}
 </div>
 `;
-/* ===== selector cantidad de títeres ===== */
-
-if(row && row["Cantidad de títeres"]){
-
-const opciones = row["Cantidad de títeres"]
-.split(",")
-.map(x=>x.trim())
-.filter(x=>x);
-
-if(opciones.length>0){
-
-const label=document.createElement("div");
-label.textContent="Cantidad de títeres:";
-label.style.fontSize="12px";
-label.style.marginTop="6px";
-label.style.color="#6b4a2f";
-
-c.appendChild(label);
-
-const sel=document.createElement("select");
-sel.className="selector-titeres";
-
-opciones.forEach(o=>{
-const op=document.createElement("option");
-op.textContent=o + " títeres";
-sel.appendChild(op);
-});
-
-c.appendChild(sel);
-
-}
-
-}
 
 
 /* ===== selector de talle ===== */
@@ -1215,35 +1168,6 @@ contColor.appendChild(dot);
 c.appendChild(contColor);
 
 }
-
-}
-/* ===== control de cantidad + y − ===== */
-
-const btnMenos = c.querySelector(".menos");
-const btnMas = c.querySelector(".mas");
-const inputQty = c.querySelector(".qty-input");
-
-if(btnMenos && btnMas && inputQty){
-
-btnMenos.onclick = () => {
-
-let v = parseInt(inputQty.value || 0);
-
-if(v > 0){
-
-inputQty.value = v - 1;
-
-}
-
-};
-
-btnMas.onclick = () => {
-
-let v = parseInt(inputQty.value || 0);
-
-inputQty.value = v + 1;
-
-};
 
 }
      g.appendChild(c);
