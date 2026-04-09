@@ -1146,7 +1146,7 @@
     "Color": "",
     "Imagen": "imagenes/bo3.jpg",
     "Imagen talle": "",
-    "Descripción": "✨ Bolsito de Oficio – Mini Peluquería\nSet de juego simbólico de peluquería y cuidado personal, ideal para estimular la motricidad fina, la creatividad y el juego compartido.\n\n🎒 Incluye\nBolsito + capa de peluquería + peine + espejito + mechitas de colores + toallita de manicura + lima + esmalte uñas colines + pincitas.\n\n💡 Ideal para juego de roles y actividades compartidas.",
+    "Descripción": "✨ Bolsito de Oficio – Mini Peluquería\nSet de juego simbólico de peluquería y cuidado personal, ideal para estimular la motricidad fina, la creatividad y el juego compartido.\n\n🎒 Incluye\nBolsito + capa de peluquería + peine + espejito + mechitas de colores + toallita de manicura + lima + colines + pincitas.\n\n💡 Ideal para juego de roles y actividades compartidas.",
     "Activo": "SI"
   },
   {
@@ -3127,7 +3127,7 @@
   {
     "Nombre del producto": "Los Esteros del Iberá. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 1.0,
     "Precio mayorista": 23200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3152,7 +3152,7 @@
   {
     "Nombre del producto": "La Granja Arcoíris. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 2.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3177,7 +3177,7 @@
   {
     "Nombre del producto": "Mis amigos los animalitos domésticos . Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 10.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3202,7 +3202,7 @@
   {
     "Nombre del producto": "La Selva Africana. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 5.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3227,7 +3227,7 @@
   {
     "Nombre del producto": "La Selva Misionera Argentina. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 8.0,
     "Precio mayorista": 19000.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3252,7 +3252,7 @@
   {
     "Nombre del producto": "Cuento de Hadas. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 9.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3277,7 +3277,7 @@
   {
     "Nombre del producto": "Cuento de Príncipe Sapo y su Princesa. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 3.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3302,7 +3302,7 @@
   {
     "Nombre del producto": "La Sirenita. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 6.0,
     "Precio mayorista": 25200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3327,7 +3327,7 @@
   {
     "Nombre del producto": "El Circo Mágico. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 7.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3352,7 +3352,7 @@
   {
     "Nombre del producto": "Los Piratas Siete Mares. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 11.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3377,7 +3377,7 @@
   {
     "Nombre del producto": "Los 3 Chanchitos y el Lobo Feroz . Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 12.0,
     "Precio mayorista": 11850.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3402,7 +3402,7 @@
   {
     "Nombre del producto": "Caperucita Roja. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 4.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3427,7 +3427,7 @@
   {
     "Nombre del producto": "Heroínas de Cuentos Clásicos. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 13.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3452,7 +3452,7 @@
   {
     "Nombre del producto": "Blancanieves y los Siete Enanitos. Títeres de Mano y de Dedo.",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 16.0,
     "Precio mayorista": 29450.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3477,7 +3477,7 @@
   {
     "Nombre del producto": "La Familia Monte Espino. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 14.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3502,7 +3502,7 @@
   {
     "Nombre del producto": "Superhéroes. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 15.0,
     "Precio mayorista": 20300.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3527,7 +3527,7 @@
   {
     "Nombre del producto": "Títeres Patrios. Títeres de Mano",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 17.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3552,7 +3552,7 @@
   {
     "Nombre del producto": "Navidad. Títeres de Mano.",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 18.0,
     "Precio mayorista": 11200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3577,7 +3577,7 @@
   {
     "Nombre del producto": "El Pesebre de Navideño. Títeres de Mano.",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 19.0,
     "Precio mayorista": 41200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3602,7 +3602,7 @@
   {
     "Nombre del producto": "La Prehistoria: Dinosaurios y Cavernícolas. Títeres de mano.",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 20.0,
     "Precio mayorista": "",
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3627,7 +3627,7 @@
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nene",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 21.0,
     "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
@@ -3652,7 +3652,7 @@
   {
     "Nombre del producto": "Las Emociones. Títeres de Mano de Nena",
     "Categoría": "",
-    "Orden": "",
+    "Orden": 22.0,
     "Precio mayorista": 30200.0,
     "Cantidad de títeres": "",
     "Talle": "",
