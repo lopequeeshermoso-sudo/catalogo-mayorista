@@ -6,18 +6,30 @@
 
 <style>
 #barraContactoCatalogo{
+
+position:fixed;
+top:0;
+left:0;
 width:100%;
+
 background:#fff7ef;
 border-bottom:1px solid #e6d5c3;
-padding:8px 12px;
-font-size:13px;
+
+padding:6px 12px;
+
+font-size:12px;
+
 display:flex;
-gap:18px;
+gap:14px;
 flex-wrap:wrap;
 align-items:center;
 justify-content:center;
+
 color:#6b4a2f;
 font-weight:500;
+
+z-index:2000;
+
 }
 
 #barraContactoCatalogo a{
@@ -321,7 +333,7 @@ padding-top:110px;
 .barraSuperior{
 
 position:fixed;
-top:0;
+top:32px;   /* espacio debajo de barra contacto */
 left:0;
 width:100%;
 z-index:1000;
