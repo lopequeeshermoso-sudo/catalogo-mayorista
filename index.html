@@ -2379,44 +2379,55 @@ fetch('precios.json')
 .then(data=>{
 
 const columnas = [
-"Categoría",
-"Nombre del producto",
-"Precio mayorista",
-"Precio x1",
-"Precio x2",
-"Precio x3",
-"Precio x4",
-"Precio x5",
-"Precio x6",
-"Precio x7",
-"Precio x8",
-"Precio x9",
-"Precio x10",
-"Precio x11",
-"Precio x12"
+{excel:"Categoría", titulo:"Categoría"},
+{excel:"Nombre del producto", titulo:"Producto"},
+{excel:"Precio mayorista", titulo:"Precio mayorista"},
+{excel:"Precio x1", titulo:"Precio con 1 títere"},
+{excel:"Precio x2", titulo:"Precio con 2 títeres"},
+{excel:"Precio x3", titulo:"Precio con 3 títeres"},
+{excel:"Precio x4", titulo:"Precio con 4 títeres"},
+{excel:"Precio x5", titulo:"Precio con 5 títeres"},
+{excel:"Precio x6", titulo:"Precio con 6 títeres"},
+{excel:"Precio x7", titulo:"Precio con 7 títeres"},
+{excel:"Precio x8", titulo:"Precio con 8 títeres"},
+{excel:"Precio x9", titulo:"Precio con 9 títeres"},
+{excel:"Precio x10", titulo:"Precio con 10 títeres"},
+{excel:"Precio x11", titulo:"Precio con 11 títeres"},
+{excel:"Precio x12", titulo:"Precio con 12 títeres"}
 ];
 
-let contenido = columnas.join("\t") + "\n";
+/* encabezados visibles */
+
+let contenido = columnas.map(c=>c.titulo).join(";") + "\n";
+
+/* filas */
 
 data.forEach(p=>{
 
 let fila = columnas.map(col=>{
-return p[col] || "";
-}).join("\t");
+
+let valor = p[col.excel] || "";
+
+return valor;
+
+}).join(";");
 
 contenido += fila + "\n";
 
 });
 
-const blob = new Blob([contenido],{
-type:"application/vnd.ms-excel"
-});
+/* encoding UTF-8 correcto */
+
+const blob = new Blob(
+["\uFEFF"+contenido],
+{type:"text/csv;charset=utf-8;"}
+);
 
 const link=document.createElement("a");
 
 link.href=URL.createObjectURL(blob);
 
-link.download="lista_precios_mayorista.xls";
+link.download="lista_precios_mayorista.csv";
 
 link.click();
 
