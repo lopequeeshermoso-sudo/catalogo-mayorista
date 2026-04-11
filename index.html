@@ -5,42 +5,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
 
 <style>
-#barraContactoCatalogo{
-
-position:fixed;
-top:0;
-left:0;
-width:100%;
-
-background:#fff7ef;
-border-bottom:1px solid #e6d5c3;
-
-padding:6px 12px;
-
-font-size:12px;
-
-display:flex;
-gap:14px;
-flex-wrap:wrap;
-align-items:center;
-justify-content:center;
-
-color:#6b4a2f;
-font-weight:500;
-
-z-index:2000;
-
-}
-
-#barraContactoCatalogo a{
-color:#6b4a2f;
-text-decoration:none;
-font-weight:600;
-}
-
-#barraContactoCatalogo a:hover{
-text-decoration:underline;
-}
 /* BUSCADOR PROFESIONAL */
 
 .buscador,
@@ -77,33 +41,29 @@ line-height:1.1;
 .catalog-header{
 background:#e8d8c0;
 
-padding-top:6px;
-padding-bottom:4px;
+padding-top:18px;
+padding-bottom:8px;
 
 text-align:center;
 }
+.tituloCatalogo{
+font-family:'Baloo 2', cursive;
 
-.tituloCatalogoImg{
+font-size:34px;
+font-weight:700;
 
-height:65px;
-width:auto;
+color:#6b4a2f;
+letter-spacing:1px;
 
-display:block;
-margin:4px auto 8px auto;
+padding-top:18px;
+padding-bottom:6px;
 
-background:transparent;
-
+line-height:1.2;
 }
 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;padding:12px}
 .card{background:white;border-radius:12px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
-.card img{
-width:100%;
-aspect-ratio:1/1;
-object-fit:cover;
-border-radius:8px;
-background:#fafafa;
-}
+img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px;background:#fafafa}
 .row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
 small{color:#666}
 
@@ -250,42 +210,18 @@ transform:scale(1.05);
 }
 
 #catMenu button.active{
-
-background:#F4A62A;
+background:#6b4a2f;
 color:white;
-
 }
 
 .qty-wrap{display:flex;align-items:center;gap:6px;margin-top:8px}
-.qty-btn{
-
-background:#7FB8A4;   /* verde marca */
-color:white;
-
-border:none;
-border-radius:6px;
-
-padding:4px 8px;
-
-font-weight:bold;
-cursor:pointer;
-
-transition:all .2s ease;
-
-}
-
-.qty-btn:hover{
-
-background:#6da693;   /* verde más oscuro */
-transform:scale(1.08);
-
-}
+.qty-btn{border:none;background:#6b4a2f;color:#fff;border-radius:6px;padding:4px 8px;cursor:pointer}
 .qty-input{width:48px;text-align:center;border:1px solid #ccc;border-radius:6px;padding:4px}
 #cartBar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #ddd;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;z-index:1000}
 #btnVerPedido{
 
-background:#E6D27A;   /* amarillo marca */
-color:#6b4a2f;        /* marrón marca */
+background:#25D366;
+color:white;
 
 border:none;
 border-radius:999px;
@@ -305,9 +241,7 @@ transition:transform .15s ease;
 
 #btnVerPedido:hover{
 transform:scale(1.05);
-background:#dcc768;
 }
-
 
 @keyframes pulsePedido{
 
@@ -329,26 +263,25 @@ box-shadow:0 0 0 0 rgba(37,211,102,0);
 #btnWhats{background:#25D366;color:#fff;border:none;border-radius:999px;padding:8px 14px;font-weight:700;cursor:pointer}
 body{
 padding-bottom:70px;
-padding-top:185px;
+padding-top:110px;
 }
 .barraSuperior{
-
 position:fixed;
-top:22px;
-
+top:0;
 left:0;
 width:100%;
-
 z-index:1000;
 
 display:flex;
+flex-wrap:wrap;
 align-items:center;
 justify-content:center;
+gap:14px;
 
 background:#f2e8d8;
+padding:10px 12px;
 
-padding:2px 0;
-
+box-shadow:0 2px 10px rgba(0,0,0,0.12);
 }
 .buscadorInput{
 flex:0 0 auto;
@@ -365,7 +298,14 @@ outline:none;
 transition:all .25s ease;
 box-shadow:0 2px 6px rgba(0,0,0,0.08);
 }
-
+.menuCategorias{
+padding:10px 14px;
+border-radius:20px;
+border:2px solid #e6dccb;
+background:white;
+font-size:14px;
+cursor:pointer;
+}
 #iconCategorias{
 display:flex;
 gap:12px;
@@ -380,23 +320,15 @@ transition:all .25s ease;
 display:none;
 }
 #iconCategorias.fijo{
-
 position:fixed;
-top:118px;
-
+top:100px;
 left:0;
 width:100%;
-
 z-index:950;
 
-padding:4px 40px;
+padding:8px 40px;
 
 box-shadow:0 4px 10px rgba(0,0,0,0.12);
-
-}
-.catCarousel{
-margin-top:10px;
-margin-bottom:10px;
 }
 /* ICONOS DE CATEGORÍAS */
 
@@ -444,15 +376,10 @@ text-align:center;
 }
 
 .catIcon.activa{
-
 transform:scale(1.08);
-
 box-shadow:0 6px 18px rgba(0,0,0,0.18);
-
-border:2px solid #F4A62A;   /* naranja marca */
-
+border:2px solid #6b4a2f;
 box-sizing:border-box;
-
 }
 .catCarousel{
 position:relative;
@@ -487,7 +414,6 @@ right:4px;
 }
 
 .btnAgregar{
-
 width:100%;
 margin-top:10px;
 padding:10px;
@@ -495,54 +421,27 @@ padding:10px;
 border:none;
 border-radius:8px;
 
-background:#E6D27A;   /* amarillo marca */
-color:#6b4a2f;        /* marrón marca */
+background:#6b4a2f;
+color:white;
 
 font-weight:bold;
 font-size:14px;
 cursor:pointer;
 
-transition:all .15s ease;
-
+transition:all .2s ease;
 }
-
-/* hover */
 
 .btnAgregar:hover{
-
-background:#dcc768;
 transform:scale(1.03);
-
+background:#7a5637;
 }
-
-/* click */
-
-.btnAgregar:active{
-
-background:#d6c062;
-transform:scale(.98);
-
-}
-
-/* evitar que scripts viejos cambien el color */
-
-.btnAgregar.agregado{
-
-background:#E6D27A !important;
-color:#6b4a2f !important;
-
-}
-
 .subtotalProducto{
-
 font-size:13px;
 margin-top:6px;
-
-color:#F4A62A;   /* naranja marca */
-
+color:#6b4a2f;
 font-weight:bold;
-
 }
+
 
 /* DESCRIPCION DESPLEGABLE DE PRODUCTO */
 
@@ -575,22 +474,16 @@ margin-top:8px;
 
 .btnDescripcion{
 margin-top:8px;
-background:#CF7F98;   /* rosa marca */
-color:white;
-
+background:#eee;
 border:none;
 border-radius:6px;
 padding:6px 10px;
 font-size:12px;
-font-weight:600;
-
 cursor:pointer;
-transition:all .2s ease;
 }
 
 .btnDescripcion:hover{
-background:#c2708a;   /* rosa un poco más oscuro */
-transform:scale(1.03);
+background:#e0e0e0;
 }
 #panelPedido{
 position:fixed;
@@ -608,189 +501,32 @@ z-index:2000;
 display:flex;
 flex-direction:column;
 }
-
 @media (max-width:600px){
 
 .barraSuperior{
-top:30px;
-
-left:0;
-width:100%;
-
-z-index:1000;
-
-display:flex;
-align-items:center;
+flex-wrap:wrap;
 justify-content:center;
-
-background:#f2e8d8;
-
-padding:4px 0 4px 0;
-
-}
-
-/* tarjetas más compactas en celular */
-
-.card{
-
-padding:6px;
-
-}
-
-.card img{
-
-aspect-ratio:1/1;
-max-height:160px;
-
-}
-
-.card-title{
-
-font-size:14px;
-
-}
-
-.price{
-
-font-size:14px;
-
-}
-
-.qty-wrap{
-
-margin-top:4px;
-gap:4px;
-
-}
-
-.btnAgregar{
-
-margin-top:6px;
-padding:8px;
-font-size:13px;
-
-}
-
-.subtotalProducto{
-
-font-size:12px;
-
-}
-
-}
-.card img{
-
-aspect-ratio:1/1;
-max-height:160px;
-
-}
-
-.card-title{
-
-font-size:14px;
-
-}
-
-.price{
-
-font-size:14px;
-
-}
-
-.qty-wrap{
-
-margin-top:4px;
-gap:4px;
-
-}
-
-.btnAgregar{
-
-margin-top:6px;
-padding:8px;
-font-size:13px;
-
-}
-
-.subtotalProducto{
-
-font-size:12px;
-
-}
-}
-
-
-#barraContactoCatalogo{
-
-padding:2px 6px;
-
-font-size:9px;
-
-gap:6px;
-
-flex-wrap:nowrap;
-
-overflow-x:auto;
-
-white-space:nowrap;
-
-justify-content:flex-start;
-
-height:22px;
-
-}
-body{
-padding-bottom:70px;
-padding-top:185px;
+gap:8px;
 }
 
 .logoCatalogo{
-height:80px;
+height:50px;
 }
-.logoWrap{
 
-display:flex;
-align-items:center;
-justify-content:center;
-
+.menuCategorias{
+order:2;
+width:46%;
+font-size:13px;
+padding:8px 10px;
 }
+
 .buscadorInput{
-
-width:260px;
-
+order:3;
+width:46%;
+font-size:13px;
 padding:8px 10px 8px 34px;
-
-border-radius:12px;
-
-margin-left:10px;
-
-}
-.buscadorWrap{
-
-position:relative;
-display:flex;
-align-items:center;
-
 }
 
-.limpiarBusquedaBtn{
-
-position:absolute;
-right:12px;
-top:50%;
-
-transform:translateY(-50%);
-
-cursor:pointer;
-
-font-weight:bold;
-color:#999;
-
-font-size:16px;
-
-display:none;
-
-}
 }
 #panelPedido.abierto{
 right:0;
@@ -827,31 +563,14 @@ border-top:1px solid #ddd;
 }
 
 #btnEnviarPedido{
-
 width:100%;
-
-background:#CF7F98;   /* rosa marca */
-
-color:white;
-
+background:#25D366;
 border:none;
 padding:10px;
-
 border-radius:8px;
-
+color:white;
 font-weight:bold;
 cursor:pointer;
-
-transition:all .2s ease;
-
-}
-
-#btnEnviarPedido:hover{
-
-background:#c2708a;
-
-transform:scale(1.02);
-
 }
 #btnSeguirComprando{
 
@@ -870,133 +589,11 @@ font-weight:bold;
 cursor:pointer;
 
 }
-.menosItem,
-.masItem{
 
-background:#7FB8A4;   /* verde marca */
-color:white;
-
-border:none;
-border-radius:6px;
-
-width:26px;
-height:26px;
-
-font-size:16px;
-font-weight:bold;
-
-cursor:pointer;
-
-transition:all .2s ease;
-
-}
-
-.menosItem:hover,
-.masItem:hover{
-
-background:#6da693;   /* verde más oscuro */
-transform:scale(1.08);
-
-}
-.eliminarItem{
-
-background:#f2cfcf;
-border:none;
-border-radius:6px;
-
-width:26px;
-height:26px;
-
-cursor:pointer;
-
-transition:all .2s ease;
-
-}
-
-.eliminarItem:hover{
-
-background:#e6b8b8;
-transform:scale(1.08);
-
-}
-.colorDot{
-
-width:22px;
-height:22px;
-
-border-radius:50%;
-
-border:2px solid white;
-
-box-shadow:0 0 0 1px #ccc;
-
-cursor:pointer;
-
-display:inline-block;
-
-margin-right:6px;
-
-}
-
-.colorDot.activo{
-
-outline:2px solid #6b4a2f;
-
-}
-.colorDot[title="celeste"]{background:#87CEEB;}
-.colorDot[title="amarillo"]{background:#FFD966;}
-.colorDot[title="verde"]{background:#6FCF97;}
-.colorDot[title="violeta"]{background:#9B59B6;}
-.colorDot[title="naranja"]{background:#F39C12;}
-.colorDot[title="rojo"]{background:#E74C3C;}
-.colorDot[title="rosado"]{background:#FF8FB1;}
-.filaHerramientas{
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-gap:14px;
-
-margin-top:6px;
-
-flex-wrap:wrap;
-
-}
-
-.btnExcel{
-
-padding:10px 18px;
-
-border-radius:10px;
-border:none;
-
-background:#6b4a2f;
-color:white;
-
-font-weight:bold;
-cursor:pointer;
-
-box-shadow:0 4px 10px rgba(0,0,0,0.15);
-
-}
 </style>
 
 </head>
 <body>
-<div id="barraContactoCatalogo">
-
-<span>📍 Embalse, Córdoba, Argentina</span>
-
-<a href="mailto:lopequeeshermoso@gmail.com">
-📧 lopequeeshermoso@gmail.com
-</a>
-
-<a href="https://wa.me/5493571313112" target="_blank">
-📲 WhatsApp: 3571 313112
-</a>
-
-</div>
 
 <div id="lph-splash" aria-hidden="true">
   <div class="lph-splash-card">
@@ -1006,39 +603,42 @@ box-shadow:0 4px 10px rgba(0,0,0,0.15);
 </div>
 <div class="barraSuperior">
 
-<div class="logoWrap">
-<img src="logo_lph.png"
-class="logoCatalogo"
-onclick="volverArriba()">
-</div>
+<img src="logo_lph.png" class="logoCatalogo" onclick="volverArriba()">
 
-</div>
-<header class="catalog-header">
+<select id="menuCategorias" class="menuCategorias">
+<option value="">Categorías</option>
+</select>
 
-<img src="titulo_catalogo_mayorista.png"
-class="tituloCatalogoImg"
-alt="Catálogo Mayorista">
-<div class="filaHerramientas">
+<div style="position:relative;display:inline-block;">
 
-<button onclick="descargarExcelPrecios()" class="btnExcel">
-📊 Descargar lista completa de precios
-</button>
-
-<div class="buscadorWrap">
-
-<input
+<input 
 type="text"
 id="buscarProducto"
 class="buscadorInput"
 placeholder="Buscar producto..."
 onkeyup="filtrarProductosDebounce()">
 
-<span id="limpiarBusqueda"
-class="limpiarBusquedaBtn">✕</span>
+<span id="limpiarBusqueda" style="
+position:absolute;
+right:12px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+font-weight:bold;
+color:#999;
+font-size:16px;
+display:none;
+">✕</span>
 
 </div>
 
 </div>
+<header class="catalog-header">
+
+<div class="tituloCatalogo">
+Catálogo Mayorista
+</div>
+
 </header>
 
 <div class="catCarousel">
@@ -1051,10 +651,9 @@ class="limpiarBusquedaBtn">✕</span>
 
 </div>
 
-
 <div class="grid" id="grid"></div>
 <script>
-const PRODUCTOS = [{"id": 1, "name": "Muñeca Piccolina doctora", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 2, "name": "Muñeca Piccolina Jardinera", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 3, "name": "Muñeca Piccolina Coqueta", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 4, "name": "Muñeca Piccolina Deportiva", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 5, "name": "Muñeca Piccolina Romántica", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 6, "name": "Muñeca Piccolina Folk", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 7, "name": "Muñeca Piccolina Bella", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 8, "name": "Muñeca Piccolina Cenicienta", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 9, "name": "Muñeca Piccolina Blancanieves", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 10, "name": "Muñeca Piccolina Aurora", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 11, "name": "Muñeca Piccolina Rapunsel", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 12, "name": "Muñeca Piccolina Sofía", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 13, "name": "Traje de doctora para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 14, "name": "Traje de jardinera para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 15, "name": "Vestido coqueta para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 16, "name": "Traje deportivo para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 17, "name": "Vestido romántico para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 18, "name": "Vestido campesino para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 19, "name": "Vestido de Bella para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 20, "name": "Vestido de Cenicienta para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 21, "name": "Vestido de Blancanieves para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 22, "name": "Vestido de Aurora para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 23, "name": "Vestido de Rapunzel para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 24, "name": "Vestido de Princesa Sofía para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 25, "name": "Valija de Arte Mini Artista, Ponis", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 26, "name": "Valija de Arte Mini Artista, Sirenitas", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 27, "name": "Valija de Arte Mini Artista, Dinosaurios", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 28, "name": "Valija de Arte Mini Artista, Piratas", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 29, "name": "Valija de Arte Mini Artista, Superhéroes", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 30, "name": "Valija de Mini Maestra", "price": 49800.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 31, "name": "Valija de Mini Maestro", "price": 49800.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 32, "name": "Valija de Mini Chef nena", "price": 42000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 33, "name": "Valija de Mini Chef varón", "price": 42000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 34, "name": "Valija de Mini Jardineros", "price": 45000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 35, "name": "Valija de Mini Veterinarios", "price": 48000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 36, "name": "Valija de Mini Spa", "price": 57000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 37, "name": "Valija de Tarde de Mate", "price": 44000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 38, "name": "Valija de Tardes de Té", "price": 52000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 39, "name": "Valija de Mini Exploradores", "price": 48000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 40, "name": "Valija de Mini Doctor", "price": 59000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 41, "name": "Bolsito Explorador Jirafas", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "T11", "qty": 0}, {"id": 42, "name": "Bolsito Explorador África", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 43, "name": "Bolsito Chef varón", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 44, "name": "Bolsito Chef nena", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 45, "name": "Bolsito Mini Peluquería", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 46, "name": "Set de esqueleto y órganos del cuerpo humano para Docentes y Educadores", "price": 38000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 47, "name": "Rayuela de tela para aprender los números jugando", "price": 56000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 48, "name": "Libro para bebé \"Cosquillitas\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 49, "name": "Libro para bebé \"Mariposas\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 50, "name": "Libro para bebé \"Coral\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 51, "name": "Manta para bebé \"La Ciudad\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 52, "name": "Manta para bebé \"Animalitos de la Selva\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 53, "name": "Manta para bebé \"Mininos\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 54, "name": "Globo Pelota Monstruos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 55, "name": "Globo Pelota Dinosaurios", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 56, "name": "Globo Pelota Haditas", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 57, "name": "Globo Pelota Animalitos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 58, "name": "Globo Pelota Selva", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 59, "name": "Globo Pelota Gatitos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 60, "name": "Pelota de Trapo  Dinosaurios", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 61, "name": "Pelota de Trapo  Animalitos", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 62, "name": "Pelota de Trapo Selva", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 63, "name": "Pelota de Trapo Gatitos", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 64, "name": "Pulpitos Reversibles con dos emociones (alegre/ enojado)", "price": 23000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 66, "name": "Tutú de bailarina", "price": 38000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg?1769895021", "sku": "D1", "qty": 0}, {"id": 87, "name": "Tutú de Bailarina Unicornio", "price": 44000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972599/TUTUS.jpg?1769897243", "sku": "", "qty": 0}, {"id": 88, "name": "Disfraz de Mujer Maravilla", "price": 38500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg?1769892738", "sku": "", "qty": 0}, {"id": 89, "name": "Disfraz de Rapunzel Encantada", "price": 50500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972601/RAPUNZEL.jpg?1769812325", "sku": "", "qty": 0}, {"id": 90, "name": "Disfraz de Princesa Aurora,  La Bella Durmiente", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972602/1.jpg?1769867402", "sku": "", "qty": 0}, {"id": 91, "name": "Disfraz de Cenicienta", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972603/CENICIENTA_20_281_29.jpg?1769859372", "sku": "", "qty": 0}, {"id": 92, "name": "Disfraz de Bella", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972604/BELLA_20_285_29.jpg?1769869200", "sku": "", "qty": 0}, {"id": 93, "name": "Disfraz de Blancanieves", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972605/1.jpg?1769868570", "sku": "", "qty": 0}, {"id": 94, "name": "Disfraz de Elsa (Frozen)", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972606/4.jpg?1769896635", "sku": "", "qty": 0}, {"id": 95, "name": "Disfraz de Anna (Frozen)", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972607/ANNA_20_282_29.jpg?1769949821", "sku": "", "qty": 0}, {"id": 96, "name": "Disfraz de Unicornio Mágico", "price": 50500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972608/1.jpg?1769809071", "sku": "", "qty": 0}, {"id": 97, "name": "Disfraz de Sirenita", "price": 49000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972609/SIRENITA_20_282_29.jpg?1769945979", "sku": "", "qty": 0}, {"id": 98, "name": "Disfraz de Moana", "price": 38500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972610/5.jpg?1769896299", "sku": "", "qty": 0}, {"id": 99, "name": "Disfraz de Mira K-Pop Demon Hunters", "price": 57000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972614/MIRA.png?1769946389", "sku": "", "qty": 0}, {"id": 100, "name": "Disfraz de Rumi K-Pop Demon Hunters", "price": 50000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972615/14.jpg?1769811367", "sku": "", "qty": 0}, {"id": 101, "name": "Disfraz de Rumi K-Pop Demon Hunters, con Chaqueta y encanto dorado", "price": 75000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972616/RUMI_20_28Post_20para_20LinkedIn_29.jpg?1769810575", "sku": "", "qty": 0}, {"id": 102, "name": "Disfraz de Rumi K-Pop Demon Hunters (Traje de colores con Chaqueta amarilla)", "price": 75000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33457498/RUMI_20COLORES.jpg?1769805514", "sku": "", "qty": 0}, {"id": 103, "name": "Disfraz de Vampira", "price": 48000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 104, "name": "Disfraz de Merlina", "price": 55000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 105, "name": "Disfraz de Brujita Fuxia", "price": 48000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 106, "name": "Disfraz de Pirata", "price": 39000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 107, "name": "Disfraz de Hombre Araña", "price": 39000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 108, "name": "Disfraz de Superman", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 109, "name": "Disfraz de Capitán América", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 110, "name": "Disfraz de Batman", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 111, "name": "Disfraz de Esqueleto", "price": 49000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 112, "name": "Disfraz de Calabaza", "price": 45000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 113, "name": "Caramelera Calabaza", "price": 21000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 114, "name": "Disfraz de Dinosaurio", "price": 48000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 115, "name": "Disfraz de Cebra", "price": 45000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 116, "name": "Disfraz de Tigre", "price": 45000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 117, "name": "Disfraz de Araña", "price": 46000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 118, "name": "Disfraz de Bombero", "price": 32500.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 119, "name": "Disfraz de Policía", "price": 32500.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 120, "name": "Los Esteros del Iberá. Títeres de Mano", "price": 42000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975029/ESTEROS_20DEL_20IBER_C3_81.jpg?1770126471", "sku": "", "qty": 0}, {"id": 121, "name": "La Granja Arcoíris. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975031/GRANJA_20MANOPLA.jpg?1769952786", "sku": "", "qty": 0}, {"id": 122, "name": "Mis amigos los animalitos domésticos . Títeres de Mano", "price": 39200.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975032/1.jpg?1770417960", "sku": "", "qty": 0}, {"id": 123, "name": "La Selva Africana. Títeres de Mano", "price": 38000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975034/1.jpg?1770158236", "sku": "", "qty": 0}, {"id": 124, "name": "La Selva Misionera Argentina. Títeres de Mano", "price": 40500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975035/2.jpg?1770648576", "sku": "", "qty": 0}, {"id": 125, "name": "Cuento de Hadas. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975036/cuento_20de_20hadas.jpg?1770291535", "sku": "", "qty": 0}, {"id": 126, "name": "Cuento de Príncipe Sapo y su Princesa. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975037/1.jpg?1770217412", "sku": "", "qty": 0}, {"id": 127, "name": "La Sirenita. Títeres de Mano", "price": 42000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975038/1.jpg?1770380080", "sku": "", "qty": 0}, {"id": 128, "name": "El Circo Mágico. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975039/1.jpg?1770328568", "sku": "", "qty": 0}, {"id": 129, "name": "Los Piratas Siete Mares. Títeres de Mano", "price": 39000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975040/1.jpg?1770383260", "sku": "", "qty": 0}, {"id": 130, "name": "Los 3 Chanchitos y el Lobo Feroz . Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975041/1.png?1770239737", "sku": "", "qty": 0}, {"id": 131, "name": "Caperucita Roja. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975042/1.jpg?1770382212", "sku": "", "qty": 0}, {"id": 132, "name": "Heroínas de Cuentos Clásicos. Títeres de Mano", "price": 36500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975043/2.jpg?1770329676", "sku": "", "qty": 0}, {"id": 133, "name": "Blancanieves y los Siete Enanitos. Títeres de Mano y de Dedo.", "price": 51800.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975044/1.jpg?1770408681", "sku": "", "qty": 0}, {"id": 134, "name": "La Familia Monte Espino. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975046/1.jpg?1770155046", "sku": "", "qty": 0}, {"id": 135, "name": "Superhéroes. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975047/1.jpg?1770408194", "sku": "", "qty": 0}, {"id": 136, "name": "Títeres Patrios. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975049/3.jpg?1770672972", "sku": "", "qty": 0}, {"id": 137, "name": "Navidad. Títeres de Mano.", "price": 30000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975051/1.jpg?1770501998", "sku": "", "qty": 0}, {"id": 138, "name": "El Pesebre de Navideño. Títeres de Mano.", "price": 69000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975052/1.jpg?1770501161", "sku": "", "qty": 0}, {"id": 139, "name": "La Prehistoria: Dinosaurios y Cavernícolas. Títeres de mano.", "price": 36500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975053/1.jpg?1770386254", "sku": "", "qty": 0}, {"id": 140, "name": "Las Emociones. Títeres de Mano de Nene", "price": 52000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975054/1.jpg?1770473312", "sku": "", "qty": 0}, {"id": 141, "name": "Las Emociones. Títeres de Mano de Nena", "price": 52000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975055/1.jpg?1770473966", "sku": "", "qty": 0}, {"id": 142, "name": "Teatro Granja con Títeres de La Granja", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184181/10.jpg?1770641091", "sku": "T11", "qty": 0}, {"id": 143, "name": "Teatro Selva con Títeres de la Selva Africana", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184183/SELVA_20MANOPLA.jpg?1770647563", "sku": "T11", "qty": 0}, {"id": 144, "name": "Teatro Selva Misionera Argentina con Títeres de la Selva Misionera", "price": 63000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184184/SELVA_20MISIONERA.jpg?1770648645", "sku": "T11", "qty": 0}, {"id": 145, "name": "Teatro de los Esteros del Iberá Títeres de animales de los Esteros del Iberá", "price": 67000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184185/ESTEROS_20DEL_20IBER_C3_81.jpg?1770728490", "sku": "T11", "qty": 0}, {"id": 146, "name": "Teatro Castillo con Títeres de Cuento de Hadas", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184186/cuento_20de_20hadas.jpg?1770649228", "sku": "T11", "qty": 0}, {"id": 147, "name": "Teatro bosque con Títeres de Caperucita Roja", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32547488/Caperucita.jpg?1770641469", "sku": "T11", "qty": 0}, {"id": 148, "name": "Teatro Fondo del mar con Títeres de \"La Sirenita\"", "price": 65500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184189/LA_20SIRENITA.jpg?1770668962", "sku": "T11", "qty": 0}, {"id": 149, "name": "Teatro Barco con Títeres de Los Piratas de los Siete Mares.", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184191/PIRATAS_20SIETE_20MARES.jpg?1770726882", "sku": "T11", "qty": 0}, {"id": 150, "name": "Teatro Bosque con Títeres del cuento \"Los tres Chanchitos y el Lobo Feroz\"", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184193/LOS_20TRES_20CHANCHITOS_20Y_20EL_20LOBO_20FEROZ.jpg?1770905599", "sku": "T11", "qty": 0}, {"id": 151, "name": "Teatro Ciudad con Títeres de La Familia Monte Espino", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184197/LA_20FAMILIA.jpg?1770725676", "sku": "T11", "qty": 0}, {"id": 152, "name": "Teatro de la Época Colonial con Títeres Patrios", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184204/2.jpg?1770674825", "sku": "", "qty": 0}, {"id": 153, "name": "Teatro Castillo con Títeres del Cuento \"Príncipe Sapo y su Princesa\"", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788555/PR_C3_8DNCIPE_20SAPO_20Y_20SU_20PRINCESA.jpg?1770901321", "sku": "T11", "qty": 0}, {"id": 154, "name": "Teatro Castillo con Títeres de Heroínas de Cuentos Clásicos.", "price": 57000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788585/hero_C3_ADnas_20de_20cuentos_20cl_C3_A1sicos.jpg?1770902419", "sku": "", "qty": 0}, {"id": 155, "name": "Teatro \"El Circo Mágico\" con Títeres de Artistas", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788749/EL_20CIRCO.jpg?1770905370", "sku": "", "qty": 0}, {"id": 156, "name": "Teatro bosque con títeres de Blancanieves y los Siete Enanitos", "price": 75000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788996/BLANCANIEVES.jpg?1770907601", "sku": "", "qty": 0}, {"id": 157, "name": "Teatro ciudad con títeres de Superhéroes.", "price": 59000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33789075/SUPERH_C3_89ROES.jpg?1770908264", "sku": "", "qty": 0}, {"id": 158, "name": "Teatro Prehistoria con Títeres de Dinosaurios y Cavernícolas", "price": 58500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33792401/PREHISTORIA.jpg?1770929174", "sku": "", "qty": 0}, {"id": 159, "name": "Teatro Ciudad con títeres de niños animalitos domésticos", "price": 59000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33792707/animalitos_20dom_C3_A9sticos.jpg?1770929898", "sku": "", "qty": 0}, {"id": 160, "name": "Teatro Ciudad con Títeres de nena y sus Emociones", "price": 74000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33895535/LAS_20EMOCIONES_20NENA.jpg?1771424000", "sku": "", "qty": 0}, {"id": 161, "name": "Teatro Ciudad con Títeres de Nene y sus Emociones", "price": 74000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33895578/LAS_20EMOCIONES_20NENE.jpg?1771424641", "sku": "", "qty": 0}, {"id": 162, "name": "Teatro de Títeres Didáctico Clásico para Escuelas y Jardines de Infantes", "price": 87500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184205/TEATROS_20DE_20T_C3_8DTERES.jpg?1772031322", "sku": "T11", "qty": 0}, {"id": 163, "name": "Valija de Arte Mis Diseños. Nena en Hamaca", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063199/2.jpg?1771970971", "sku": "T11", "qty": 0}, {"id": 164, "name": "Valija de Arte Mis Diseños. Nena con Globos", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972225/6.jpg?1771970377", "sku": "T11", "qty": 0}, {"id": 165, "name": "Valija de Arte Mis Diseños. Unicornio", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063327/7.jpg?1771971497", "sku": "T11", "qty": 0}, {"id": 166, "name": "Valija de Arte Mis Diseños. Princesa", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168271/11.jpg?1772199225", "sku": "T11", "qty": 0}, {"id": 167, "name": "Valija de Arte Mis Diseños. Monstruos", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168333/13.jpg?1772200241", "sku": "T11", "qty": 0}, {"id": 168, "name": "Valija de Arte Mis Diseños. Astronautas", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168417/17.jpg?1772200741", "sku": "T11", "qty": 0}, {"id": 169, "name": "Valija de Arte Mis Diseños. Robots", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168443/20.jpg?1772201971", "sku": "T11", "qty": 0}, {"id": 170, "name": "Valija de Arte Mis Diseños. Gato Automovilista", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34171965/23.jpg?1772224999", "sku": "T11", "qty": 0}, {"id": 171, "name": "Valija de Arte Mis Diseños. Cocodrilo en Submarino", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34172455/25.jpg?1772229793", "sku": "T11", "qty": 0}, {"id": 172, "name": "Bolsito Amasando ideas Elefante", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 173, "name": "Bolsito Amasando ideas Pajaritos", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 174, "name": "Bolsito Amasando ideas Espacio", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 175, "name": "Bolsito Amasando ideas Gato automovilista", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}];
+const PRODUCTOS = [{"id": 1, "name": "Muñeca Piccolina doctora", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 2, "name": "Muñeca Piccolina Jardinera", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 3, "name": "Muñeca Piccolina Coqueta", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 4, "name": "Muñeca Piccolina Deportiva", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 5, "name": "Muñeca Piccolina Romántica", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 6, "name": "Muñeca Piccolina Folk", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 7, "name": "Muñeca Piccolina Bella", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 8, "name": "Muñeca Piccolina Cenicienta", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 9, "name": "Muñeca Piccolina Blancanieves", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 10, "name": "Muñeca Piccolina Aurora", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 11, "name": "Muñeca Piccolina Rapunsel", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 12, "name": "Muñeca Piccolina Sofía", "price": 52000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 13, "name": "Traje de doctora para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 14, "name": "Traje de jardinera para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 15, "name": "Vestido coqueta para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 16, "name": "Traje deportivo para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 17, "name": "Vestido romántico para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 18, "name": "Vestido campesino para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 19, "name": "Vestido de Bella para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 20, "name": "Vestido de Cenicienta para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 21, "name": "Vestido de Blancanieves para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 22, "name": "Vestido de Aurora para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 23, "name": "Vestido de Rapunzel para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 24, "name": "Vestido de Princesa Sofía para muñecas", "price": 24000.0, "category": "MUÑECAS DE TRAPO", "image": "", "sku": "", "qty": 0}, {"id": 25, "name": "Valija de Arte Mini Artista, Ponis", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 26, "name": "Valija de Arte Mini Artista, Sirenitas", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 27, "name": "Valija de Arte Mini Artista, Dinosaurios", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 28, "name": "Valija de Arte Mini Artista, Piratas", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 29, "name": "Valija de Arte Mini Artista, Superhéroes", "price": 39800.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 30, "name": "Valija de Mini Maestra", "price": 49800.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 31, "name": "Valija de Mini Maestro", "price": 49800.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 32, "name": "Valija de Mini Chef nena", "price": 42000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 33, "name": "Valija de Mini Chef varón", "price": 42000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 34, "name": "Valija de Mini Jardineros", "price": 45000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 35, "name": "Valija de Mini Veterinarios", "price": 48000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 36, "name": "Valija de Mini Spa", "price": 57000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 37, "name": "Valija de Tarde de Mate", "price": 44000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 38, "name": "Valija de Tardes de Té", "price": 52000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 39, "name": "Valija de Mini Exploradores", "price": 48000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 40, "name": "Valija de Mini Doctor", "price": 59000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 41, "name": "Bolsito Explorador Jirafas", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "T11", "qty": 0}, {"id": 42, "name": "Bolsito Explorador África", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 43, "name": "Bolsito Chef varón", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 44, "name": "Bolsito Chef nena", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 45, "name": "Bolsito Mini Peluquería", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 46, "name": "Set de esqueleto y órganos del cuerpo humano para Docentes y Educadores", "price": 38000.0, "category": "VALIJAS DIDÁCTICAS DE OFICIO", "image": "", "sku": "", "qty": 0}, {"id": 47, "name": "Rayuela de tela para aprender los números jugando", "price": 56000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 48, "name": "Libro para bebé \"Cosquillitas\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 49, "name": "Libro para bebé \"Mariposas\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 50, "name": "Libro para bebé \"Coral\"", "price": 24000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 51, "name": "Manta para bebé \"La Ciudad\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 52, "name": "Manta para bebé \"Animalitos de la Selva\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 53, "name": "Mantitas parabebé \"Mininos\"", "price": 36000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 54, "name": "Globo Pelota Monstruos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 55, "name": "Globo Pelota Dinosaurios", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 56, "name": "Globo Pelota Haditas", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 57, "name": "Globo Pelota Animalitos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 58, "name": "Globo Pelota Selva", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 59, "name": "Globo Pelota Gatitos", "price": 22000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 60, "name": "Pelota de Trapo  Dinosaurios", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 61, "name": "Pelota de Trapo  Animalitos", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 62, "name": "Pelota de Trapo Selva", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 63, "name": "Pelota de Trapo Gatitos", "price": 38000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 64, "name": "Pulpitos Reversibles con dos emociones (alegre/ enojado)", "price": 23000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 65, "name": "Cesto organizador de juguetes", "price": 45000.0, "category": "JUGUETES PARA BEBÉS", "image": "", "sku": "", "qty": 0}, {"id": 66, "name": "Tutú de bailarina", "price": 38000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972598/2.jpg?1769895021", "sku": "D1", "qty": 0}, {"id": 87, "name": "Tutú de Bailarina Unicornio", "price": 44000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972599/TUTUS.jpg?1769897243", "sku": "", "qty": 0}, {"id": 88, "name": "Disfraz de Mujer Maravilla", "price": 38500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972600/1.jpg?1769892738", "sku": "", "qty": 0}, {"id": 89, "name": "Disfraz de Rapunzel Encantada", "price": 50500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972601/RAPUNZEL.jpg?1769812325", "sku": "", "qty": 0}, {"id": 90, "name": "Disfraz de Princesa Aurora,  La Bella Durmiente", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972602/1.jpg?1769867402", "sku": "", "qty": 0}, {"id": 91, "name": "Disfraz de Cenicienta", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972603/CENICIENTA_20_281_29.jpg?1769859372", "sku": "", "qty": 0}, {"id": 92, "name": "Disfraz de Bella", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972604/BELLA_20_285_29.jpg?1769869200", "sku": "", "qty": 0}, {"id": 93, "name": "Disfraz de Blancanieves", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972605/1.jpg?1769868570", "sku": "", "qty": 0}, {"id": 94, "name": "Disfraz de Elsa (Frozen)", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972606/4.jpg?1769896635", "sku": "", "qty": 0}, {"id": 95, "name": "Disfraz de Anna (Frozen)", "price": 47000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972607/ANNA_20_282_29.jpg?1769949821", "sku": "", "qty": 0}, {"id": 96, "name": "Disfraz de Unicornio Mágico", "price": 50500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972608/1.jpg?1769809071", "sku": "", "qty": 0}, {"id": 97, "name": "Disfraz de Sirenita", "price": 49000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972609/SIRENITA_20_282_29.jpg?1769945979", "sku": "", "qty": 0}, {"id": 98, "name": "Disfraz de Moana", "price": 38500.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972610/5.jpg?1769896299", "sku": "", "qty": 0}, {"id": 99, "name": "Disfraz de Mira K-Pop Demon Hunters", "price": 57000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972614/MIRA.png?1769946389", "sku": "", "qty": 0}, {"id": 100, "name": "Disfraz de Rumi K-Pop Demon Hunters", "price": 50000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972615/14.jpg?1769811367", "sku": "", "qty": 0}, {"id": 101, "name": "Disfraz de Rumi K-Pop Demon Hunters, con Chaqueta y encanto dorado", "price": 75000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972616/RUMI_20_28Post_20para_20LinkedIn_29.jpg?1769810575", "sku": "", "qty": 0}, {"id": 102, "name": "Disfraz de Rumi K-Pop Demon Hunters (Traje de colores con Chaqueta amarilla)", "price": 75000.0, "category": "DISFRACES PARA NENAS", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33457498/RUMI_20COLORES.jpg?1769805514", "sku": "", "qty": 0}, {"id": 103, "name": "Disfraz de Vampira", "price": 48000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 104, "name": "Disfraz de Merlina", "price": 55000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 105, "name": "Disfraz de Brujita Fuxia", "price": 48000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 106, "name": "Disfraz de Pirata", "price": 39000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 107, "name": "Disfraz de Hombre Araña", "price": 39000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 108, "name": "Disfraz de Superman", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 109, "name": "Disfraz de Capitán América", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 110, "name": "Disfraz de Batman", "price": 45000.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 111, "name": "Disfraz de Esqueleto", "price": 49000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 112, "name": "Disfraz de Calabaza", "price": 45000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 113, "name": "Caramelera Calabaza", "price": 21000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 114, "name": "Disfraz de Dinosaurio", "price": 48000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 115, "name": "Disfraz de Cebra", "price": 45000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 116, "name": "Disfraz de Tigre", "price": 45000.0, "category": "DISFRACES DE ANIMALITOS", "image": "", "sku": "", "qty": 0}, {"id": 117, "name": "Disfraz de Araña", "price": 46000.0, "category": "DISFRACES DE HALLOWEEN", "image": "", "sku": "", "qty": 0}, {"id": 118, "name": "Disfraz de Bombero", "price": 32500.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 119, "name": "Disfraz de Policía", "price": 32500.0, "category": "DISFRACES PARA NENES", "image": "", "sku": "", "qty": 0}, {"id": 120, "name": "Los Esteros del Iberá. Títeres de Mano", "price": 42000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975029/ESTEROS_20DEL_20IBER_C3_81.jpg?1770126471", "sku": "", "qty": 0}, {"id": 121, "name": "La Granja Arcoíris. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975031/GRANJA_20MANOPLA.jpg?1769952786", "sku": "", "qty": 0}, {"id": 122, "name": "Mis amigos los animalitos domésticos . Títeres de Mano", "price": 39200.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975032/1.jpg?1770417960", "sku": "", "qty": 0}, {"id": 123, "name": "La Selva Africana. Títeres de Mano", "price": 38000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975034/1.jpg?1770158236", "sku": "", "qty": 0}, {"id": 124, "name": "La Selva Misionera Argentina. Títeres de Mano", "price": 40500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975035/2.jpg?1770648576", "sku": "", "qty": 0}, {"id": 125, "name": "Cuento de Hadas. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975036/cuento_20de_20hadas.jpg?1770291535", "sku": "", "qty": 0}, {"id": 126, "name": "Cuento de Príncipe Sapo y su Princesa. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975037/1.jpg?1770217412", "sku": "", "qty": 0}, {"id": 127, "name": "La Sirenita. Títeres de Mano", "price": 42000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975038/1.jpg?1770380080", "sku": "", "qty": 0}, {"id": 128, "name": "El Circo Mágico. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975039/1.jpg?1770328568", "sku": "", "qty": 0}, {"id": 129, "name": "Los Piratas Siete Mares. Títeres de Mano", "price": 39000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975040/1.jpg?1770383260", "sku": "", "qty": 0}, {"id": 130, "name": "Los 3 Chanchitos y el Lobo Feroz . Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975041/1.png?1770239737", "sku": "", "qty": 0}, {"id": 131, "name": "Caperucita Roja. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975042/1.jpg?1770382212", "sku": "", "qty": 0}, {"id": 132, "name": "Heroínas de Cuentos Clásicos. Títeres de Mano", "price": 36500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975043/2.jpg?1770329676", "sku": "", "qty": 0}, {"id": 133, "name": "Blancanieves y los Siete Enanitos. Títeres de Mano y de Dedo.", "price": 51800.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975044/1.jpg?1770408681", "sku": "", "qty": 0}, {"id": 134, "name": "La Familia Monte Espino. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975046/1.jpg?1770155046", "sku": "", "qty": 0}, {"id": 135, "name": "Superhéroes. Títeres de Mano", "price": 39500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975047/1.jpg?1770408194", "sku": "", "qty": 0}, {"id": 136, "name": "Títeres Patrios. Títeres de Mano", "price": 36000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975049/3.jpg?1770672972", "sku": "", "qty": 0}, {"id": 137, "name": "Navidad. Títeres de Mano.", "price": 30000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975051/1.jpg?1770501998", "sku": "", "qty": 0}, {"id": 138, "name": "El Pesebre de Navideño. Títeres de Mano.", "price": 69000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975052/1.jpg?1770501161", "sku": "", "qty": 0}, {"id": 139, "name": "La Prehistoria: Dinosaurios y Cavernícolas. Títeres de mano.", "price": 36500.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975053/1.jpg?1770386254", "sku": "", "qty": 0}, {"id": 140, "name": "Las Emociones. Títeres de Mano de Nene", "price": 52000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975054/1.jpg?1770473312", "sku": "", "qty": 0}, {"id": 141, "name": "Las Emociones. Títeres de Mano de Nena", "price": 52000.0, "category": "TÍTERES DE MANO", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32975055/1.jpg?1770473966", "sku": "", "qty": 0}, {"id": 142, "name": "Teatro Granja con Títeres de La Granja", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184181/10.jpg?1770641091", "sku": "T11", "qty": 0}, {"id": 143, "name": "Teatro Selva con Títeres de la Selva Africana", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184183/SELVA_20MANOPLA.jpg?1770647563", "sku": "T11", "qty": 0}, {"id": 144, "name": "Teatro Selva Misionera Argentina con Títeres de la Selva Misionera", "price": 63000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184184/SELVA_20MISIONERA.jpg?1770648645", "sku": "T11", "qty": 0}, {"id": 145, "name": "Teatro de los Esteros del Iberá Títeres de animales de los Esteros del Iberá", "price": 67000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184185/ESTEROS_20DEL_20IBER_C3_81.jpg?1770728490", "sku": "T11", "qty": 0}, {"id": 146, "name": "Teatro Castillo con Títeres de Cuento de Hadas", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184186/cuento_20de_20hadas.jpg?1770649228", "sku": "T11", "qty": 0}, {"id": 147, "name": "Teatro bosque con Títeres de Caperucita Roja", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32547488/Caperucita.jpg?1770641469", "sku": "T11", "qty": 0}, {"id": 148, "name": "Teatro Fondo del mar con Títeres de \"La Sirenita\"", "price": 65500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184189/LA_20SIRENITA.jpg?1770668962", "sku": "T11", "qty": 0}, {"id": 149, "name": "Teatro Barco con Títeres de Los Piratas de los Siete Mares.", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184191/PIRATAS_20SIETE_20MARES.jpg?1770726882", "sku": "T11", "qty": 0}, {"id": 150, "name": "Teatro Bosque con Títeres del cuento \"Los tres Chanchitos y el Lobo Feroz\"", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184193/LOS_20TRES_20CHANCHITOS_20Y_20EL_20LOBO_20FEROZ.jpg?1770905599", "sku": "T11", "qty": 0}, {"id": 151, "name": "Teatro Ciudad con Títeres de La Familia Monte Espino", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184197/LA_20FAMILIA.jpg?1770725676", "sku": "T11", "qty": 0}, {"id": 152, "name": "Teatro de la Época Colonial con Títeres Patrios", "price": 55000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184204/2.jpg?1770674825", "sku": "", "qty": 0}, {"id": 153, "name": "Teatro Castillo con Títeres del Cuento \"Príncipe Sapo y su Princesa\"", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788555/PR_C3_8DNCIPE_20SAPO_20Y_20SU_20PRINCESA.jpg?1770901321", "sku": "T11", "qty": 0}, {"id": 154, "name": "Teatro Castillo con Títeres de Heroínas de Cuentos Clásicos.", "price": 57000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788585/hero_C3_ADnas_20de_20cuentos_20cl_C3_A1sicos.jpg?1770902419", "sku": "", "qty": 0}, {"id": 155, "name": "Teatro \"El Circo Mágico\" con Títeres de Artistas", "price": 62000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788749/EL_20CIRCO.jpg?1770905370", "sku": "", "qty": 0}, {"id": 156, "name": "Teatro bosque con títeres de Blancanieves y los Siete Enanitos", "price": 75000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33788996/BLANCANIEVES.jpg?1770907601", "sku": "", "qty": 0}, {"id": 157, "name": "Teatro ciudad con títeres de Superhéroes.", "price": 59000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33789075/SUPERH_C3_89ROES.jpg?1770908264", "sku": "", "qty": 0}, {"id": 158, "name": "Teatro Prehistoria con Títeres de Dinosaurios y Cavernícolas", "price": 58500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33792401/PREHISTORIA.jpg?1770929174", "sku": "", "qty": 0}, {"id": 159, "name": "Teatro Ciudad con títeres de niños animalitos domésticos", "price": 59000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33792707/animalitos_20dom_C3_A9sticos.jpg?1770929898", "sku": "", "qty": 0}, {"id": 160, "name": "Teatro Ciudad con Títeres de nena y sus Emociones", "price": 74000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33895535/LAS_20EMOCIONES_20NENA.jpg?1771424000", "sku": "", "qty": 0}, {"id": 161, "name": "Teatro Ciudad con Títeres de Nene y sus Emociones", "price": 74000.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33895578/LAS_20EMOCIONES_20NENE.jpg?1771424641", "sku": "", "qty": 0}, {"id": 162, "name": "Teatro de Títeres Didáctico Clásico para Escuelas y Jardines de Infantes", "price": 87500.0, "category": "TEATROS CON TÍTERES", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/33184205/TEATROS_20DE_20T_C3_8DTERES.jpg?1772031322", "sku": "T11", "qty": 0}, {"id": 163, "name": "Valija de Arte Mis Diseños. Nena en Hamaca", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063199/2.jpg?1771970971", "sku": "T11", "qty": 0}, {"id": 164, "name": "Valija de Arte Mis Diseños. Nena con Globos", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/32972225/6.jpg?1771970377", "sku": "T11", "qty": 0}, {"id": 165, "name": "Valija de Arte Mis Diseños. Unicornio", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34063327/7.jpg?1771971497", "sku": "T11", "qty": 0}, {"id": 166, "name": "Valija de Arte Mis Diseños. Princesa", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168271/11.jpg?1772199225", "sku": "T11", "qty": 0}, {"id": 167, "name": "Valija de Arte Mis Diseños. Monstruos", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168333/13.jpg?1772200241", "sku": "T11", "qty": 0}, {"id": 168, "name": "Valija de Arte Mis Diseños. Astronautas", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168417/17.jpg?1772200741", "sku": "T11", "qty": 0}, {"id": 169, "name": "Valija de Arte Mis Diseños. Robots", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34168443/20.jpg?1772201971", "sku": "T11", "qty": 0}, {"id": 170, "name": "Valija de Arte Mis Diseños. Gato Automovilista", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34171965/23.jpg?1772224999", "sku": "T11", "qty": 0}, {"id": 171, "name": "Valija de Arte Mis Diseños. Cocodrilo en Submarino", "price": 48700.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "https://images.jumpseller.com/store/lo-pequeno-es-hermoso/34172455/25.jpg?1772229793", "sku": "T11", "qty": 0}, {"id": 172, "name": "Bolsito Amasando ideas Elefante", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 173, "name": "Bolsito Amasando ideas Pajaritos", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 174, "name": "Bolsito Amasando ideas Espacio", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}, {"id": 175, "name": "Bolsito Amasando ideas Gato automovilista", "price": 33000.0, "category": "VALIJAS DIDÁCTICAS DE ARTE", "image": "", "sku": "", "qty": 0}];
 let PRECIOS = [];
 fetch('precios.json').then(r=>r.json()).then(j=>{PRECIOS=j; render();}).catch(()=>render());
 
@@ -1175,10 +774,7 @@ let descripcion = row ? (row["Descripción"] || "") : "";
 
 /* convertir **texto** en negrita */
 descripcion = descripcion.replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
-     const c=document.createElement('div');
- c.className='card';
-c.dataset.categoria = cat;
-
+     const c=document.createElement('div'); c.className='card';
      c.style.animationDelay = (idx*0.03)+'s';
      idx++;
      let imagenExcel = row ? (row["Imagen"] || "") : "";
@@ -1486,58 +1082,25 @@ if(qty === 0){
 alert("Elegí cuántos sets querés pedir");
 return;
 }
-btnAgregar.classList.add("agregado");
-
-/* animación de confirmación */
-
-btnAgregar.textContent = "✔ Agregado";
-
-setTimeout(()=>{
-btnAgregar.classList.remove("agregado");
-btnAgregar.textContent = "Agregar al pedido";
-},1200);
 
 let detalle="";
 
 /* selector de títeres */
 const selTiteres = card.querySelector(".selector-titeres");
 if(selTiteres){
-detalle =
-selTiteres.options[selTiteres.selectedIndex].textContent;
+detalle = selTiteres.options[selTiteres.selectedIndex].textContent;
 }
 
-/* selector de talle */
+/* selector de talles */
 const selTalle = card.querySelector(".selector-talle");
 if(selTalle){
-detalle +=
-(detalle ? " - " : "") +
-"Talle: " +
-selTalle.options[selTalle.selectedIndex].textContent;
-}
-
-/* selector de color */
-const selColor = card.querySelector(".selector-color");
-if(selColor){
-
-const activo = selColor.querySelector(".activo");
-
-if(activo){
-
-detalle +=
-(detalle ? " - " : "") +
-"Color: " +
-activo.title;
-
-}
-
+detalle = selTalle.options[selTalle.selectedIndex].textContent;
 }
 
 const key = name + (detalle ? " - " + detalle : "");
-const categoria = card.dataset.categoria;
 
 cart.set(key,{
 name:name,
-category:categoria,
 detalle:detalle,
 qty:qty,
 price:price
@@ -1546,6 +1109,14 @@ price:price
 updateBar();
 actualizarContadorPedido();
 /* animación de confirmación */
+
+btnAgregar.textContent = "✔ Agregado";
+btnAgregar.style.background = "#28a745";
+
+setTimeout(()=>{
+btnAgregar.textContent = "Agregar al pedido";
+btnAgregar.style.background = "#6b4a2f";
+},1200);
 
 });
 }
@@ -1608,94 +1179,7 @@ card.appendChild(btnTabla);
 }
   }
 }
-/* ===== selector de color ===== */
-/* ===== selector de color visual ===== */
 
-if(row["Color"]){
-
-const colores = row["Color"]
-.split(",")
-.map(c=>c.trim().toLowerCase())
-.filter(c=>c);
-
-/* traducción español → color CSS */
-
-const mapaColores = {
-rojo:"#e53935",
-azul:"#1e88e5",
-verde:"#43a047",
-amarillo:"#fdd835",
-violeta:"#8e24aa",
-rosa:"#ec407a",
-rosado:"#ec407a",
-celeste:"#4fc3f7",
-naranja:"#fb8c00",
-negro:"#222",
-blanco:"#ffffff",
-gris:"#9e9e9e"
-};
-
-if(colores.length>0){
-
-const labelC=document.createElement("div");
-labelC.textContent="Color:";
-labelC.style.fontSize="12px";
-labelC.style.marginTop="6px";
-labelC.style.color="#6b4a2f";
-
-card.appendChild(labelC);
-
-/* contenedor de botones */
-
-const contColores=document.createElement("div");
-contColores.className="selector-color";
-contColores.style.display="flex";
-contColores.style.gap="6px";
-contColores.style.marginTop="4px";
-
-/* crear botones circulares */
-
-colores.forEach((c,i)=>{
-
-const btn=document.createElement("button");
-
-btn.type="button";
-btn.title=c;
-
-btn.style.width="22px";
-btn.style.height="22px";
-btn.style.borderRadius="50%";
-btn.style.border="2px solid #ccc";
-btn.style.cursor="pointer";
-
-/* aplicar color correcto */
-
-btn.style.background = mapaColores[c] || c;
-
-/* color seleccionado */
-
-if(i===0){
-btn.classList.add("activo");
-}
-
-btn.onclick=()=>{
-
-contColores.querySelectorAll("button")
-.forEach(b=>b.classList.remove("activo"));
-
-btn.classList.add("activo");
-
-};
-
-contColores.appendChild(btn);
-
-});
-
-card.appendChild(contColores);
-
-}
-
-}
   let opciones=[];
 
   for(let i=1;i<=12;i++){
@@ -2176,8 +1660,6 @@ btnEnviar.addEventListener("click", sendWhats);
 
 <button id="btnEnviarPedido">Revisar y enviar pedido</button>
 
-<button id="btnExportarExcel">📊 Descargar pedido en Excel</button>
-
 </div>
 
 </div>
@@ -2436,180 +1918,5 @@ modal.remove();
 document.body.appendChild(modal);
 
 }
-document.getElementById("btnExportarExcel").onclick = function(){
-
-if(cart.size===0){
-alert("El pedido está vacío.");
-return;
-}
-
-/* pedir datos cliente */
-
-const nombreCliente = prompt("Nombre del cliente:", "") || "";
-const telefonoCliente = prompt("Teléfono:", "") || "";
-const localidadCliente = prompt("Localidad:", "") || "";
-
-/* fecha automática */
-
-const fecha = new Date().toLocaleDateString("es-AR");
-
-/* encabezado CSV */
-
-
-let csv =
-"PEDIDO MAYORISTA\n\n"+
-"Cliente:;=\"" + nombreCliente + "\"\n"+
-"Teléfono:;=\"" + telefonoCliente + "\"\n"+
-"Localidad:;=\"" + localidadCliente + "\"\n"+
-"Fecha:;=\"" + fecha + "\"\n\n"+
-"Cantidad;Producto;Categoría;Detalle;Precio unitario;Subtotal\n";
-let total=0;
-
-/* agrupar por categoría */
-
-const grouped={};
-
-cart.forEach(item=>{
-
-const cat=item.category||"SIN CATEGORÍA";
-
-if(!grouped[cat]){
-grouped[cat]=[];
-}
-
-grouped[cat].push(item);
-
-});
-
-/* orden categorías */
-
-const ordenCategorias=[
-"TÍTERES DE MANO",
-"TEATROS CON TÍTERES",
-"MINITEATROS Y TÍTERES DE DEDO",
-"VALIJAS DIDÁCTICAS DE ARTE",
-"VALIJAS DIDÁCTICAS DE OFICIO",
-"DISFRACES PARA NENAS",
-"DISFRACES PARA NENES",
-"DISFRACES DE ANIMALITOS",
-"DISFRACES DE HALLOWEEN",
-"JUGUETES PARA BEBÉS",
-"MUÑECAS DE TRAPO",
-"TRAJES PARA BALLET GIMNASIA ARTÍSTICA Y PATINAJE ARTÍSTICO"
-];
-
-Object.keys(grouped)
-.sort((a,b)=>{
-
-const ia=ordenCategorias.indexOf(a);
-const ib=ordenCategorias.indexOf(b);
-
-return (ia===-1?999:ia)-(ib===-1?999:ib);
-
-})
-.forEach(cat=>{
-
-grouped[cat].forEach(it=>{
-
-const sub=it.qty*it.price;
-
-total+=sub;
-
-csv+=
-it.qty+";"+
-it.name+";"+
-cat+";"+
-(it.detalle||"-")+";"+
-it.price+";"+
-sub+"\n";
-
-});
-
-csv+="\n";
-
-});
-
-/* total final */
-
-csv+="TOTAL FINAL:;$"+total+"\n";
-
-/* crear archivo */
-
-const blob=new Blob(["\uFEFF"+csv],{type:"text/csv;charset=utf-8;"});
-const link=document.createElement("a");
-
-link.href=URL.createObjectURL(blob);
-
-link.download="pedido_mayorista.csv";
-
-link.click();
-
-};
-</script>
-<script>
-
-function descargarExcelPrecios(){
-
-fetch('precios.json')
-.then(r=>r.json())
-.then(data=>{
-
-const columnas = [
-{excel:"Categoría", titulo:"Categoría"},
-{excel:"Nombre del producto", titulo:"Producto"},
-{excel:"Precio mayorista", titulo:"Precio mayorista"},
-{excel:"Precio x1", titulo:"Precio con 1 títere"},
-{excel:"Precio x2", titulo:"Precio con 2 títeres"},
-{excel:"Precio x3", titulo:"Precio con 3 títeres"},
-{excel:"Precio x4", titulo:"Precio con 4 títeres"},
-{excel:"Precio x5", titulo:"Precio con 5 títeres"},
-{excel:"Precio x6", titulo:"Precio con 6 títeres"},
-{excel:"Precio x7", titulo:"Precio con 7 títeres"},
-{excel:"Precio x8", titulo:"Precio con 8 títeres"},
-{excel:"Precio x9", titulo:"Precio con 9 títeres"},
-{excel:"Precio x10", titulo:"Precio con 10 títeres"},
-{excel:"Precio x11", titulo:"Precio con 11 títeres"},
-{excel:"Precio x12", titulo:"Precio con 12 títeres"}
-];
-
-/* encabezados visibles */
-
-let contenido = columnas.map(c=>c.titulo).join(";") + "\n";
-
-/* filas */
-
-data.forEach(p=>{
-
-let fila = columnas.map(col=>{
-
-let valor = p[col.excel] || "";
-
-return valor;
-
-}).join(";");
-
-contenido += fila + "\n";
-
-});
-
-/* encoding UTF-8 correcto */
-
-const blob = new Blob(
-["\uFEFF"+contenido],
-{type:"text/csv;charset=utf-8;"}
-);
-
-const link=document.createElement("a");
-
-link.href=URL.createObjectURL(blob);
-
-link.download="lista_precios_mayorista.csv";
-
-link.click();
-
-});
-
-}
-
 </script>
 </body></html>
