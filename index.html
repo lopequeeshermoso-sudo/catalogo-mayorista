@@ -611,11 +611,20 @@ flex-direction:column;
 .barraSuperior{
 
 position:fixed;
-top:22px;   /* altura real barra contacto en celular */
+top:22px;
 
-flex-wrap:wrap;
+left:0;
+width:100%;
+
+z-index:1000;
+
+display:flex;
+align-items:center;
 justify-content:center;
-gap:8px;
+
+background:#f2e8d8;
+
+padding:4px 0 4px 0;
 
 }
 
@@ -940,7 +949,36 @@ outline:2px solid #6b4a2f;
 .colorDot[title="naranja"]{background:#F39C12;}
 .colorDot[title="rojo"]{background:#E74C3C;}
 .colorDot[title="rosado"]{background:#FF8FB1;}
+.filaHerramientas{
 
+display:flex;
+align-items:center;
+justify-content:center;
+
+gap:14px;
+
+margin-top:6px;
+
+flex-wrap:wrap;
+
+}
+
+.btnExcel{
+
+padding:10px 18px;
+
+border-radius:10px;
+border:none;
+
+background:#6b4a2f;
+color:white;
+
+font-weight:bold;
+cursor:pointer;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+
+}
 </style>
 
 </head>
@@ -979,19 +1017,12 @@ onclick="volverArriba()">
 <img src="titulo_catalogo_mayorista.png"
 class="tituloCatalogoImg"
 alt="Catálogo Mayorista">
-<button onclick="descargarExcelPrecios()" style="
-margin-top:10px;
-padding:10px 18px;
-border-radius:10px;
-border:none;
-background:#6b4a2f;
-color:white;
-font-weight:bold;
-cursor:pointer;
-box-shadow:0 4px 10px rgba(0,0,0,0.15);
-">
+<div class="filaHerramientas">
+
+<button onclick="descargarExcelPrecios()" class="btnExcel">
 📊 Descargar lista completa de precios
 </button>
+
 <div class="buscadorWrap">
 
 <input
@@ -1003,6 +1034,8 @@ onkeyup="filtrarProductosDebounce()">
 
 <span id="limpiarBusqueda"
 class="limpiarBusquedaBtn">✕</span>
+
+</div>
 
 </div>
 </header>
