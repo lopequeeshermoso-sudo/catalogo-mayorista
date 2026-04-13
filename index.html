@@ -1007,7 +1007,7 @@ let PRECIOS = [];
 fetch('precios.json').then(r=>r.json()).then(j=>{PRECIOS=j; render();}).catch(()=>render());
 function descargarExcelPrecios(){
 
-window.open("precios_mayoristas_PRO_x12.xlsx", "_blank");
+window.open("lista_precios_clientes.xlsx", "_blank");
 
 }
 
